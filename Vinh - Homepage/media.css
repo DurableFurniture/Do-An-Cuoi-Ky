@@ -11,3 +11,26 @@
     .bi-list {display: inline-block;}
     .logo {padding-left: 10px;}
 }
+
+@media screen and (max-width: 1400px) {
+    .ft-social {width: 100%; padding-left: 50px; padding-right: 50px;}
+    .ft-main-item:last-child {margin-left: 0px;}
+}
+
+@media screen and (max-width: 1040px) {
+    .ft-social {font-size: 14px; padding-left: 30px; padding-right: 30px;}
+}
+
+@media screen and (max-width: 800px) {
+    .ft-social {display: block; margin-left: 50px;}
+    .sns {text-align: center;}
+    .sns-links {margin-top: 10px;}
+}
+
+@media screen and (max-width: 400px) {
+    body {font-size: 14px;}
+    .ft-social {margin: 0;}
+    .login-button {display: none;}
+    .header-wrap {padding: 10px 10px;}
+    .logo {height: 20px; padding: 0;}
+}
