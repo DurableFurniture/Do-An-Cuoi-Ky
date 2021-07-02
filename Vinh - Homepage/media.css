@@ -1,0 +1,13 @@
+@media screen and (max-width: 1120px) {
+    .menu ul li {padding: 10px;}
+}
+
+@media screen and (max-width: 915px) {
+    .menu ul li {padding: 5px; font-size: 14px;}
+}
+
+@media screen and (max-width: 767px) {
+    .menu {display: none;}
+    .bi-list {display: inline-block;}
+    .logo {padding-left: 10px;}
+}
