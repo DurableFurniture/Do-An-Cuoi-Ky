@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">   
         <link rel="stylesheet" type="text/css" href="thangpjcss.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <title>Contact-Furnihaus</title>
@@ -8,53 +11,77 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="Thang-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8857.548438125728!2d105.81836423594977!3d21.02707510122292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abc404741cf1%3A0x81f6a770e22c7ae2!2sVincom%20Metropolis!5e0!3m2!1svi!2s!4v1625167071305!5m2!1svi!2s" width="1400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div class="Thang-contactus">
-            <div class="Thang-custom">
-                    <span><i class="bi bi-geo-alt" style="font-size: 60px;"></i></span>
-                <h4>
-                    Address
-                </h4>
-                <p>
-                    Local street address here, State, Zip code, Country
-                </p>
+        <div class="container">
+            <div class="Thang-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8857.548438125728!2d105.81836423594977!3d21.02707510122292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abc404741cf1%3A0x81f6a770e22c7ae2!2sVincom%20Metropolis!5e0!3m2!1svi!2s!4v1625167071305!5m2!1svi!2s" width="1400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <div class="Thang-custom">
-                    <span><i class="bi bi-telephone" style="font-size: 60px;"></i></span>
-                <h4>
-                    Phone & Email
-                </h4>
-                <p>
-                    1-098-3456-7890 </br>
-                    info@yourdomain.co
-                </p>
-            </div>
-            <div class="Thang-custom">
-                <span><i class="bi bi-share" style="font-size: 60px;"></i></span>
-                <h4>
-                Follow Us
-                </h4>
-                <div class="Thang-Media">
-                    <span  class="Thang-Media-1"><a id="icon-1" href="https://google.com"><i class="bi bi-facebook"></i></a></span>
-                    <span  class="Thang-Media-1"><a href="https://google.com"><i class="bi bi-twitter"></i></a></span>
-                    <span  class="Thang-Media-1"><a href="https://google.com"><i class="bi bi-linkedin"></i></a></span>
-                    <span  class="Thang-Media-1"><a href="https://google.com"><i class="bi bi-instagram"></i></a></span>
+            <div class="Thang-contactus">
+                <div class="Thang-custom">
+                        <span><i class="bi bi-geo-alt" style="font-size: 60px;"></i></span>
+                    <h4>
+                        Address
+                    </h4>
+                    <p>
+                        Local street address here, State, Zip code, Country
+                    </p>
+                </div>
+                <div class="Thang-custom">
+                        <span><i class="bi bi-telephone" style="font-size: 60px;"></i></span>
+                    <h4>
+                        Phone & Email
+                    </h4>
+                    <p>
+                        1-098-3456-7890 </br>
+                        info@yourdomain.co
+                    </p>
+                </div>
+                <div class="Thang-custom">
+                    <span><i class="bi bi-share" style="font-size: 60px;"></i></span>
+                    <h4>
+                    Follow Us
+                    </h4>
+                    <div class="Thang-Media">
+                        <span  class="Thang-Media-1"><a id="icon-1" href="https://google.com"><i class="bi bi-facebook"></i></a></span>
+                        <span  class="Thang-Media-1"><a href="https://google.com"><i class="bi bi-twitter"></i></a></span>
+                        <span  class="Thang-Media-1"><a href="https://google.com"><i class="bi bi-linkedin"></i></a></span>
+                        <span  class="Thang-Media-1"><a href="https://google.com"><i class="bi bi-instagram"></i></a></span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="Thang-Email">
-            <div class="Thang-Email-1">
-                <span><i class="bi bi-envelope" style="font-size: 60px;"></i></span>
-                <h4>
-                    Send us an email
-                </h4>
+            <div class="Thang-Email">
+                <div class="Thang-Email-1">
+                    <span><i class="bi bi-envelope" style="font-size: 60px;"></i></span>
+                    <h4>
+                        Send us an email
+                    </h4>
+                </div>
             </div>
-            <div >
-                
+            <div class="Thang-Textemail">
+                <div>
+                    <div class="Thang-Textemail1">
+                        <label for="Yourname">Your Name(*)</label></br>
+                        <input type="Text" id="Thang-email-box" name="Yourname" >
+                    </div>
+                    <div class="Thang-Textemail1">
+                        <label for="email">Your Email (*)</label></br>
+                        <input type="email" id="Thang-email-box" name="email" >
+                    </div>
+                    <div class="Thang-Textemail1">
+                        <label for="subject">Subject</label></br>
+                        <input type="text" id="Thang-email-box" name="subject" >
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="YourMessage">Your Message</label></br>
+                    <textarea id="YourMessage" name="YourMessage" rows="7" cols="50"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send" class="Thang-send">
+                    </div>
+                    
+                </div>
             </div>
-
         </div>
     </body>
 </html>
