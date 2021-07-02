@@ -1,0 +1,44 @@
+@media screen and (max-width: 375px) {
+    iframe{height: 200px;
+    border: 1px solid;}
+    .Thang-contactus{
+        height: 700px;
+        display: block;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    iframe{height: 300px;
+    border: 1px solid;}
+    .Thang-contactus{
+        height: 700px;
+        display: block;
+        width: 100%;
+    }
+    .Thang-Textemail{
+        height: 600px;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #Thang-email-box{
+        width: 400px;
+        height: 30px; 
+    }
+    #YourMessage{
+        width: 400px;
+        height: 125px;
+        display: block;
+    }
+    .Thang-send{
+        width: 408px;
+        height: 33px;
+        display: block;
+        background-color: black;
+        color: white;
+        border: none;  
+    }
+
+}

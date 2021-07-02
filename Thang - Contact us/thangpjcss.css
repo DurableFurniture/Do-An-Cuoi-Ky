@@ -1,3 +1,11 @@
+html{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
 .Thang-map{
     padding-top: 15px;
     padding-left: 15px;
@@ -13,18 +21,20 @@ iframe {
 
 .Thang-contactus{
     display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid black;
     padding-top: 60px;
+    margin: 0 auto;
+    width: 1170px;
 }
 .Thang-custom{
     padding-left: 0px;
     padding-right: 0px;
-    width: 400px;
-    height: 300px;
    text-align: center;
    font-size: 15px;
    display: block;
    margin: 0 auto;
+   width: 380px;   
 }
 h4{
     font-size: 20px;
@@ -60,21 +70,36 @@ h4{
     text-align: center;
     display: block;
 }
+.Thang-Textemail{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+}
+.Thang-Textemail1{
+    width: 560px;
+    display: block;
+    margin-top: 15px;
+}
+#Thang-email-box{
+    width: 560px;
+    height: 30px; 
+}
+#YourMessage{
+    width: 560px;
+    height: 125px;
+}
+.Thang-inputsend{
+    display: block;
+    margin-top: 15px;
+}
+.Thang-send{
+    width: 567.5px;
+    height: 33px;
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;  
+}
 
 
-@media screen and (max-width: 375px) {
-    iframe{height: 200px;
-    border: 1px solid;}
-    .Thang-contactus{
-        height: 600px;
-        display: block;
-    }
-}
-@media screen and (max-width: 1024px){
-    iframe{height: 300px;
-    border: 1px solid;}
-    .Thang-contactus{
-        height: 800px;
-        display: block;
-    }
-}
