@@ -87,42 +87,19 @@ h4{
 }
 #YourMessage{
     width: 560px;
+    height: 125px;
+}
+.Thang-inputsend{
+    display: block;
     margin-top: 15px;
 }
 .Thang-send{
     width: 567.5px;
     height: 33px;
     display: block;
-    margin-top: 27px;
     background-color: black;
     color: white;
-    border: none;
-    
+    border: none;  
 }
 
 
-@media screen and (max-width: 375px) {
-    iframe{height: 200px;
-    border: 1px solid;}
-    .Thang-contactus{
-        height: 700px;
-        display: block;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 1024px){
-    iframe{height: 300px;
-    border: 1px solid;}
-    .Thang-contactus{
-        height: 700px;
-        display: block;
-        width: 100%;
-    }
-    .Thang-Textemail{
-        height: 600px;
-        display: block;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-}
