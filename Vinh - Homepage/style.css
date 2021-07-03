@@ -2,7 +2,6 @@
 /* BASIC */
 /* ------------------------------------------------------ */
 
-
 * {
     margin: 0;
     padding: 0;
@@ -63,6 +62,90 @@ body {
 
 .icon-list li {
     display: inline-block;
+}
+
+/* ------------------------------------------------------ */
+/* SUB MENU */
+/* ------------------------------------------------------ */
+
+.sub-menu {
+    display: inline-block;
+}
+
+.sub-menu-dropdown {
+    display: none;
+    width: 100vw;
+    z-index: 5000;
+}
+
+.show {
+    display: block;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.sub-menu-dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu-dropdown ul li {
+    list-style-type: none;
+}
+
+.sub-menu-dropdown ul li a {
+    display: block;
+    background-color: black;
+    width: 100vw;
+    text-decoration: none;
+    padding: 20px 0 20px 20px;
+    color: white !important;
+    transition: background-color .4s, color .4s;
+    text-transform: uppercase;
+}
+
+.sub-menu-dropdown ul li a:hover {
+    background-color: white;
+    color: black !important
+}
+
+.sub-menu-dropdown ul li:last-child {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: 0 20px 30px 20px;
+}
+
+.sub-menu-search {
+    padding: 10px;
+}
+
+.search-button {
+    position: relative;
+    background-color: #FFC400;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.search-button::after {
+    content: "";
+    background-color: #ffd855;
+    display: block;
+    position: absolute;
+    padding-top: 45%;
+    padding-left: 150%;
+    margin-left: 0px !important;
+    margin-top: -30%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.search-button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0;
 }
 
 /* ------------------------------------------------------ */
@@ -144,6 +227,16 @@ body {
     text-transform: none;
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+.furniture,
+.brand {
+    width: 70vw;
+    height: 30vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* ------------------------------------------------------ */
@@ -237,36 +330,51 @@ body {
 /* ------------------------------------------------------ */
 
 .promo-slide {
-    position: relative;
+    overflow: hidden;
+}
+
+.promo-slide-wrap {
+    display: block;
+    width: 100vw;
+    padding-top: 13vw;
+    padding-bottom: 25vw;
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.first-slide {
+    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);
+}
+
+.second-slide {
+    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-2.jpg);
 }
 
 .banner {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+    width: 100%;
     color: white;
     text-align: center;
     font-family: 'Montserra';
 }
 
 .banner h1 {
-    font-size: 400%;
+    font-size: 3.25vw;
     letter-spacing: 10px;
+    margin-bottom: 10px;
 }
 
 .banner p {
-    font-size: 200%;
+    font-size: 1.75vw;
     letter-spacing: 5px;
+    margin-bottom: 2.5vw;
 }
 
 .banner a {
-    position: relative;
-    top: 50px;
     text-decoration: none;
     color: white;
-    font-size: 110%;
+    font-size: 1vw;
     padding: 20px 60px;
     background-color: #ec7264;
     border-radius: 5px;
@@ -275,17 +383,6 @@ body {
 
 .banner a:hover {
     background-color: #e85646;
-}
-
-.slide-photo { width: 100%;}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* ------------------------------------------------------ */
@@ -393,11 +490,4 @@ footer {
 .fa-twitter,
 .fa-instagram {
     padding: 10px 11px;
-}
-
-.furniture,
-.brand {
-    width: 1200px;
-    left: 50%;
-    transform: translate(-50%);
 }

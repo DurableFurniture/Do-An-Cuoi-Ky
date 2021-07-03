@@ -22,7 +22,9 @@
       <header>
         <div class="header-wrap">
           <div class="inner-container">
-            <i class="bi bi-list" style="font-size: 150%;"></i>
+            <div class="sub-menu">
+              <i id="myIcon" class="bi bi-list" style="font-size: 150%;"></i>
+            </div>
             <a href="#"><img class="logo" src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/logo.png"></a>
           </div>
           <div class="inner-container menu">
@@ -138,17 +140,36 @@
           </div>
         </div>
       </header>
-    
+      <div id="myDropdown" class="sub-menu-dropdown">
+        <ul>
+          <li><a href="#" style="color:#6CB975 !important">home</a></li>
+          <li><a href="#">furniture</a></li>
+          <li><a href="#">brand</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+          <li>
+            <input class="sub-menu-search" type="text" placeholder="Search...">
+            <button class="search-button" type="submit">Search</button>
+          </li>
+        </ul>
+      </div>
     <div class="promo-slide">
-      <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg">
-      <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-2.jpg">
+      <div class="promo-slide-wrap first-slide">
+        <div class="banner">
+          <h1>DURABLE FURNITURE</h1>
+          <p>Shop high-end furnitures</p>
+          <a href="#">SHOP NOW</a>
+        </div>
+      </div>
+      <div class="promo-slide-wrap second-slide">
+        <div class="banner">
+          <h1>EXPLORE NEW LIFESTYLE</h1>
+          <p>Free yourself from limitations</p>
+          <a href="#">SHOP NOW</a>
+        </div>
+      </div>
     </div>
-    <div class="banner">
-      <h1>DURABLE FURNITURE</h1>
-      <p>Shop high-end furnitures</p>
-      <a href="#">SHOP NOW</a>
-    </div>
-
+  
     <div class="container"></div>
     <footer>
         <div class="ft-social info">
@@ -215,9 +236,30 @@
     <script>
       $(document).ready(function(){
         $('.promo-slide').slick({
-          autoplay: true
+          infinite: true,
+          speed: 300,
+          autoplay:true,
+          variableWidth: true,
+          adaptiveHeight: true
+        })
+
+        $('#myIcon').click(function(){
+          $('#myDropdown').addClass('show');
         })
       });
+
+      window.onclick = function(event) {
+        if (!event.target.matches('.bi-list')) {
+          var dropdowns = document.getElementsByClassName('sub-menu-dropdown');
+          var i;
+          for(i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
     </script>
 
     </body>
