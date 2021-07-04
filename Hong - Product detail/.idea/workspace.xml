@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/T_1_back-1-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/T_1_front-1-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/arm-chair-100x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/arm-chair-600x690.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/arm-chair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/bamboo-chair-300x300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/bedroom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/brown-chair-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/chari-black-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/dinning.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/office-sofa-100x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/office-sofa-600x664.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/office-sofa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/pillow-100x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/pillow-600x686.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/pillow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/sofa-100x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/sofa-600x595.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/sofa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/trust-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/wooden-arm-chair-100x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/wooden-arm-chair-600x788.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/wooden-arm-chair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/wpspin_light.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jquery3.5.1/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jqueryscript/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jqueryscript/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jqueryscript/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +52,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1uiuUmD4k0CwlV0YDxClg8qkv0w" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -44,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625160749153</updated>
       <workItem from="1625160750328" duration="39000" />
-      <workItem from="1625384871971" duration="1508000" />
+      <workItem from="1625384871971" duration="2345000" />
+      <workItem from="1625411050911" duration="644000" />
     </task>
     <servers />
   </component>
@@ -62,5 +96,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

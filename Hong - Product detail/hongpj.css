@@ -67,6 +67,48 @@ ul.hong-breadcrumb li a:hover {
     text-decoration: none;
 }
 
+/* Gallery */
+
+.hong-gallery {
+    position: relative;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.navigation:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.thumbnail {
+    float: left;
+    width: 20%;
+}
+
+.thumb {
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.active, .thumb:hover {
+    opacity: 1;
+}
+
+/* Summary */
+
+.title {
+    margin-top: -7px;
+    clear: none;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-size: 200%;
+    font-family: Montserrat;
+}
 
 #hong-scrollToTopBtn {
     color: #151514;

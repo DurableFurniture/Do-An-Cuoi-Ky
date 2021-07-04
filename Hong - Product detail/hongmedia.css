@@ -40,6 +40,9 @@
     .hong-breadcrumb {
         margin-bottom: 0;
     }
+    .title {
+        font-weight: 500;
+    }
 }
 
 @media (max-width: 1199px) {
