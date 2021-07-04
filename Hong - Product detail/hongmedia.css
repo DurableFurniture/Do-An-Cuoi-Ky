@@ -1,0 +1,47 @@
+/* Device responsive */
+
+/* Column grid */
+
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+/* Responsive for items */
+
+@media (max-width: 600px) {
+    .hong-breadcrumb {
+        padding: 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .hong-breadcrumb {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1199px) {
+
+}
