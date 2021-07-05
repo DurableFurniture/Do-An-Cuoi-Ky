@@ -1,0 +1,65 @@
+/* Device responsive */
+
+/* Column grid */
+
+@media only screen and (max-width: 767px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 767px) {
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+/* Responsive for items */
+
+@media (max-width: 767px) {
+    body, button, input, select, textarea, code, kbd, pre, samp {
+        font-size: 13px;
+    }
+    .container {
+        padding: 20px 20px;
+    }
+    .hong-breadcrumb {
+        padding: 0 0;
+    }
+    .title {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .product-code {
+        float: none;
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 20px 20px;
+    }
+    .hong-breadcrumb {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 1199px) {
+
+}

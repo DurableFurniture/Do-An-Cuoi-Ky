@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/fontawesome.min.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1uiuUmD4k0CwlV0YDxClg8qkv0w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="" />
+      <created>1625160749153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625160749153</updated>
+      <workItem from="1625160750328" duration="39000" />
+      <workItem from="1625384871971" duration="2345000" />
+      <workItem from="1625411050911" duration="644000" />
+      <workItem from="1625413078812" duration="2873000" />
+      <workItem from="1625455597407" duration="732000" />
+      <workItem from="1625482217724" duration="1130000" />
+      <workItem from="1625483376731" duration="1007000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

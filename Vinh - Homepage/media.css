@@ -1,13 +1,58 @@
+@media screen and (max-width: 1245px) {
+    .banner {top: 30%;}
+}
+
+@media screen and (max-width: 1121px) {
+    .banner {top: 25%;}
+    .banner a {padding: 15px 45px;}
+}
+
+@media screen and (max-width: 920px) {
+    .banner {top: 20%;}
+    .banner a {font-size: 75% ;top: 35px; padding: 10px 30px}
+}
+
+@media screen and (max-width: 700px) {
+    .banner {top: 15%;}
+    .banner a {padding: 10px 30px;}
+}
+
+
 @media screen and (max-width: 1120px) {
     .menu ul li {padding: 10px;}
+    .drop-down-content {top: 45px;}
 }
 
 @media screen and (max-width: 915px) {
     .menu ul li {padding: 5px; font-size: 14px;}
+    .drop-down-content {top: 31px;}
 }
 
 @media screen and (max-width: 767px) {
     .menu {display: none;}
     .bi-list {display: inline-block;}
     .logo {padding-left: 10px;}
+}
+
+@media screen and (max-width: 1400px) {
+    .ft-social {width: 100%; padding-left: 50px; padding-right: 50px;}
+    .ft-main-item:last-child {margin-left: 0px;}
+}
+
+@media screen and (max-width: 1040px) {
+    .ft-social {font-size: 14px; padding-left: 30px; padding-right: 30px;}
+}
+
+@media screen and (max-width: 800px) {
+    .ft-social {display: block;}
+    .sns {text-align: center;}
+    .sns-links {margin-top: 10px;}
+}
+
+@media screen and (max-width: 400px) {
+    body {font-size: 14px;}
+    .ft-social {margin: 0;}
+    .login-button {display: none;}
+    .header-wrap {padding: 10px 10px;}
+    .logo {height: 20px; padding: 0;}
 }
