@@ -74,7 +74,8 @@ h4{
     display: flex;
     justify-content: space-between;
     width: 1170px;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
 }
 .Thang-Textemail1{
     width: 560px;
@@ -88,10 +89,12 @@ h4{
 #YourMessage{
     width: 560px;
     height: 125px;
+    display: block;
 }
 .Thang-inputsend{
     display: block;
     margin-top: 15px;
+
 }
 .Thang-send{
     width: 567.5px;
@@ -100,6 +103,8 @@ h4{
     background-color: black;
     color: white;
     border: none;  
+    text-align: center;
+    margin: auto;
 }
 
 
