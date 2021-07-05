@@ -491,3 +491,31 @@ footer {
 .fa-instagram {
     padding: 10px 11px;
 }
+
+/* ------------------------------------------------------ */
+/* PRODUCT PROMO */
+/* ------------------------------------------------------ */
+
+.product-promo {
+    position: relative;
+    width: 100vw;
+    margin: 100px 0;
+}
+
+.product-promo-wrap {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+.product-promo-item {
+    border: 1px solid;
+}
+
+.product-promo-item:first-of-type {
+    grid-row: 1 / span 2;
+}
