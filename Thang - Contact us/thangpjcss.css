@@ -76,11 +76,12 @@ h4{
     width: 1170px;
     margin: auto;
     text-align: center;
+    padding-bottom: 120px;
 }
 .Thang-Textemail1{
     width: 560px;
     display: block;
-    margin-top: 15px;
+    margin-top: 17px;
 }
 #Thang-email-box{
     width: 560px;
