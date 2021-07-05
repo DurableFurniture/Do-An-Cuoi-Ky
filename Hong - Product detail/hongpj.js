@@ -1,13 +1,13 @@
 // Scroll to top
-hScrollToTopBtn = document.getElementById("hong-scrollToTopBtn");
+hScrollTopBtn = document.getElementById("hong-scroll-top-btn");
 window.onscroll = function(){
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        hScrollToTopBtn.style.display = "block";
+        hScrollTopBtn.style.display = "block";
     }else{
-        hScrollToTopBtn.style.display = "none";
+        hScrollTopBtn.style.display = "none";
     }
 }
-function hongScrollToTop() {
+function hongScrollTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 };

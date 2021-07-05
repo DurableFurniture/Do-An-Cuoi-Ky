@@ -2,39 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/T_1_back-1-300x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/T_1_front-1-300x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/arm-chair-100x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/arm-chair-600x690.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/arm-chair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/bamboo-chair-300x300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/bedroom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/brown-chair-300x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/chari-black-300x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/dinning.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/office-sofa-100x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/office-sofa-600x664.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/office-sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/pillow-100x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/pillow-600x686.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/pillow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/sofa-100x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/sofa-600x595.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/trust-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/wooden-arm-chair-100x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/wooden-arm-chair-600x788.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/wooden-arm-chair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/wpspin_light.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jquery3.5.1/jquery-3.5.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jqueryscript/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jqueryscript/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jqueryscript/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/fontawesome.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,10 @@
       <workItem from="1625160750328" duration="39000" />
       <workItem from="1625384871971" duration="2345000" />
       <workItem from="1625411050911" duration="644000" />
+      <workItem from="1625413078812" duration="2873000" />
+      <workItem from="1625455597407" duration="732000" />
+      <workItem from="1625482217724" duration="1130000" />
+      <workItem from="1625483376731" duration="1007000" />
     </task>
     <servers />
   </component>

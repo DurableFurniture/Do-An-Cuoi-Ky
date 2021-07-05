@@ -4,10 +4,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="libs/fontawesome5.15.1/css/fontawesome.css">
-    <link rel="stylesheet" type="text/css" href="hongmedia.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="libs/fontawesome5.15.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="hongmedia.css">
     <link rel="stylesheet" type="text/css" href="hongpj.css">
     <title>Detail</title>
 
@@ -15,26 +14,26 @@
 </head>
 <body>
 
-<!--Breadcrumb-->
+<!-- Breadcrumb -->
 
-    <div class="container">
-        <div class="row">
-            <ul class="hong-breadcrumb col-12">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Chair</a></li>
-                <li><a href="#">Dinning Chair</a></li>
-                <li>Astrath 1-Piece Accent Seating Set</li>
-            </ul>
-        </div>
+<div class="container">
+    <div class="row">
+        <ul class="hong-breadcrumb col-12">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chair</a></li>
+            <li><a href="#">Dinning Chair</a></li>
+            <li>Astrath 1-Piece Accent Seating Set</li>
+        </ul>
     </div>
+</div>
 
-<!--Product-single-->
+<!-- Product-single -->
 
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-6">
-                <div class="hong-gallery">
+            <div class="col-6 product-single">
+                <div class="gallery">
                     <div class="slide">
                         <img src="imgs/office-sofa-600x664.png" alt="Product gallery">
                     </div>
@@ -70,21 +69,18 @@
                 </div>
             </div>
             <div class="col-6 summary">
-
                 <h1 class="title">Astrath 1-Piece Accent Seating Set</h1>
+                <span class="product-code">SKU: POSTER-WOO-LOGO</span>
                 <p class="price">
-                    <span class="amount"><span class="Price-currencySymbol">$</span>25.00</span>
-                    <span class="product-code">SKU: POSTER-WOO-LOGO</span>
+                    <span class="amount"><span class="currency">$</span>25.00</span>
                 </p>
                 <div class="stock-info-bar">
                     <div class="stock-counter">
-                        <small class="pull-left stock-warning">Only -7 left in stock </small>
+                        <small class="stock-warning">Only -7 left in stock </small>
                         <div class="clearfix"></div>
                     </div>
-                    <div class="furnihaus-stock-bar"
-                         style="width: 100%; border-radius: 8px; height: 8px; border: 1px solid #ccc;">
-                        <div class="furnihaus-stock-percentage stock-warning"
-                             style="width: -350.00%; height: 100%; border-radius: 8px 0 0 8px; height: 6px;"></div>
+                    <div class="stock-bar">
+                        <div class="stock-percentage"></div>
                     </div>
                 </div>
                 <div class="short-desc">
@@ -95,84 +91,56 @@
                 </div>
                 <p class="stock in-stock">2 in stock</p>
 
-
-                <form class="cart"
-                      action="imgs/product/astrath-1-piece-accent-seating-set/"
-                      method="post" enctype="multipart/form-data">
-
+                <form class="cart" action="#" method="post" enctype="multipart/form-data">
                     <div class="quantity">
-                        <label class="screen-reader-text">Astrath
-                            1-Piece Accent Seating Set quantity</label>
                         <div class="quantity-wrap">
-                            <span class="minus"> - </span>
+                            <span class="minus btn"> - </span>
                             <input type="number" id="hong-quantity"
-                                   class="input-text qty text" step="1" min="1" max="2"
-                                   name="quantity" value="1" title="Qty" size="4" placeholder=""
-                                   inputmode="numeric">
-                            <span class="add"> + </span>
+                                   step="1" min="1"
+                                   name="quantity" value="1">
+                            <span class="add btn"> + </span>
                         </div>
                     </div>
 
-                    <button type="submit" name="add-to-cart" value="61"
-                            class="single_add_to_cart_button button alt">
-                        <i class="fa fa-shopping-cart"></i>
-                        Add to cart
+                    <button type="submit" name="add-to-cart" value="#" class="add-to-cart-btn btn">
+                        <i class="fa fa-shopping-cart"></i>  Add To Cart
                     </button>
-
                 </form>
 
+                <!-- Add to wishlist -->
 
-                <div class="yith-wcwl-add-to-wishlist add-to-wishlist-61  wishlist-fragment on-first-load"
-                     data-fragment-ref="61"
-                     data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:true,&quot;show_exists&quot;:false,&quot;product_id&quot;:61,&quot;parent_product_id&quot;:61,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:true,&quot;browse_wishlist_text&quot;:&quot;Browse Wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in the wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:false,&quot;item&quot;:&quot;add_to_wishlist&quot;}">
-
-                    <!-- ADD TO WISHLIST -->
-
-                    <a href="/demo/product/astrath-1-piece-accent-seating-set/?add_to_wishlist=61"
-                       rel="nofollow" data-product-id="hong-61" data-product-type="simple"
-                       class="add_to_wishlist single_add_to_wishlist button-wish">
-                        <i class="fa fa-heart-o"></i>
-                        Add to Wishlist</a>
-                    <img src="imgs/wp-content/plugins/yith-wishlist/assets/images/wpspin_light.gif"
-                         class="ajax-loading" alt="loading" width="16" height="16"
-                         style="visibility:hidden">
-                    <!-- COUNT TEXT -->
-
+                <div class="add-to-wishlist">
+                    <a href="#" class="add_to_wishlist single_add_to_wishlist button-wish">
+                        <i class="far fa-heart"></i> Add to Wishlist
+                    </a>
                 </div>
-                <a href="#"
-                   class="compare button" data-product_id="hong-61" rel="nofollow">Compare</a>
-                <div class="product_meta">
-
-
-                                        <span class="posted_in">Categories: <a
-                                                href="imgs/product-category/chair/"
-                                                rel="tag">Chair</a>, <a
-                                                href="#"
-                                                rel="tag">Dinning Chair</a></span>
-
-
+                <div class="product-meta">
+                    <span class="category">Categories:
+                        <a href="#" rel="tag">Chair</a>,
+                        <a href="#" rel="tag">Dinning Chair</a>
+                    </span>
                 </div>
                 <h6>Secured by:</h6>
-                <img class="lazy" alt="Astrath 1-Piece Accent Seating Set"
-                     src="imgs/wp-content/uploads/2018/04/trust-icons.png"
-                     style="">
-
+                <img class="col-6 secured" alt="Astrath 1-Piece Accent Seating Set"
+                     src="imgs/trust-icons.png">
             </div>
         </div>
     </div>
 </section>
 
-<!--Scroll to Top-->
+<!-- Scroll to Top -->
 
-    <div id="hong-scrollToTopBtn" onclick="hongScrollToTop()">
-        <i class="bi-chevron-up"></i>
+    <div id="hong-scroll-top-btn" onclick="hongScrollTop()">
+        <i class="fas fa-chevron-up"></i>
     </div>
 
-<!--Request-->
+<!-- Request -->
 
     <div class="hong-request-call hong-screen-fixed-btn">
         <a href="#">Request a Callback?</a>
     </div>
+
+<script src="libs/jquery3.5.1/jquery-3.5.1.js"></script>
 <script src="hongpj.js"></script>
 
 </body>
