@@ -2,39 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/svg-with-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/svg-with-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/v4-shims.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/v4-shims.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/webfonts/fa-solid-900.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/libs/fontawesome5.15.1/css/fontawesome.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +54,7 @@
       <workItem from="1625455597407" duration="732000" />
       <workItem from="1625482217724" duration="1130000" />
       <workItem from="1625483376731" duration="1007000" />
+      <workItem from="1625577191282" duration="1035000" />
     </task>
     <servers />
   </component>

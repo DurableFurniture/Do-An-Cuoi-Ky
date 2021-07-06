@@ -40,15 +40,15 @@ img {
     height: auto;
 }
 
-.sidebar {
-    width: 25%;
-    padding: 0 10px;
-}
+/*.sidebar {*/
+/*    width: 25%;*/
+/*    padding: 0x;*/
+/*}*/
 
-.content {
-    width: 75%;
-    padding: 0 10px;
-}
+/*.content {*/
+/*    width: 75%;*/
+/*    padding: 0 10px;*/
+/*}*/
 
 .btn {
     background-color: #151514;
@@ -190,6 +190,7 @@ ul.hong-breadcrumb li a:hover {
     color: #77a464;
     margin-bottom: 0px;
 }
+
 .quantity {
     margin-bottom: 23px;
     margin-right: 4px;
@@ -258,6 +259,117 @@ h6 {
     vertical-align: middle;
 }
 
+/* Product-description */
+
+.product-description {
+    margin-top: 6vh;
+    padding: 0;
+}
+
+.description-wrapper {
+    border-top: 1px solid #bebabb;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    color: #151514;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 10px 0;
+}
+
+.tab {
+    float: left;
+}
+
+.tab .btn {
+    display: block;
+    background-color: white;
+    color: #151514;
+    padding: 15px 16px;
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tab .btn:hover {
+    background-color: #ffc400;
+    color: white;
+    font-weight: 500;
+}
+
+.tab .btn.active {
+    background-color: #151514;
+    color: white;
+    font-weight: 500;
+}
+
+.tab .btn i {
+    color: white;
+    padding-top: 5px;
+    float: right;
+}
+
+.tab-content {
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 34px;
+    color: #151514;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    /*margin-top: 0 !important;*/
+}
+
+#comment-respond {
+    padding: 0 30px 30px 30px;
+}
+
+#reply-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    overflow-wrap: break-word;
+}
+
+#email-notes {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.required {
+    color: red;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.author {
+    padding-right: 7px;
+    box-sizing: border-box;
+}
+
+#hong-submit {
+    text-transform: uppercase;
+    border: none;
+    padding: 16px 0px;
+    font-size: 14px;
+    font-weight: 550;
+    font-stretch: 100%;
+    min-width: 200px;
+}
 
 #hong-scroll-top-btn {
     color: #151514;
