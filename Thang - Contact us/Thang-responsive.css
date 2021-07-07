@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     iframe{height: 200px;
     border: 1px solid;}
     .Thang-contactus{
@@ -33,7 +33,7 @@
         padding: 20px;
     }
     .Thang-Textemail1{
-        width: 400px;
+        width: 100%;
         display: block;
         margin-top: 15px;
         margin: auto;
@@ -74,5 +74,11 @@
         border: none;  
         margin: auto;
     }
+    .Thang-Textemail1{
+        width: 100%;
+        display: block;
+        margin: auto;
+    } 
+}
 
 }
