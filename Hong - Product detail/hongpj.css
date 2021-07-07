@@ -361,6 +361,134 @@ form input, form textarea {
     min-width: 200px;
 }
 
+/* Related-products */
+
+.product-related {
+    margin-bottom: 6vh;
+}
+
+.related-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.related-title h3 {
+    color: #151514;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 180%;
+}
+
+.related-title:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    height: 3px;
+    bottom: -12px;
+    border-bottom: 3px solid #ffc400;
+}
+
+.products {
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.product {
+    margin: 20px 15px;
+    overflow: hidden;
+    width: calc(25% - 30px);
+}
+
+figure {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.product:hover .icons {
+    animation: slidein 1s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes slidein {
+    0% {
+        right: -50px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.icons {
+    position: absolute;
+    right: 0;
+    bottom: 7vh;
+    z-index: 999;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.icons a {
+    text-align: center;
+    float: right;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 2px;
+}
+
+.icons i {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.product-wrapper {
+    position: relative;
+}
+
+.onsale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #77a464;
+    color: white;
+    font-size: 80%;
+    font-weight: 550;
+    padding: 5px 10px;
+    display: none;
+}
+
+.caption {
+    text-align: center;
+}
+
+.loop-product-title a:hover {
+    color: #77a464;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+del {
+    color: #767676;
+    display: none;
+}
+
+del .active {
+    visibility: visible;
+}
+
+ins {
+    text-decoration: none;
+}
+
 #hong-scroll-top-btn {
     color: #151514;
     text-align: center;
