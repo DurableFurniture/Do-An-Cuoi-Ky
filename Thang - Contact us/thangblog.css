@@ -1,0 +1,14 @@
+.Thang-blog-list{
+    width: 625px;
+    height: 700px;
+    background-color: peru;
+    margin: auto;
+}
+.Thang-blog-figure{
+    width: 470px;
+}
+.Thang-blog-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
