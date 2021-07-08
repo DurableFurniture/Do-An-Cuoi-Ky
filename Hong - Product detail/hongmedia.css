@@ -2,6 +2,12 @@
 
 /* Column grid */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 @media only screen and (max-width: 767px) {
     [class*="col-"] {
         width: 100%;

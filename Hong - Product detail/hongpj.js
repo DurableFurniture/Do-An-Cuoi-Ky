@@ -1,4 +1,5 @@
 // Scroll to top
+
 hScrollTopBtn = document.getElementById("hong-scroll-top-btn");
 window.onscroll = function(){
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -13,6 +14,7 @@ function hongScrollTop() {
 };
 
 // Gallery slider
+
 $(document).ready(()=>{
 
 });
@@ -31,6 +33,7 @@ setInterval(function (){
 }, 2000);
 
 // Thumbnail image controls
+
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
@@ -49,4 +52,23 @@ function showSlides(n) {
     }
     slides[slideIndex-1].style.display = "block";
     thumbs[slideIndex-1].className += " active";
+}
+
+// Product-description Tabs
+
+function openTab(evt, tabName) {
+    var i, tabContent, tabLink;
+
+    tabContent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabContent.length; i++) {
+        tabContent[i].style.display = "none";
+    }
+
+    tabLink = document.getElementsByClassName("tab-link");
+    for (i = 0; i < tabLink.length; i++) {
+        tabLink[i].className = tabLink[i].className.replace(" active", "");
+    }
+
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
 }
