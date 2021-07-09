@@ -1,14 +1,36 @@
 .Thang-blog-list{
-    width: 625px;
-    height: 700px;
+    width: 750px;
+    height: 760px;
     background-color: peru;
     margin: auto;
 }
 .Thang-blog-figure{
-    width: 470px;
+    width: 750px;
+    height: 440px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .Thang-blog-img{
-    display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    background-size: cover;
+}
+.Thang-blog-1{
+    background-color: aquamarine;
+    width: 695px;
+    height: 400px;
+    z-index: 0;
+    margin: 0 auto;
+    position :absolute;
+    margin: -80px 0px 0px 30px;
+}
+.Thang-icon{
+    float: left;
+    display: block;
+    margin-top: 30px;
+
+}
+span{
+    margin-right: 30px;
+
 }
