@@ -1,6 +1,10 @@
+html{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
 .Thang-blog-list{
     width: 750px;
-    height: 760px;
+    height: 660px;
     background-color: peru;
     margin: auto;
 }
@@ -18,19 +22,29 @@
 .Thang-blog-1{
     background-color: aquamarine;
     width: 695px;
-    height: 400px;
+    height: 300px;
     z-index: 0;
     margin: 0 auto;
     position :absolute;
     margin: -80px 0px 0px 30px;
 }
 .Thang-icon{
-    float: left;
-    display: block;
     margin-top: 30px;
+    display: block;
 
+}
+.Thang-blog-text1{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1%;
 }
 span{
     margin-right: 30px;
-
+}
+.Thang-blog-button{
+    border: 19px;
+    background-color: white;
+}
+a{
+    text-decoration: none
 }
