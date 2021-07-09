@@ -53,3 +53,15 @@ span{
 a{
     text-decoration: none
 }
+.Thang-container-blog{
+    display: flex;
+    width: 1140px;
+    justify-content: space-around;
+}
+.Thang-container-blog-1{
+    display: block;
+}
+.Thang-container-blog-2{
+    display: block;
+    width: 360px;
+}
