@@ -26,21 +26,27 @@ iframe {
     padding-top: 60px;
     margin: 0 auto;
     width: 1170px;
+    height: 300px;
 }
 .Thang-custom{
     padding-left: 0px;
     padding-right: 0px;
-   text-align: center;
-   font-size: 15px;
-   display: block;
-   margin: 0 auto;
-   width: 380px;   
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    width: 380px;  
+    margin-top: 10px; 
+    height: 200px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 h4{
     font-size: 20px;
 }
 .Thang-Media{
     display: block;
+    margin-top: 15px;
 
 
 }
@@ -77,6 +83,7 @@ h4{
     margin: auto;
     text-align: center;
     padding-bottom: 120px;
+    text-align: left;
 }
 .Thang-Textemail1{
     width: 560px;
@@ -86,6 +93,9 @@ h4{
 #Thang-email-box{
     width: 560px;
     height: 30px; 
+    display: block;
+    margin: auto;
+    text-align: left;
 }
 #YourMessage{
     width: 560px;
@@ -107,5 +117,4 @@ h4{
     text-align: center;
     margin: auto;
 }
-
 

@@ -1,0 +1,32 @@
+.cangiua {
+    margin: auto;
+    width: 1170px;
+  }
+
+img {
+  align-items: center;
+}
+
+
+.center {
+  text-align: center;
+  border: 1px solid green;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 370px 350px 350px;
+}
+
+.divxtkm{
+  padding: 10px;
+}
+
+table{
+  width: 100%;
+}
+   
+}
+* {
+  box-sizing: border-box;
+}
