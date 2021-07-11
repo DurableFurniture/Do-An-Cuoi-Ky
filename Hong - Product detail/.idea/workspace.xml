@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs/office-sofa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/pillow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/sofa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/wooden-arm-chair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/js/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jqueryscript/jquery.izoomify.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/jqueryscript/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/jqueryscript/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/jqueryscript/slick.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +79,13 @@
       <workItem from="1625483376731" duration="1007000" />
       <workItem from="1625577191282" duration="1180000" />
       <workItem from="1625578558946" duration="154000" />
-      <workItem from="1625656080205" duration="321000" />
+      <workItem from="1625656080205" duration="3013000" />
+      <workItem from="1625913785544" duration="17528000" />
+      <workItem from="1625977592654" duration="6501000" />
+      <workItem from="1625988447458" duration="59000" />
+      <workItem from="1626000407716" duration="2040000" />
+      <workItem from="1626002782256" duration="6714000" />
+      <workItem from="1626019266937" duration="250000" />
     </task>
     <servers />
   </component>
