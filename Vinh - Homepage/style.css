@@ -24,6 +24,10 @@ body {
     overflow: hidden;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* ------------------------------------------------------ */
 /* TOP BANNER */
 /* ------------------------------------------------------ */
@@ -33,8 +37,8 @@ body {
     text-align: center;
     background-color: #6CB975;
     color: white;
-    font-weight: 400;
     font-size: 90%;
+    font-weight: 400;
 }
 
 .free-shipping-emp {
@@ -135,27 +139,6 @@ body {
     outline: none;
     border: none;
     cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-.search-button::after {
-    content: "";
-    background-color: #ffd855;
-    display: block;
-    position: absolute;
-    padding-top: 45%;
-    padding-left: 150%;
-    margin-left: 0px !important;
-    margin-top: -30%;
-    opacity: 0;
-    transition: all 0.8s;
-}
-
-.search-button:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0;
 }
 
 /* ------------------------------------------------------ */
@@ -187,11 +170,6 @@ body {
 
 .inner-container:last-child ul li {
     padding: 5px;
-}
-
-.logo {
-    height: 40px;
-    width: auto;
 }
 
 /* ------------------------------------------------------ */
@@ -240,8 +218,8 @@ body {
 
 .furniture h3 {
     text-transform: none;
-    font-weight: 400;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .furniture,
@@ -354,7 +332,6 @@ body {
     padding-top: 13vw;
     padding-bottom: 25vw;
     text-align: center;
-    height: 500px;
     background-size: cover;
     background-position: center;
 }
@@ -515,23 +492,18 @@ footer {
 /* PRODUCT PROMO */
 /* ------------------------------------------------------ */
 
-.product-promo-wrap {
+.wrap {
     display: grid;
     overflow: hidden;
-    grid-template-columns: 670px 490px;
-    grid-template-rows: 1fr 1fr;
     max-width: 1180px;
-    gap: 20px;
-    margin: 100px auto;
-    height: 620px;
+    margin: 0 auto;
 }
 
-.promo-pic {
-    margin: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    z-index: -100;
+.product-promo {
+    grid-template-columns: 54% 46%;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    height: 620px;
 }
 
 .product-promo-item {
@@ -539,7 +511,18 @@ footer {
     position: relative;
 }
 
-.promo-pic img {
+.promo-pic {
+    margin: 0;
+    overflow: hidden;
+}
+
+.product-promo-item .promo-pic {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.pic {
     display: block;
     transform: scale(1);
     transition: transform 0.5s;
@@ -559,7 +542,189 @@ footer {
 .product-promo-text {
     position: absolute;
     font-size: 120%;
-    border: 1px solid;
-    bottom: 20px;
-    left: 20px;
+    z-index: 100;
+    display: block;
 }
+
+.product-promo-item:first-child .product-promo-text {
+    margin: 30px;
+    bottom: 0;
+}
+
+.product-promo-item:nth-child(2) .product-promo-text {
+    margin: 10px 30px;
+    right: 0;
+}
+
+.product-promo-item:nth-child(3) .product-promo-text {
+    margin: 20px;
+}
+
+.product-promo-item:nth-child(3) .product-promo-text h3 {
+    margin-bottom: 10px;
+}
+
+.product-promo-item:hover .button {
+    background-color: black;
+    color: white;
+}
+
+.product-promo-text p {
+    line-height: .8em;
+    margin-bottom: 10px;
+}
+
+.product-promo-text h1 {
+    position: relative;
+    font-size: 300%;
+    line-height: 1em;
+}
+
+.product-promo-text h2 {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.product-promo-text h3 {
+    font-weight: 400;
+}
+
+.product-promo-text h2 {
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.supsub {position: absolute;}
+
+.supsub sub,
+.supsub sup {
+    display: block;
+    font-size: .4em;
+    position: relative;
+}
+
+.supsub sub {
+    left: 2px;
+    top: -48px;
+}
+
+.supsub sup {
+    left: 2px;
+    top: -15px;
+}
+
+.button {
+    display: block;
+    font-size: 80%;
+    width: fit-content;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    transition: all .5s;
+}
+
+/* ------------------------------------------------------ */
+/* POPULAR PRODUCTS */
+/* ------------------------------------------------------ */
+
+.text-deco {
+    font-weight: 400;
+}
+
+.outer-wrap {
+    margin: 100px 0;
+    overflow: hidden;
+}
+
+.popular-product {
+    text-align: center;
+}
+
+.popular-product h1 {
+    font-weight: 400;
+    font-size: 240%;
+    margin-bottom: 50px;
+}
+
+.popular-product h1::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #ec7264;
+    margin: 5px auto;
+}
+
+.popular-product-item {
+    text-align: center;
+}
+
+.popular-product-item .promo-pic {
+    width: 100%;
+    height: 350px;
+    padding: 50px 0;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+}
+
+.popular-product-slide {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    margin: 0 15px;
+}
+
+/* ------------------------------------------------------ */
+/* SHORT AD SECTION */
+/* ------------------------------------------------------ */
+
+.short-ad {
+    margin-top: 150px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    overflow: hidden;
+}
+
+.short-ad h2 {
+    font-weight: 400;
+    font-size: 200%;
+    margin: 50px 0 10px 0;
+}
+
+.short-ad p {
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.short-ad-product {
+    position: relative;
+    grid-column: span 2;
+}
+
+.short-ad-product ul {
+    display: grid;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 880px;
+    gap: 30px;
+}
+
+.short-ad-product figure {
+    height: 350px;
+    padding: 50px 0;
+    background-color: #f6f6f6;
+}
+
+/* ------------------------------------------------------ */
+/* AD BANNER SECTION */
+/* ------------------------------------------------------ */

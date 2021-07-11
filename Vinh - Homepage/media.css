@@ -1,10 +1,21 @@
 @media screen and (max-width: 1245px) {
     .banner {top: 30%;}
+    .product-promo {
+        height: 50vw;
+    }
+    .short-ad{font-size: 14px; width: 90vw;}
+    .short-ad p {margin-bottom: 30px;}
+    .short-ad h2 {margin-top: 20px; font-size: 150%;}
 }
 
 @media screen and (max-width: 1121px) {
     .banner {top: 25%;}
     .banner a {padding: 15px 45px;}
+}
+
+@media screen and (max-width: 994px) {
+    .short-ad-product ul {position: static; width: 90vw;}
+    .short-ad-product figure {height: 50vw;}
 }
 
 @media screen and (max-width: 920px) {
@@ -15,6 +26,12 @@
 @media screen and (max-width: 700px) {
     .banner {top: 15%;}
     .banner a {padding: 10px 30px;}
+    .product-promo {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        height: 100%;
+    }
 }
 
 
@@ -37,6 +54,9 @@
 @media screen and (max-width: 1400px) {
     .ft-social {width: 100%; padding-left: 50px; padding-right: 50px;}
     .ft-main-item:last-child {margin-left: 0px;}
+    .product-promo {
+        width: 90vw;
+    }
 }
 
 @media screen and (max-width: 1040px) {
@@ -47,6 +67,8 @@
     .ft-social {display: block;}
     .sns {text-align: center;}
     .sns-links {margin-top: 10px;}
+    .short-ad {display: flex; flex-direction: column;}
+    .first-div {margin-bottom: 30px;}
 }
 
 @media screen and (max-width: 400px) {
