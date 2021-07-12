@@ -22,11 +22,13 @@ img {
   padding: 10px;
 }
 
-table{
-  width: 100%;
-}
-   
-}
+
 * {
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 300px) {
+  h2 { font-size: 11px;}
+  .grid-container { font-size: 8px;}
+  .cangiua{ margin: 0 auto; width: 30%;}
 }

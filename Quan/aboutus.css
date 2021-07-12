@@ -1,0 +1,54 @@
+.startab{
+    margin: 0 auto;
+    padding: 110px;
+    width: 1170px;
+    text-align: center;
+}
+
+.quote{
+    width: auto;
+    height: 900px;
+    background-image: url("ab.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cauquote{
+    text-align: center;
+    margin-left: 150px;
+    padding:20px;
+    width: 600px;
+    height: auto;
+    background-color: #3be381;
+}
+
+.body1{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid1{
+    padding: 50px;
+}
+
+#thanhtuu{
+    width: auto;
+    height: 425px;
+    background-color: #3be381;
+}
+
+.body2{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+
+.grid1-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
