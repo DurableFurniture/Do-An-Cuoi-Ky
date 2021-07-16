@@ -2,33 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/office-sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/pillow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/sofa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/wooden-arm-chair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/bootstrap3.4.1/js/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jqueryscript/jquery.izoomify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hongcart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hongcart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hongcart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hongresp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/6607-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/blank-room.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/blue-guest-room.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/dinning-table.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/dinning.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/livingroom.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongpj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jqueryscript/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jqueryscript/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jqueryscript/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -55,10 +48,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -86,6 +80,12 @@
       <workItem from="1626000407716" duration="2040000" />
       <workItem from="1626002782256" duration="6714000" />
       <workItem from="1626019266937" duration="250000" />
+      <workItem from="1626097435981" duration="980000" />
+      <workItem from="1626137474521" duration="1225000" />
+      <workItem from="1626141306058" duration="664000" />
+      <workItem from="1626253348287" duration="17893000" />
+      <workItem from="1626358807818" duration="4426000" />
+      <workItem from="1626399429244" duration="24684000" />
     </task>
     <servers />
   </component>
