@@ -944,3 +944,11 @@ footer {
 .blog-post .button {
     margin-top: 20px;
 }
+
+.dume {
+    transition: width .4s ease-out;
+}
+
+.dume:hover {
+    width: 100px;
+}

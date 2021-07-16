@@ -1,0 +1,51 @@
+.account-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 1920px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+}
+
+.account-container {
+    width: 1180px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.account-container h1 {
+    font-weight: 600;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.customer-input {
+    color:#bebebe;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.customer-input span {
+    color: #666666;
+}
+
+.input-box {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+.checkbox-margin {
+    margin: 10px 0 20px 0;
+}
