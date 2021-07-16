@@ -96,6 +96,13 @@ h2{
 .thien-dropdown:hover .thien-dropbtn {
     background-color:grey;
   }
+.thien-menu{
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding: 8px 0;
+  background-color: lightgrey;
+}
 .thien-menu h2{
     font-size:  30px;
     margin-bottom: 7px;
@@ -125,10 +132,11 @@ h2{
 }
 .thien-menu a:hover{
    color:forestgreen;
+   background-color:cyan;
 }
 .thien-list-wrapper{
-    /* margin-left: 200px;
-    margin-right: 200px; */
+     margin-left: 320px;
+    
 }
 #thien-list-col{
     display: flex;
@@ -151,6 +159,7 @@ h2{
 #thien-list-col img{
     border: 10px;
     border-radius: 10px;
+    margin-right: 20px;
 }
 #thien-list-col img:hover{
     transform: scale(1.1);
@@ -166,7 +175,18 @@ h2{
     width: 20%;
     margin-top: 100px;
 }
-
+.thien-sub-menu{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 200px;
+    border-left: 1px solid #fff;
+    border-radius: 0px 10px 10px 0px;
+    display: none;
+}
+.thien-menu li:hover .sub-menu2{
+    display: block;
+  }
 .thien-main-content .thien-main-list-wrapper {
     width: 80%;
 }
@@ -187,4 +207,24 @@ h2{
     right: 0%;
     display: inline;
 }
-
+.thien-sorting-by-bar{
+    margin-left: 300px;
+}
+.thien-pagination{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.thien-pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+.thien-pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+.thien-pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }

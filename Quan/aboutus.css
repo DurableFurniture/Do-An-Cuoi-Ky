@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+#story{
+    width: auto;
+    height: 392px;
+    background-image: url("our-story.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#story1{
+    border: 1px solid rgb(239, 240, 204);
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(240, 206, 15);
+    border-radius: 12px;
+}
+
+.startab{
+    margin: 0 auto;
+    padding: 110px;
+    width: 940px;
+    text-align: center;
+}
+
+.quote{
+    width: auto;
+    height: 600px;
+    background-image: url("ab.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#cauquote{
+    text-align: center;
+    margin-left: 150px;
+    padding:20px;
+    width: 600px;
+    height: auto;
+    background-color: #3be381;
+}
+
+.body1{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid1{
+    padding: 50px;
+}
+
+#thanhtuu{
+    width: auto;
+    height: 425px;
+    background-color: #3be381;
+}
+
+.body2{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+
+.grid1-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.div3{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.gachngang{
+    border-style: solid;
+    border-width: 5px;
+}

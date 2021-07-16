@@ -28,6 +28,11 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* ------------------------------------------------------ */
 /* TOP BANNER */
 /* ------------------------------------------------------ */
@@ -39,6 +44,11 @@ ul {
     color: white;
     font-size: 90%;
     font-weight: 400;
+}
+
+.about-company .promo-pic {
+    width: 100%;
+    height: 100%;
 }
 
 .free-shipping-emp {
@@ -72,10 +82,10 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
-    border: 1px solid #bebebe;
     z-index: 10000;
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid #bebebe;
 }
 
 /* ------------------------------------------------------ */
@@ -329,11 +339,14 @@ ul {
 .promo-slide-wrap {
     display: block;
     width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-slide {
     padding-top: 13vw;
     padding-bottom: 25vw;
     text-align: center;
-    background-size: cover;
-    background-position: center;
 }
 
 .first-slide {
@@ -540,9 +553,12 @@ footer {
 }
 
 .product-promo-text {
-    position: absolute;
     font-size: 120%;
-    z-index: 100;
+}
+
+.inside-text {
+    position: absolute;  
+    z-index: 1000;
     display: block;
 }
 
@@ -641,13 +657,13 @@ footer {
     text-align: center;
 }
 
-.popular-product h1 {
+.section-teller {
     font-weight: 400;
     font-size: 240%;
     margin-bottom: 50px;
 }
 
-.popular-product h1::after {
+.section-teller::after {
     display: block;
     content: "";
     width: 30px;
@@ -682,7 +698,6 @@ footer {
 /* ------------------------------------------------------ */
 
 .short-ad {
-    margin-top: 150px;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 2fr 1fr;
     overflow: hidden;
@@ -728,3 +743,212 @@ footer {
 /* ------------------------------------------------------ */
 /* AD BANNER SECTION */
 /* ------------------------------------------------------ */
+
+.ad-banner {
+    padding: 7vw 0 7vw 20vw;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans';
+}
+
+.outer-wrap .first-slide {
+    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg) !important;
+}
+
+.outer-wrap .second-slide {
+    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg) !important;
+}
+
+.ad-section {
+    width: 455px;
+    height: 350px;
+    background-color: black;
+    opacity: .9;
+    color: white;
+    padding: 35px 35px 30px 35px;
+}
+
+.ad-section h2 {
+    font-size: 200%;
+    font-weight: 400;
+}
+.ad-section p {
+    font-size: 90%;
+    margin: 15px 0;
+}
+
+.bi-star-fill {
+    font-size: 120%;
+    color: yellow;
+    margin: 3px;
+}
+
+.ad-section h3 {
+    margin: 20px 0;
+}
+
+.ad-section del {
+    margin-right: 20px;
+    color: #a1a1a1;
+}
+
+.ad-section .button {
+    background-color: yellow;
+    font-weight: 600;
+    padding: 15px 30px !important;
+}
+
+.ad-section .button:hover {
+    color: black;
+    background-color: white;
+}
+
+/* ------------------------------------------------------ */
+/* NEW ARRIVAL SECTION */
+/* ------------------------------------------------------ */
+
+.new-arrival {
+    height: 960px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.new-arrival .promo-pic {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.new-arrival-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.new-arrival .promo-pic {
+    border: 1px solid #f6f6f6;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.new-arrival-item .inside-text {
+    top: 50%;
+    left: 50%;
+    opacity: .85;
+    font-size: 110%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 55px;
+    line-height: 55px;
+    display: block;
+    background-color: #f6f6f6;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.new-arrival-item:hover .inside-text {
+    background-color: black;
+    color: white;
+}
+
+.new-arrival+.button {
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 15px 75px !important;
+}
+
+/* ------------------------------------------------------ */
+/* ABOUT COMPANY */
+/* ------------------------------------------------------ */
+
+.about-company {
+    font-family: 'Montserrat';
+    font-size: 110%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 32vw;
+    background-color: #6CB975;
+    color: white;
+}
+
+.about-company-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    float: right;
+}
+
+.about-company-left div {
+    width: 31vw;
+    padding-right: 20px;
+}
+
+.about-company-left h2 {
+    margin: 5px 0 15px 0;
+}
+
+.about-company-left .button {
+    color: white;
+    margin-top: 30px;
+}
+
+/* ------------------------------------------------------ */
+/* BLOG POST */
+/* ------------------------------------------------------ */
+
+.blog {
+    text-align: center;
+}
+
+.blog-wrap {
+    height: 590px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    text-align: left;
+}
+
+.blog .promo-pic {
+    height: 60%;
+    width: 100%;
+}
+
+.blog-post {
+    position: relative;
+}
+
+.blog-post .inside-text {
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    height: 60%;
+    background-color: white;
+    opacity: .9;
+    padding: 30px 25px 0 30px;
+}
+
+.blog-info {
+    font-size: 85%;
+}
+
+.bi-person-fill {
+    margin-left: 20px;
+}
+
+.blog-post h2 {
+    font-family: 'Montserrat';
+    font-size: 170%;
+    margin: 10px 0 20px 0;
+}
+
+.blog-post .button {
+    margin-top: 20px;
+}
+
+.dume {
+    transition: width .4s ease-out;
+}
+
+.dume:hover {
+    width: 100px;
+}
