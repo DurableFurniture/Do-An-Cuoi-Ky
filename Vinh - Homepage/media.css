@@ -1,5 +1,14 @@
 @media screen and (max-width: 1245px) {
     .banner {top: 30%;}
+    .product-promo {
+        height: 50vw;
+    }
+    .short-ad{font-size: 14px; width: 90vw;}
+    .short-ad p {margin-bottom: 30px;}
+    .short-ad h2 {margin-top: 20px; font-size: 150%;}
+    .new-arrival {width: 90vw; height: 70vw;}
+    .new-arrival-item .inside-text {width: 100%;}
+    
 }
 
 @media screen and (max-width: 1121px) {
@@ -7,16 +16,30 @@
     .banner a {padding: 15px 45px;}
 }
 
+@media screen and (max-width: 994px) {
+    .short-ad-product ul {position: static; width: 90vw;}
+    .short-ad-product figure {height: 50vw;}
+}
+
 @media screen and (max-width: 920px) {
     .banner {top: 20%;}
     .banner a {font-size: 75% ;top: 35px; padding: 10px 30px}
+    .new-arrival{grid-template-columns: 1fr 1fr; height: 100%;}
 }
 
 @media screen and (max-width: 700px) {
     .banner {top: 15%;}
     .banner a {padding: 10px 30px;}
+    .product-promo {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
 }
 
+@media screen and (max-width: 600px) {
+    .new-arrival {grid-template-columns: 1fr; width: 70vw; height: 80%;}
+}
 
 @media screen and (max-width: 1120px) {
     .menu ul li {padding: 10px;}
@@ -26,17 +49,30 @@
 @media screen and (max-width: 915px) {
     .menu ul li {padding: 5px; font-size: 14px;}
     .drop-down-content {top: 31px;}
+    
 }
 
 @media screen and (max-width: 767px) {
     .menu {display: none;}
     .bi-list {display: inline-block;}
     .logo {padding-left: 10px;}
+    .ad-banner {padding-left: 0 !important;}
+    .ad-section {margin: 0 auto; font-size: 75%; width: 355px; height: 250px; padding: 15px;}
+    .ad-section p {margin: 10px 0;}
+    .ad-section h3 {margin: 10px 0;}
 }
 
 @media screen and (max-width: 1400px) {
     .ft-social {width: 100%; padding-left: 50px; padding-right: 50px;}
     .ft-main-item:last-child {margin-left: 0px;}
+    .product-promo {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .about-company {width: 80vw; margin: 0 auto; grid-template-columns: 1fr; height: 800px;}
+    .about-company-left div {width: 100%; padding: 20px;}
 }
 
 @media screen and (max-width: 1040px) {
@@ -47,6 +83,8 @@
     .ft-social {display: block;}
     .sns {text-align: center;}
     .sns-links {margin-top: 10px;}
+    .short-ad {display: flex; flex-direction: column;}
+    .first-div {margin-bottom: 30px;}
 }
 
 @media screen and (max-width: 400px) {
