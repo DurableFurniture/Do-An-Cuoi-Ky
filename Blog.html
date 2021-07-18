@@ -1,176 +1,305 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Furnihause - Responsive Furniture Website</title>
-    <link rel="stylesheet" href="Style/Header-Footer.css">
-    <link rel="stylesheet" href="Style/Home Page-Media.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">  
-        
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Durable Furniture - Product Detail</title>
+  <link rel="stylesheet" href="Style/header-footer.css">
+  <link rel="stylesheet" href="Style/home-page-media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="Style/Blog-Media.css">
+  <link rel="stylesheet" href="Style/Blog-Style.css">
+
+</head>
+
+<body>
+  <div class="vinh-container">
+    <div class="vinh-free-shipping">
+      <span class="vinh-free-shipping-emp">free-shipping</span> for orders above $100!!!
+    </div>
+    <header>
+      <div class="vinh-header-wrap" id="navbar">
+        <div class="vinh-inner-container">
+          <div class="vinh-sub-menu">
+            <i id="myIcon" onclick="subMenuFunction()" class="bi bi-list" style="font-size: 150%;"></i>
+          </div>
+          <a href="#"><img class="vinh-logo" src="Resources/Img/Dark Slate Grey Star Icon Business Logo smol.png"></a>
+        </div>
+        <div class="vinh-inner-container vinh-menu">
+          <ul class="vinh-menu-list">
+            <li class="vinh-drop-down">
+              <a href="#">home</a>
+            </li>
+            <li class="vinh-drop-down">
+              <a href="#">furniture</a>
+              <div class="vinh-drop-down-content vinh-furniture">
+                <div class="vinh-drop-down-item">
+                  <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg">
+                  <h3>Living Room</h3>
+                  <ul>
+                    <li>Sofas</li>
+                    <li>Loveseats</li>
+                    <li>Sectionals</li>
+                    <li>Chairs & Chaises</li>
+                    <li>Sofa Beds & Futons</li>
+                    <li>Recliners</li>
+                    <li>Ottoman & Benches</li>
+                    <li>Cabinets & Etageres</li>
+                    <li>Living Room Packages</li>
+                    <li>3 Piece Sofa Set</li>
+                    <li>Hanging Chair for Child</li>
+                  </ul>
+                </div>
+                <div class="vinh-drop-down-item">
+                  <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg">
+                  <h3>Dining Room</h3>
+                  <ul>
+                    <li>Dining Sets</li>
+                    <li>Chairs</li>
+                    <li>Benches</li>
+                    <li>Counter & Bar Stools</li>
+                    <li>Buffets & Sideboards</li>
+                    <li>China Cabinets & Curios</li>
+                    <li>Bars</li>
+                    <li>Modern Dinning</li>
+                    <li>Custom Designed Table</li>
+                    <li>6 Seater Dinning</li>
+                  </ul>
+                </div>
+                <div class="vinh-drop-down-item">
+                  <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg">
+                  <h3>Bed Room</h3>
+                  <ul>
+                    <li><a href="#">King Beds</a></li>
+                    <li><a href="#">Queen Beds</a></li>
+                    <li><a href="#">Full Beds</a></li>
+                    <li><a href="#">Daybeds & Futons</a></li>
+                    <li><a href="#">Headboards & Frames</a></li>
+                    <li><a href="#">Dressers & Chests</a></li>
+                    <li><a href="#">Mirros</a></li>
+                    <li><a href="#">Nightstands</a></li>
+                    <li><a href="#">Armoires</a></li>
+                    <li><a href="#">Bedroom Sets</a></li>
+                    <li><a href="#">End of Bed</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="vinh-drop-down">
+              <a href="#">brand</a>
+              <div class="vinh-drop-down-content vinh-brand">
+                <div class="vinh-drop-down-item">
+                  <span>ChiLai</span>
+                </div>
+                <div class="vinh-drop-down-item">
+                  <span>Phố Xinh</span>
+                </div>
+                <div class="vinh-drop-down-item">
+                  <span>Nhà Xinh</span>
+                </div>
+                <div class="vinh-drop-down-item">
+                  <span>Erado</span>
+                </div>
+                <div class="vinh-drop-down-item">
+                  <span>PVD Decor</span>
+                </div>
+                <div class="vinh-drop-down-item">
+                  <span>Hòa Phát</span>
+                </div>
+              </div>
+            </li>
+            <li class="vinh-drop-down">
+              <a href="#">blog</a>
+            </li>
+            <li class="vinh-drop-down">
+              <a href="#">contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="vinh-inner-container">
+          <ul class="vinh-icon-list">
+            <li>
+              <a href="#"><i class="bi bi-search"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-cart3"></i></a>
+            </li>
+            <li><a href="#">LOGIN</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="myDropdown" class="vinh-sub-menu-dropdown">
+      <ul>
+        <li><a href="#" style="color:#6CB975 !important">home</a></li>
+        <li><a href="#">furniture</a></li>
+        <li><a href="#">brand</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact</a></li>
+        <li>
+          <input class="vinh-sub-menu-search" type="text" placeholder="Search...">
+          <button class="vinh-search-button" type="submit">Search</button>
+        </li>
+      </ul>
+    </div>
+     <!-- Thắng code  -->
+  </div class="Thang-Blog-Banner">
+    <h4>Blog</h4>
+  </div>
+  <div class="Thang-container-blog">
+    <div class="Thang-container-blog-1">
+        <div>
+            <article class="Thang-blog-list">
+                <figure class="Thang-blog-figure">
+                    <a class="Thang-img-effect" href="http://Google.com">
+                        <img class="Thang-blog-img" src=http://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/neonbrand-381344-unsplash-848x500.jpg>
+                    </a>
+                </figure>
+                <div class="Thang-blog-1">
+                    <div class="Thang-icon"> 
+                        <span><i class="bi bi-calendar-week"></i>April 16, 2018 </span>
+                        <span><i class="bi bi-person-fill"></i>By Furnihaus</span>
+                        <span><i class="bi bi-chat-dots"></i>0 Comments</span>
+                    </div>
+                    <div class="Thang-blog-text1">
+                        <h3>Modern furniture designs for your dream lorem ipsum is a dummy text home</h3>
+                    </div>
+                    <div class="Thang-blog-Loren">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend a lectus ac auctor. Nulla facilisi. Suspendisse potenti. Praesent nisl augue, porttitor ut tempor ac, consectetur ut lorem. Aenean eleifend,...
+                    </div>
+                    <a  href="http://Google.com" class="Thang-blog-button">READ MORE</a>
+                </div>    
+            </article>
+        </div>
+        <div>
+            <article class="Thang-blog-list">
+                <figure class="Thang-blog-figure">
+                    <a class="Thang-img-effect" href="http://Google.com">
+                        <img class="Thang-blog-img" src=http://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/11/pexels-photo-210265-848x500.jpeg>
+                    </a>
+                </figure>
+                <div class="Thang-blog-1">
+                    <div class="Thang-icon"> 
+                        <span><i class="bi bi-calendar-week"></i>April 16, 2018 </span>
+                        <span><i class="bi bi-person-fill"></i>By Furnihaus</span>
+                        <span><i class="bi bi-chat-dots"></i>0 Comments</span>
+                    </div>
+                    <div class="Thang-blog-text1">
+                        <h3>Modern furniture designs for your dream lorem ipsum is a dummy text home</h3>
+                    </div>
+                    <div class="Thang-blog-Loren">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend a lectus ac auctor. Nulla facilisi. Suspendisse potenti. Praesent nisl augue, porttitor ut tempor ac, consectetur ut lorem. Aenean eleifend,...
+                    </div>
+                    <a  href="http://Google.com" class="Thang-blog-button">READ MORE</a>
+                </div>    
+            </article>
+        </div>
+        <div>
+            <article class="Thang-blog-list">
+                <figure class="Thang-blog-figure">
+                    <a class="Thang-img-effect" href="http://Google.com">
+                        <img class="Thang-blog-img" src=http://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/11/pexels-photo-2452081-848x500.jpeg>
+                    </a>
+                </figure>
+                <div class="Thang-blog-1">
+                    <div class="Thang-icon"> 
+                        <span><i class="bi bi-calendar-week"></i>April 16, 2018 </span>
+                        <span><i class="bi bi-person-fill"></i>By Furnihaus</span>
+                        <span><i class="bi bi-chat-dots"></i>0 Comments</span>
+                    </div>
+                    <div class="Thang-blog-text1">
+                        <h3>Modern furniture designs for your dream lorem ipsum is a dummy text home</h3>
+                    </div>
+                    <div class="Thang-blog-Loren">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend a lectus ac auctor. Nulla facilisi. Suspendisse potenti. Praesent nisl augue, porttitor ut tempor ac, consectetur ut lorem. Aenean eleifend,...
+                    </div>
+                    <a  href="http://Google.com" class="Thang-blog-button">READ MORE</a>
+                </div>    
+            </article>
+        </div>
+        <div>
+            <article class="Thang-blog-list">
+                <figure class="Thang-blog-figure">
+                    <a class="Thang-img-effect" href="http://Google.com">
+                        <img class="Thang-blog-img" src=http://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/11/pexels-photo-269262-848x500.jpeg>
+                    </a>
+                </figure>
+                <div class="Thang-blog-1">
+                    <div class="Thang-icon"> 
+                        <span><i class="bi bi-calendar-week"></i>April 16, 2018 </span>
+                        <span><i class="bi bi-person-fill"></i>By Furnihaus</span>
+                        <span><i class="bi bi-chat-dots"></i>0 Comments</span>
+                    </div>
+                    <div class="Thang-blog-text1">
+                        <h3>Modern furniture designs for your dream lorem ipsum is a dummy text home</h3>
+                    </div>
+                    <div class="Thang-blog-Loren">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend a lectus ac auctor. Nulla facilisi. Suspendisse potenti. Praesent nisl augue, porttitor ut tempor ac, consectetur ut lorem. Aenean eleifend,...
+                    </div>
+                    <a  href="http://Google.com" class="Thang-blog-button">READ MORE</a>
+                </div>    
+            </article>
+        </div>
+    </div>
+    <div class="Thang-container-blog-2">
+      <div>
+        <div class="Thang-p1">
+          <form class="Thang-blog-search">
+            <input id="Thang-Search-input" type="text" placeholder="Search.." name="search">
+            <button class="Thang-blog-search-button" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="Thang-p2">
+          <H4 class="Thang-p2-1">Recent Comments</H4>
+          <ul>
+            <li class="Thang-rcm">furnihaus-main on Lonan Full Memory Foam Sofabed</li>
+            <li class="Thang-rcm">furnihaus-main on Brecken Boss Chair</li>
+          </ul>
+        </div>
+        <div class="Thang-p3">
+          <h4 class="Thang-p2-1">Archives</h4>
+          <ul>
+            <li><a href="#">Aprill 2018</a></li>
+            <li><a href="#">October 2017</a></li>
+            <li><a href="#">September 2017</a></li>
+          </ul>
+        </div>
+        <div class="Thang-p4">
+          <h4 class="Thang-p2-1">Tag Cloud</h4>
+          <div class="Thang-Blog-Tag">
+            <a href="#" class="Thang-Blog-Tag-1">Chair</a>
+            <a href="#" class="Thang-Blog-Tag-2">Fashion</a>
+            <a href="#" class="Thang-Blog-Tag-3">Tables</a>
+          </div>
+        </div>
+        <div class="Thang-p5">
+          <h4 class="Thang-p2-1">Meta</h4>
+          <ul>
+            <li>Entries feed</li>
+            <li>Comments feed</li>
+            <li>WordPress.org</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--  aaaaaaaa  -->
     <div class="vinh-container">
-      <div class="vinh-free-shipping">
-          <span class="vinh-free-shipping-emp">free-shipping</span> for orders above $100!!!
+      <div id="hong-scroll-top-btn" onclick="hongScrollTop()">
+        <i class="fas fa-chevron-up"></i>
       </div>
-      <header>
-        <div class="vinh-header-wrap" id="navbar"> 
-          <div class="vinh-inner-container">
-            <div class="vinh-sub-menu">
-              <i id="myIcon" class="bi bi-list" style="font-size: 150%;"></i>
-            </div>
-            <a href="http://127.0.0.1:5501/Home%20Page.html"><img class="vinh-logo" src="Resources/Img/Dark Slate Grey Star Icon Business Logo smol.png"></a>
-          </div>
-          <div class="vinh-inner-container vinh-menu">
-            <ul class="vinh-menu-list">
-              <li class="vinh-drop-down">
-                <a href="http://127.0.0.1:5501/Home%20Page.html">home</a>
-              </li>
-              <li class="vinh-drop-down">
-                <a href="http://127.0.0.1:5501/Product%20List.html">furniture</a>
-                <div class="vinh-drop-down-content vinh-furniture">
-                  <div class="vinh-drop-down-item">
-                    <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg">
-                    <h3>Living Room</h3>
-                    <ul>
-                      <li>Sofas</li>
-                      <li>Loveseats</li>
-                      <li>Sectionals</li>
-                      <li>Chairs & Chaises</li>
-                      <li>Sofa Beds & Futons</li>
-                      <li>Recliners</li>
-                      <li>Ottoman & Benches</li>
-                      <li>Cabinets & Etageres</li>
-                      <li>Living Room Packages</li>
-                      <li>3 Piece Sofa Set</li>
-                      <li>Hanging Chair for Child</li>
-                    </ul>
-                  </div>
-                  <div class="vinh-drop-down-item">
-                    <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg">
-                    <h3>Dining Room</h3>
-                    <ul>
-                      <li>Dining Sets</li>
-                      <li>Chairs</li>
-                      <li>Benches</li>
-                      <li>Counter & Bar Stools</li>
-                      <li>Buffets & Sideboards</li>
-                      <li>China Cabinets & Curios</li>
-                      <li>Bars</li>
-                      <li>Modern Dinning</li>
-                      <li>Custom Designed Table</li>
-                      <li>6 Seater Dinning</li>
-                    </ul>
-                  </div>
-                  <div class="vinh-drop-down-item">
-                    <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg">
-                    <h3>Bed Room</h3>
-                    <ul>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">King Beds</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Queen Beds</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Full Beds</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Daybeds & Futons</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Headboards & Frames</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Dressers & Chests</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Mirros</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Nightstands</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Armoires</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">Bedroom Sets</a></li>
-                      <li><a href="http://127.0.0.1:5501/Product%20List.html">End of Bed</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="vinh-drop-down">
-                <a href="http://127.0.0.1:5501/Product%20List.html">brand</a>
-                <div class="vinh-drop-down-content vinh-brand">
-                  <div class="vinh-drop-down-item">
-                    <span>ChiLai</span>
-                  </div>
-                  <div class="vinh-drop-down-item">
-                    <span>Phố Xinh</span>
-                  </div>
-                  <div class="vinh-drop-down-item">
-                    <span>Nhà Xinh</span>
-                  </div>
-                  <div class="vinh-drop-down-item">
-                    <span>Erado</span>
-                  </div>
-                  <div class="vinh-drop-down-item">
-                    <span>PVD Decor</span>
-                  </div>
-                  <div class="vinh-drop-down-item">
-                    <span>Hòa Phát</span>
-                  </div>
-                </div>
-              </li>
-              <li class="vinh-drop-down">
-                <a href="http://127.0.0.1:5501/Blog.html">blog</a>
-              </li>
-              <li class="vinh-drop-down">
-                <a href="http://127.0.0.1:5501/Contact%20Us.html">contact us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="vinh-inner-container">
-            <ul class="vinh-icon-list">
-              <li>
-                <a href="#"><i class="bi bi-search"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="bi bi-heart"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="bi bi-cart3"></i></a>
-              </li>
-              <li><a href="http://127.0.0.1:5501/Account.html">LOGIN</a></li>
-            </ul>
-          </div>
-        </div>
-      </header>
-      <div id="myDropdown" class="vinh-sub-menu-dropdown">
-        <ul>
-          <li><a href="http://127.0.0.1:5501/Home%20Page.html" style="color:#6CB975 !important">home</a></li>
-          <li><a href="http://127.0.0.1:5501/Product%20List.html">furniture</a></li>
-          <li><a href="http://127.0.0.1:5501/Product%20List.html">brand</a></li>
-          <li><a href="http://127.0.0.1:5501/Blog.html">blog</a></li>
-          <li><a href="http://127.0.0.1:5501/Contact%20Us.html">contact</a></li>
-          <li>
-            <input class="vinh-sub-menu-search" type="text" placeholder="Search...">
-            <button class="vinh-search-button" type="submit">Search</button>
-          </li>
-        </ul>
-      </div>
-      
-      <div class="vinh-promo-slide">
-        <div class="vinh-promo-slide-wrap vinh-header-slide vinh-first-slide">
-          <div class="vinh-banner">
-            <h1>DURABLE FURNITURE</h1>
-            <p>Shop high-end furnitures</p>
-            <a href="http://127.0.0.1:5501/Product%20List.html">SHOP NOW</a>
-          </div>
-        </div>
-        <div class="vinh-promo-slide-wrap vinh-header-slide vinh-second-slide">
-          <div class="vinh-banner">
-            <h1>EXPLORE NEW LIFESTYLE</h1>
-            <p>Free yourself from limitations</p>
-            <a href="http://127.0.0.1:5501/Product%20List.html">SHOP NOW</a>
-          </div>
-        </div>
-      </div>  
-
-<!-- VIET CODE O DAY -->
-
-    <div class="vinh-container-footer"></div> 
-    <footer>
+      <div class="vinh-container-footer"></div>
+      <footer>
         <div class="ft-social vinh-info">
           <div class="ft-main-item">
             <h3 class="ft-title">About the company</h3>
@@ -183,13 +312,13 @@
             </ul>
           </div>
           <div class="ft-main-item">
-            <h3 class="ft-title">Information</h3>
+            <h3 class="ft-title">Customer Service</h3>
             <ul>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Affiliates</a></li>
-              <li><a href="#">Press</a></li>
-              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Shopping Guide</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="mailto:vinhtb.jp@gmail.com">Email us</a></li>
             </ul>
           </div>
           <div class="ft-main-item">
@@ -224,88 +353,61 @@
             </div>
           </div>
         </div>
+      </div>
     </footer>
-    </div>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="https://kit.fontawesome.com/957c836d53.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"
+    integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/957c836d53.js" crossorigin="anonymous"></script>
 
-    <script>
-    $(document).ready(function(){
-    $('.vinh-promo-slide').slick({
-      infinite: true,
-      speed: 300,
-      autoplay:true,
-      variableWidth: true
-    })
+  <script>
+    function subMenuFunction() {
+      document.getElementById('myDropdown').classList.add('vinh-show')
+    }
 
-    $('.vinh-popular-product-slide').slick({
-      infinite: true,
-      speed: 500,
-      autoplay: true,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      dots: true,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
+    window.onclick = function (event) {
+      if (!event.target.matches('.bi-list')) {
+        var dropdowns = document.getElementsByClassName('vinh-sub-menu-dropdown');
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('vinh-show')) {
+            openDropdown.classList.remove('vinh-show');
           }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    })
-
-    $('#myIcon').click(function(){
-      $('#myDropdown').addClass('vinh-show');
-    })
-    });
-
-    window.onclick = function(event) {
-    if (!event.target.matches('.bi-list')) {
-      var dropdowns = document.getElementsByClassName('vinh-sub-menu-dropdown');
-      var i;
-      for(i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('vinh-show')) {
-          openDropdown.classList.remove('vinh-show');
         }
       }
     }
-    }
 
-    window.onscroll = function() {myFunction()};
+    window.onscroll = function () { myFunction() };
 
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
 
-    function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("vinh-sticky")
-    } else {
-      navbar.classList.remove("vinh-sticky");
-    }
-    }
-    </script>
+    hScrollTopBtn = document.getElementById("hong-scroll-top-btn");
 
-  </body>
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("vinh-sticky")
+      } else {
+        navbar.classList.remove("vinh-sticky");
+      }
+
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        hScrollTopBtn.style.display = "block";
+      } else {
+        hScrollTopBtn.style.display = "none";
+      }
+    }
+
+    function hongScrollTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
+  </script>
+
+</body>
+
 </html>

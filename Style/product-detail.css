@@ -17,11 +17,11 @@ section {
     height: 100%;
 }
 
-.container {
+.hong-container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 20px 10px;
 }
 
 .row {
@@ -62,7 +62,6 @@ a:hover {
     cursor: pointer;
     transition: all ease-out 0.3s;
 }
-
 
 .clearfix::after {
     content: "";
@@ -309,7 +308,7 @@ ul.hong-breadcrumb li a:hover {
 .product-description {
     margin-top: 6vh;
     margin-bottom: 6vh;
-    padding: 0;
+    padding: 0 20px;
 }
 
 .product-description .description-wrapper {
@@ -437,7 +436,8 @@ ul.hong-breadcrumb li a:hover {
     color: red;
 }
 
-#reviews .comment-form input, .product-description .comment-form textarea {
+#reviews .comment-form input,
+.product-description .comment-form textarea {
     margin-left: 0;
 }
 
@@ -710,8 +710,8 @@ ul.hong-breadcrumb li a:hover {
         font-size: 13px;
     }
 
-    .hong-breadcrumb {
-        padding-top: 10px;
+    .hong-container {
+        padding: 5px 10px;
     }
 
     .summary .title {
@@ -722,6 +722,12 @@ ul.hong-breadcrumb li a:hover {
     .summary .product-code {
         float: none;
         display: block;
+    }
+
+    .product-description {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        padding: 0 10px;
     }
 
     #reviews .author {
@@ -746,8 +752,10 @@ ul.hong-breadcrumb li a:hover {
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
-    .hong-breadcrumb {
-        padding-top: 10px;
+    .product-description {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        padding: 0 20px;
     }
 
     .product-related .product {
