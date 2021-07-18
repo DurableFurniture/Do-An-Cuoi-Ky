@@ -696,7 +696,7 @@ ul.hong-breadcrumb li a:hover {
 
 /* Responsive for items */
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     body, button, input, select, textarea, code {
         font-size: 13px;
     }
@@ -736,7 +736,7 @@ ul.hong-breadcrumb li a:hover {
     }
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
     .container {
         padding: 20px 20px;
     }
@@ -745,7 +745,8 @@ ul.hong-breadcrumb li a:hover {
         margin-bottom: 0;
     }
 
-    .product-related .products .product {
-        width: 50%;
+    .product-related .product {
+        overflow: hidden;
+        width: 30%;
     }
 }

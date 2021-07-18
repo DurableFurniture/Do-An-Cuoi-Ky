@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hongcart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hongcart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hongcart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hongresp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/6607-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/blank-room.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/blue-guest-room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/dinning-table.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/dinning.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/livingroom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongcart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongcart.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongcart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hongdetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +73,9 @@
       <workItem from="1626141306058" duration="664000" />
       <workItem from="1626253348287" duration="17893000" />
       <workItem from="1626358807818" duration="4426000" />
-      <workItem from="1626399429244" duration="24684000" />
+      <workItem from="1626399429244" duration="25521000" />
+      <workItem from="1626502229212" duration="11441000" />
+      <workItem from="1626578050295" duration="1181000" />
     </task>
     <servers />
   </component>

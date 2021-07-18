@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c23f4d4-4328-411f-ae33-8114240f41fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/hongcart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/hongcart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/hongcart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/hongresp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/imgs/6607-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/imgs/blank-room.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/imgs/blue-guest-room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/imgs/dinning-table.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/imgs/dinning.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hong - Product detail/imgs/livingroom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hong - Product detail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongcart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongcart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongcart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongdetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongdetail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongmedia.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongpj.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongdetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongpj.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongdetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongpj.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongdetail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626441477811</updated>
       <workItem from="1626441479346" duration="1213000" />
+      <workItem from="1626578171597" duration="767000" />
     </task>
     <servers />
   </component>
