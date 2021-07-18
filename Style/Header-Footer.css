@@ -33,6 +33,22 @@ a {
     color: black;
 }
 
+.vinh-outer-wrap {
+    margin: 100px 0;
+    overflow: hidden;
+}
+
+.vinh-button {
+    display: block;
+    font-size: 80%;
+    width: fit-content;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    transition: all .5s;
+}
+
 /* ------------------------------------------------------ */
 /* TOP BANNER */
 /* ------------------------------------------------------ */

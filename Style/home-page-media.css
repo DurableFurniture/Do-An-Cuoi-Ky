@@ -61,6 +61,10 @@
     .vinh-ad-section h3 {margin: 10px 0;}
 }
 
+@media screen and (min-width: 767px) {
+    .vinh-sub-menu-dropdown {display: none;}
+}
+
 @media screen and (max-width: 1400px) {
     .ft-social {width: 100%; padding-left: 50px; padding-right: 50px;}
     .ft-main-item:last-child {margin-left: 0px;}
