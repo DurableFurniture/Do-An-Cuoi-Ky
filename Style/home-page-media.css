@@ -77,6 +77,8 @@
     .vinh-about-company {width: 80vw; margin: 0 auto; grid-template-columns: 1fr; height: 800px;}
     .vinh-about-company-left div {width: 100%; padding: 20px;}
     .vinh-compare-wrap {width: 90vw; column-gap: 15px;}
+    .vinh-compare-wrap .vinh-promo-pic {width: 100%;}
+    .vinh-search-bar {width: 100%;}
 }
 
 @media screen and (max-width: 1040px) {
@@ -97,4 +99,8 @@
     .vinh-login-button {display: none;}
     .vinh-header-wrap {padding: 10px 10px;}
     .vinh-logo {height: 20px; padding: 0;}
+}
+  
+@media screen and (max-width: 645px) {
+    .vinh-outer-wrap {font-size: 75%}
 }
