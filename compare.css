@@ -1,15 +1,23 @@
-.vinh-outer-wrap {
-    text-align: center;
+.account-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 1920px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
 }
 
 .vinh-compare-wrap {
     font-family: 'Open Sans';
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, auto);
+    grid-template-rows: repeat(8, auto);
     max-width: 1000px;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #8b8b8b;
-    text-align: left;
 }
 
 .vinh-compare-item {
@@ -49,4 +57,19 @@
     padding: 10px 0 10px 10px;
     margin-bottom: 20px;
     outline-color: #bebebe;
+}
+
+.vinh-compare-btn {
+    display: block;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 65%;
+    padding: 12px 0;
+    background-color: #ec7264;
+    transition: all .5s;
+}
+
+.vinh-compare-btn:hover {
+    background-color: #e85646;
 }
