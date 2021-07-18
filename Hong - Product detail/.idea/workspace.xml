@@ -2,71 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(10).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(12).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(13).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(14).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(15).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(16).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(18).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(19).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(20).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(26).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(27).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(9).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/plastic-classic-dining-chair.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(10).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(11).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(12).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(13).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(14).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(6).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(7).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(8).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Resources/Img/product-detail-img/rattan-modern-dining-chair-(9).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Style/product-detail-media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Style/product-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongcart.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongcart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongcart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongdetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Classic-Plastic-Dining-Chair.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(10).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(12).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(13).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(14).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(15).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(16).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(18).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(19).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(20).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(26).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(27).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Metal-Dining-Chairs-(9).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(10).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(11).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(12).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(13).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(14).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(15).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(16).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(17).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(18).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(19).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(20).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(21).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(22).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Resources/Img/product-detail-img/Rattan-Dining-Chairs-(23).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Style/Product Detail-Media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Style/Product Detail-Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../general.html" beforeDir="false" afterPath="$PROJECT_DIR$/../general.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +81,7 @@
       <workItem from="1626502229212" duration="11441000" />
       <workItem from="1626578050295" duration="1181000" />
       <workItem from="1626581526319" duration="1093000" />
-      <workItem from="1626619485653" duration="3838000" />
+      <workItem from="1626619485653" duration="5182000" />
     </task>
     <servers />
   </component>
