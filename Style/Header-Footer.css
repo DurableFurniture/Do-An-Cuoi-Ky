@@ -37,7 +37,7 @@ a {
 /* TOP BANNER */
 /* ------------------------------------------------------ */
 
-.free-shipping {
+.vinh-free-shipping {
     padding: 12px;
     text-align: center;
     background-color: #6CB975;
@@ -46,12 +46,12 @@ a {
     font-weight: 400;
 }
 
-.about-company .promo-pic {
+.vinh-about-company .vinh-promo-pic {
     width: 100%;
     height: 100%;
 }
 
-.free-shipping-emp {
+.vinh-free-shipping-emp {
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -60,7 +60,7 @@ a {
 /* NAVBAR */
 /* ------------------------------------------------------ */
 
-.header-wrap {
+.vinh-header-wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -74,12 +74,11 @@ a {
     cursor: pointer;
 }
 
-.icon-list li {
+.vinh-icon-list li {
     display: inline-block;
-    position: relative;
 }
 
-.sticky {
+.vinh-sticky {
     position: fixed;
     top: 0;
     width: 100%;
@@ -89,36 +88,42 @@ a {
     border: 1px solid #bebebe;
 }
 
+.vinh-logo {
+    width: 130px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
 /* ------------------------------------------------------ */
 /* SUB MENU */
 /* ------------------------------------------------------ */
 
-.sub-menu {
+.vinh-sub-menu {
     display: inline-block;
 }
 
-.sub-menu-dropdown {
+.vinh-sub-menu-dropdown {
     display: none;
     width: 100vw;
     z-index: 5000;
 }
 
-.show {
+.vinh-show {
     display: block;
     background-color: black;
     padding-bottom: 10px;
 }
 
-.sub-menu-dropdown ul{
+.vinh-sub-menu-dropdown ul{
     margin: 0;
     padding: 0;
 }
 
-.sub-menu-dropdown ul li {
+.vinh-sub-menu-dropdown ul li {
     list-style-type: none;
 }
 
-.sub-menu-dropdown ul li a {
+.vinh-sub-menu-dropdown ul li a {
     display: block;
     background-color: black;
     width: 100vw;
@@ -129,22 +134,22 @@ a {
     text-transform: uppercase;
 }
 
-.sub-menu-dropdown ul li a:hover {
+.vinh-sub-menu-dropdown ul li a:hover {
     background-color: white;
     color: black !important
 }
 
-.sub-menu-dropdown ul li:last-child {
+.vinh-sub-menu-dropdown ul li:last-child {
     display: grid;
     grid-template-columns: 75% 25%;
     margin: 0 20px 30px 20px;
 }
 
-.sub-menu-search {
+.vinh-sub-menu-search {
     padding: 10px;
 }
 
-.search-button {
+.vinh-search-button {
     position: relative;
     background-color: #FFC400;
     outline: none;
@@ -156,44 +161,38 @@ a {
 /* NAVBAR MENU */
 /* ------------------------------------------------------ */
 
-.menu {
+.vinh-menu {
     justify-self: center;
     position: relative;
 }
 
-.menu ul li {
+.vinh-menu ul li {
     padding: 30px 20px;
     text-transform: uppercase;
 }
 
-.menu-list li {
+.vinh-menu-list li {
     display: inline-block;
 }
 
-.drop-down:first-child a {
+.vinh-drop-down:first-child a {
     color: #6CB975;
 }
 
-.inner-container ul li a{
+.vinh-inner-container ul li a{
     text-decoration: none;
     color: black;
 }
 
-.inner-container:last-child ul li {
+.vinh-inner-container:last-child ul li {
     padding: 5px;
-}
-
-.logo {
-    width: 130px;
-    object-fit: contain;
-    vertical-align: middle;
 }
 
 /* ------------------------------------------------------ */
 /* NAVBAR MENU DROPDOWN */
 /* ------------------------------------------------------ */
 
-.drop-down-content {
+.vinh-drop-down-content {
     display: none;
     cursor: pointer;
     position: absolute;
@@ -205,12 +204,12 @@ a {
     border: 1px solid #f1f1f1;
 }
 
-.drop-down-item span {
+.vinh-drop-down-item span {
     font-size: 200%;
     color: white;
 }
 
-.drop-down-item ul li {
+.vinh-drop-down-item ul li {
     display: block;
     padding: 2px 0;
     font-size: 90%;
@@ -220,27 +219,27 @@ a {
 /* NAVBAR MENU FURNITURE + BRAND */
 /* ------------------------------------------------------ */
 
-.drop-down:hover .furniture,
-.drop-down:hover .brand {
+.vinh-drop-down:hover .vinh-furniture,
+.vinh-drop-down:hover .vinh-brand {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 0 30px 40px 30px;
 }
 
-.furniture img,
-.brand img {
+.vinh-furniture img,
+.vinh-brand img {
     width: 100%;
 }
 
-.furniture h3 {
+.vinh-furniture h3 {
     text-transform: none;
     margin-bottom: 10px;
     font-weight: 400;
 }
 
-.furniture,
-.brand {
+.vinh-furniture,
+.vinh-brand {
     width: 70vw;
     height: 30vw;
     overflow-y: scroll;
@@ -253,11 +252,11 @@ a {
 /* NAVBAR MENU BRAND */
 /* ------------------------------------------------------ */
 
-.drop-down:hover .brand {
+.vinh-drop-down:hover .vinh-brand {
     grid-template-rows: 1fr 1fr;
 }
 
-.brand .drop-down-item {
+.vinh-brand .vinh-drop-down-item {
     display: flex;
     background-size: cover;
     align-items: center;
@@ -265,51 +264,51 @@ a {
     height: 200px;
 }
 
-.brand .drop-down-item:nth-child(1) {
+.vinh-brand .vinh-drop-down-item:nth-child(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);
 }
 
-.brand .drop-down-item:nth-child(2) {
+.vinh-brand .vinh-drop-down-item:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);
 }
 
-.brand .drop-down-item:nth-child(3) {
+.vinh-brand .vinh-drop-down-item:nth-child(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);
 }
 
-.brand .drop-down-item:nth-child(4) {
+.vinh-brand .vinh-drop-down-item:nth-child(4) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);
 }
 
-.brand .drop-down-item:nth-child(5) {
+.vinh-brand .vinh-drop-down-item:nth-child(5) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);
 }
 
-.brand .drop-down-item:nth-child(6) {
+.vinh-brand .vinh-drop-down-item:nth-child(6) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);
 }
 
-.brand .drop-down-item:nth-child(1):hover {
+.vinh-brand .vinh-drop-down-item:nth-child(1):hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);
 }
 
-.brand .drop-down-item:nth-child(2):hover {
+.vinh-brand .vinh-drop-down-item:nth-child(2):hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);
 }
 
-.brand .drop-down-item:nth-child(3):hover {
+.vinh-brand .vinh-drop-down-item:nth-child(3):hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);
 }
 
-.brand .drop-down-item:nth-child(4):hover {
+.vinh-brand .vinh-drop-down-item:nth-child(4):hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);
 }
 
-.brand .drop-down-item:nth-child(5):hover {
+.vinh-brand .vinh-drop-down-item:nth-child(5):hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);
 }
 
-.brand .drop-down-item:nth-child(6):hover {
+.vinh-brand .vinh-drop-down-item:nth-child(6):hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);
 }
 
@@ -317,20 +316,20 @@ a {
 /* NAVBAR MENU BLOG */
 /* ------------------------------------------------------ */
 
-.drop-down:hover .blog {
+.vinh-drop-down:hover .vinh-blog {
     display: grid;
     left: 55%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     font-size: 90%;
 }
 
-.blog .drop-down-item {
+.vinh-blog .vinh-drop-down-item {
     padding: 10px 20px;
     border-bottom: 1px solid #bebebe;
     transition: background-color 0.4s, color 0.4s;
 }
 
-.blog .drop-down-item:hover {
+.vinh-blog .vinh-drop-down-item:hover {
     background-color: #ec7264;
     color: white;
 }
@@ -339,51 +338,51 @@ a {
 /* PROMO SLIDE */
 /* ------------------------------------------------------ */
 
-.promo-slide {
+.vinh-promo-slide {
     overflow: hidden;
 }
 
-.promo-slide-wrap {
+.vinh-promo-slide-wrap {
     display: block;
     width: 100vw;
     background-size: cover;
     background-position: center;
 }
 
-.header-slide {
+.vinh-header-slide {
     padding-top: 13vw;
     padding-bottom: 25vw;
     text-align: center;
 }
 
-.first-slide {
+.vinh-first-slide {
     background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);
 }
 
-.second-slide {
+.vinh-second-slide {
     background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-2.jpg);
 }
 
-.banner {
+.vinh-banner {
     width: 100%;
     color: white;
     text-align: center;
     font-family: 'Montserra';
 }
 
-.banner h1 {
+.vinh-banner h1 {
     font-size: 3.25vw;
     letter-spacing: 10px;
     margin-bottom: 10px;
 }
 
-.banner p {
+.vinh-banner p {
     font-size: 1.75vw;
     letter-spacing: 5px;
     margin-bottom: 2.5vw;
 }
 
-.banner a {
+.vinh-banner a {
     text-decoration: none;
     color: white;
     font-size: 1vw;
@@ -393,7 +392,7 @@ a {
     transition: background-color 0.3s;
 }
 
-.banner a:hover {
+.vinh-banner a:hover {
     background-color: #e85646;
 }
 
@@ -406,7 +405,7 @@ footer {
     color: white;
 }
 
-.container {
+.vinh-container-footer {
     flex: 1;
 }
 
@@ -420,14 +419,12 @@ footer {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    width: 1170px;
+    width: 1180px;
 }
 
 /* ------------------------------------------------------ */
 /* FOOTER UPPER HALF */
 /* ------------------------------------------------------ */
-
-
 
 .ft-title {
     font-size: 1.375rem;
@@ -456,13 +453,13 @@ footer {
     color: #6CB975;
 }
 
-.newsletter {
+.vinh-newsletter {
     display: flex;
     margin-top: 20px;
     align-items: center;
 }
 
-.newsletter-input {
+.vinh-newsletter-input {
     padding: 10px;
     width: 100%;
 }
@@ -477,11 +474,11 @@ footer {
 /* FOOTER LOWER HALF */
 /* ------------------------------------------------------ */
 
-.info {
+.vinh-info {
     padding: 70px 0;
 }
 
-.sns {
+.vinh-sns {
     padding: 20px 0;
     align-items: center;
 }
@@ -509,445 +506,26 @@ footer {
 }
 
 /* ------------------------------------------------------ */
-/* PRODUCT PROMO */
+/* SCROLL BACK TO TOP */
 /* ------------------------------------------------------ */
 
-.wrap {
-    display: grid;
-    overflow: hidden;
-    max-width: 1180px;
-    margin: 0 auto;
-}
-
-.product-promo {
-    grid-template-columns: 54% 46%;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    height: 620px;
-}
-
-.product-promo-item {
-    overflow: hidden;
-    position: relative;
-}
-
-.promo-pic {
-    margin: 0;
-    overflow: hidden;
-}
-
-.product-promo-item .promo-pic {
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.pic {
-    display: block;
-    transform: scale(1);
-    transition: transform 0.5s;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.promo-pic img:hover {
-    transform: scale(1.1);
-}
-
-.product-promo-item:first-child {
-    grid-row: span 2;
-}
-
-.product-promo-text {
-    font-size: 120%;
-}
-
-.inside-text {
-    position: absolute;  
-    z-index: 1000;
-    display: block;
-}
-
-.product-promo-item:first-child .product-promo-text {
-    margin: 30px;
-    bottom: 0;
-}
-
-.product-promo-item:nth-child(2) .product-promo-text {
-    margin: 10px 30px;
-    right: 0;
-}
-
-.product-promo-item:nth-child(3) .product-promo-text {
-    margin: 20px;
-}
-
-.product-promo-item:nth-child(3) .product-promo-text h3 {
-    margin-bottom: 10px;
-}
-
-.product-promo-item:hover .button {
-    background-color: black;
-    color: white;
-}
-
-.product-promo-text p {
-    line-height: .8em;
-    margin-bottom: 10px;
-}
-
-.product-promo-text h1 {
-    position: relative;
-    font-size: 300%;
-    line-height: 1em;
-}
-
-.product-promo-text h2 {
-    font-weight: 500;
-    letter-spacing: 2px;
-}
-
-.product-promo-text h3 {
-    font-weight: 400;
-}
-
-.product-promo-text h2 {
-    line-height: 1em;
-    margin-bottom: 10px;
-}
-
-.supsub {position: absolute;}
-
-.supsub sub,
-.supsub sup {
-    display: block;
-    font-size: .4em;
-    position: relative;
-}
-
-.supsub sub {
-    left: 2px;
-    top: -48px;
-}
-
-.supsub sup {
-    left: 2px;
-    top: -15px;
-}
-
-.button {
-    display: block;
-    font-size: 80%;
-    width: fit-content;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: black;
-    border: 2px solid;
-    transition: all .5s;
-}
-
-/* ------------------------------------------------------ */
-/* POPULAR PRODUCTS */
-/* ------------------------------------------------------ */
-
-.text-deco {
-    font-weight: 400;
-}
-
-.outer-wrap {
-    margin: 100px 0;
-    overflow: hidden;
-}
-
-.popular-product {
+#hong-scroll-top-btn {
+    color: #151514;
     text-align: center;
+    background-color: #ffc400;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    z-index: 9999;
+    bottom: 20px;
+    right: 10px;
+    position: fixed;
+    display: none;
 }
 
-.section-teller {
-    font-weight: 400;
-    font-size: 240%;
-    margin-bottom: 50px;
-}
-
-.section-teller::after {
-    display: block;
-    content: "";
-    width: 30px;
-    height: 3px;
-    background-color: #ec7264;
-    margin: 5px auto;
-}
-
-.popular-product-item {
-    text-align: center;
-}
-
-.popular-product-item .promo-pic {
-    width: 100%;
-    height: 350px;
-    padding: 50px 0;
-    background-color: #f6f6f6;
-    margin-bottom: 20px;
-}
-
-.popular-product-slide {
-    max-width: 1180px;
-    margin: 0 auto;
-}
-
-.slick-slide {
-    margin: 0 15px;
-}
-
-/* ------------------------------------------------------ */
-/* SHORT AD SECTION */
-/* ------------------------------------------------------ */
-
-.short-ad {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 1fr;
-    overflow: hidden;
-}
-
-.short-ad h2 {
-    font-weight: 400;
-    font-size: 200%;
-    margin: 50px 0 10px 0;
-}
-
-.short-ad p {
-    font-weight: 300;
-    margin-bottom: 50px;
-}
-
-.button:hover {
+#hong-scroll-top-btn:hover {
+    color: white;
     background-color: black;
-    color: white;
-}
-
-.short-ad-product {
-    position: relative;
-    grid-column: span 2;
-}
-
-.short-ad-product ul {
-    display: grid;
-    position: absolute;
-    top: -40px;
-    left: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 880px;
-    gap: 30px;
-}
-
-.short-ad-product figure {
-    height: 350px;
-    padding: 50px 0;
-    background-color: #f6f6f6;
-}
-
-/* ------------------------------------------------------ */
-/* AD BANNER SECTION */
-/* ------------------------------------------------------ */
-
-.ad-banner {
-    padding: 7vw 0 7vw 20vw;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Open Sans';
-}
-
-.outer-wrap .first-slide {
-    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg) !important;
-}
-
-.outer-wrap .second-slide {
-    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg) !important;
-}
-
-.ad-section {
-    width: 455px;
-    height: 350px;
-    background-color: black;
-    opacity: .9;
-    color: white;
-    padding: 35px 35px 30px 35px;
-}
-
-.ad-section h2 {
-    font-size: 200%;
-    font-weight: 400;
-}
-.ad-section p {
-    font-size: 90%;
-    margin: 15px 0;
-}
-
-.bi-star-fill {
-    font-size: 120%;
-    color: yellow;
-    margin: 3px;
-}
-
-.ad-section h3 {
-    margin: 20px 0;
-}
-
-.ad-section del {
-    margin-right: 20px;
-    color: #a1a1a1;
-}
-
-.ad-section .button {
-    background-color: yellow;
-    font-weight: 600;
-    padding: 15px 30px !important;
-}
-
-.ad-section .button:hover {
-    color: black;
-    background-color: white;
-}
-
-/* ------------------------------------------------------ */
-/* NEW ARRIVAL SECTION */
-/* ------------------------------------------------------ */
-
-.new-arrival {
-    height: 960px;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    margin-bottom: 30px;
-}
-
-.new-arrival .promo-pic {
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.new-arrival-item {
-    position: relative;
-    overflow: hidden;
-}
-
-.new-arrival .promo-pic {
-    border: 1px solid #f6f6f6;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.new-arrival-item .inside-text {
-    top: 50%;
-    left: 50%;
-    opacity: .85;
-    font-size: 110%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 55px;
-    line-height: 55px;
-    display: block;
-    background-color: #f6f6f6;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.new-arrival-item:hover .inside-text {
-    background-color: black;
-    color: white;
-}
-
-.new-arrival+.button {
-    font-weight: 600;
-    margin: 0 auto;
-    padding: 15px 75px !important;
-}
-
-/* ------------------------------------------------------ */
-/* ABOUT COMPANY */
-/* ------------------------------------------------------ */
-
-.about-company {
-    font-family: 'Montserrat';
-    font-size: 110%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 32vw;
-    background-color: #6CB975;
-    color: white;
-}
-
-.about-company-left {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 100%;
-    float: right;
-}
-
-.about-company-left div {
-    width: 31vw;
-    padding-right: 20px;
-}
-
-.about-company-left h2 {
-    margin: 5px 0 15px 0;
-}
-
-.about-company-left .button {
-    color: white;
-    margin-top: 30px;
-}
-
-/* ------------------------------------------------------ */
-/* BLOG POST */
-/* ------------------------------------------------------ */
-
-.blog {
-    text-align: center;
-}
-
-.blog-wrap {
-    height: 590px;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    text-align: left;
-}
-
-.blog .promo-pic {
-    height: 60%;
-    width: 100%;
-}
-
-.blog-post {
-    position: relative;
-}
-
-.blog-post .inside-text {
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%);
-    width: 90%;
-    height: 60%;
-    background-color: white;
-    opacity: .9;
-    padding: 30px 25px 0 30px;
-}
-
-.blog-info {
-    font-size: 85%;
-}
-
-.bi-person-fill {
-    margin-left: 20px;
-}
-
-.blog-post h2 {
-    font-family: 'Montserrat';
-    font-size: 170%;
-    margin: 10px 0 20px 0;
-}
-
-.blog-post .button {
-    margin-top: 20px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
 }

@@ -76,7 +76,6 @@ a {
 
 .icon-list li {
     display: inline-block;
-    position: relative;
 }
 
 .sticky {
@@ -181,12 +180,6 @@ a {
 
 .inner-container:last-child ul li {
     padding: 5px;
-}
-
-.logo {
-    width: 130px;
-    object-fit: contain;
-    vertical-align: middle;
 }
 
 /* ------------------------------------------------------ */
@@ -950,4 +943,12 @@ footer {
 
 .blog-post .button {
     margin-top: 20px;
+}
+
+.dume {
+    transition: width .4s ease-out;
+}
+
+.dume:hover {
+    width: 100px;
 }
