@@ -73,7 +73,6 @@ a:hover {
 /* Items */
 
 ul.hong-breadcrumb {
-    padding: 20px 0px;
     list-style: none;
     background-color: white;
     word-wrap: break-word;
@@ -103,7 +102,7 @@ ul.hong-breadcrumb li a:hover {
 
 .product-single .gallery {
     position: relative;
-    padding: 10px 10px;
+    padding: 10px 0;
 }
 
 .product-single .slide {
@@ -136,7 +135,7 @@ ul.hong-breadcrumb li a:hover {
 /* Summary */
 
 .summary {
-    padding: 10px 20px;
+    padding: 10px 45px;
 }
 
 .summary .title {
@@ -145,7 +144,7 @@ ul.hong-breadcrumb li a:hover {
     clear: none;
     margin-bottom: 10px;
     line-height: 1.4;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 250%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -260,8 +259,8 @@ ul.hong-breadcrumb li a:hover {
     margin-bottom: 10px;
     padding: 10px 7px;
     box-sizing: border-box;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 100%;
+    line-height: 1;
 }
 
 .summary .add-to-cart-btn {
@@ -374,6 +373,16 @@ ul.hong-breadcrumb li a:hover {
     margin: 0 0 20px 0;
 }
 
+.product-description .desc-img .small img {
+    width: 100%;
+    margin: 5px 0 0 5px;
+}
+
+.product-description .desc-img .big img {
+    width: 100%;
+    margin: 5px;
+}
+
 #reviews .review-card {
     border: 1px solid lightgrey;
     padding: 0 20px;
@@ -403,6 +412,12 @@ ul.hong-breadcrumb li a:hover {
     font-weight: 550;
 }
 
+#reviews img {
+    width: 150px;
+    height: 150px;
+    margin: 3px 0 0 3px;
+}
+
 #reviews #comment-respond {
     padding: 20px;
 }
@@ -430,6 +445,11 @@ ul.hong-breadcrumb li a:hover {
     padding-right: 7px;
 }
 
+#reviews input {
+    font-size: 100%;
+    padding: 10px 7px;
+}
+
 #reviews #hong-submit {
     text-transform: uppercase;
     border: none;
@@ -439,6 +459,7 @@ ul.hong-breadcrumb li a:hover {
     font-stretch: 100%;
     min-width: 200px;
     margin-left: 0;
+    height: 47px;
 }
 
 /* Star-input-rating */
@@ -538,7 +559,7 @@ ul.hong-breadcrumb li a:hover {
     left: 49%;
     width: 30px;
     height: 3px;
-    bottom: 0px;
+    bottom: -12px;
     border-bottom: 3px solid #ffc400;
 }
 
@@ -548,6 +569,7 @@ ul.hong-breadcrumb li a:hover {
 }
 
 .product-related .product {
+    padding: 10px;
     overflow: hidden;
     width: 25%;
 }
@@ -624,6 +646,12 @@ ul.hong-breadcrumb li a:hover {
 
 .product-related .product .caption {
     text-align: center;
+    text-shadow: 1px 1px 1px lightgrey;
+}
+
+.product-related .product .loop-product-title {
+    font-size: 90%;
+    font-weight: 500;
 }
 
 .product-related .product .loop-product-title a:hover {
@@ -635,6 +663,7 @@ ul.hong-breadcrumb li a:hover {
 .product-related .product del {
     color: #767676;
     display: none;
+    font-weight: 550;
 }
 
 .product-related .product del .active {
@@ -643,27 +672,7 @@ ul.hong-breadcrumb li a:hover {
 
 .product-related .product ins {
     text-decoration: none;
-}
-
-#hong-scroll-top-btn {
-    color: #151514;
-    text-align: center;
-    background-color: #ffc400;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    z-index: 9999;
-    bottom: 20px;
-    right: 10px;
-    position: fixed;
-    display: none;
-}
-
-#hong-scroll-top-btn:hover {
-    color: white;
-    background-color: black;
-    cursor: pointer;
-    transition: all ease-in-out .3s;
+    font-weight: 600;
 }
 
 .hong-screen-fixed-btn {
@@ -672,11 +681,11 @@ ul.hong-breadcrumb li a:hover {
     text-underline: none;
     word-break: break-word;
     border-radius: 18px;
-    padding: 10px 30px;
-    height: 25px;
+    padding: 9px 30px;
+    height: 42px;
     position: fixed;
     right: 10px;
-    bottom: 13vh;
+    bottom: 80px;
     text-align: center;
     box-shadow: 0 3px 5px grey;
     z-index: 9999;
@@ -701,12 +710,8 @@ ul.hong-breadcrumb li a:hover {
         font-size: 13px;
     }
 
-    .container {
-        padding: 20px 20px;
-    }
-
     .hong-breadcrumb {
-        padding: 0 0;
+        padding-top: 10px;
     }
 
     .summary .title {
@@ -734,15 +739,15 @@ ul.hong-breadcrumb li a:hover {
     .product-related .product .icons {
         bottom: 0;
     }
+
+    .hong-screen-fixed-btn {
+        padding: 12px 30px;
+    }
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
-    .container {
-        padding: 20px 20px;
-    }
-
     .hong-breadcrumb {
-        margin-bottom: 0;
+        padding-top: 10px;
     }
 
     .product-related .product {
