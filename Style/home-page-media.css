@@ -72,6 +72,7 @@
 @media screen and (max-width: 1050px) {
     .vinh-about-company {width: 80vw; margin: 0 auto; grid-template-columns: 1fr; height: 800px;}
     .vinh-about-company-left div {width: 100%; padding: 20px;}
+    .vinh-compare-wrap {width: 90vw; column-gap: 15px;}
 }
 
 @media screen and (max-width: 1040px) {
