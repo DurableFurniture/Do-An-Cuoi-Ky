@@ -1,0 +1,47 @@
+/* Device responsive */
+
+/* Column grid */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .col-3 {
+        width: 50%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+
