@@ -4,10 +4,10 @@
     <list default="true" id="9c23f4d4-4328-411f-ae33-8114240f41fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hong - Product detail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongcart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongcart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongcart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongdetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongdetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hong - Product detail/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/hongmedia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product Detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Product Detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Product Detail-Media.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Product Detail-Media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Product Detail-Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Product Detail-Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general.html" beforeDir="false" afterPath="$PROJECT_DIR$/general.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626441477811</updated>
       <workItem from="1626441479346" duration="1213000" />
-      <workItem from="1626578171597" duration="767000" />
+      <workItem from="1626578171597" duration="21786000" />
+      <workItem from="1626611237542" duration="2553000" />
     </task>
     <servers />
   </component>

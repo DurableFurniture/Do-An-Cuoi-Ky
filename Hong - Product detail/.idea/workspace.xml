@@ -4,10 +4,9 @@
     <list default="true" id="8180ecdd-5dcf-43e5-aa46-5c94c801e444" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongcart.html" beforeDir="false" afterPath="$PROJECT_DIR$/hongcart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongcart.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongcart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongdetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongdetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/hongmedia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Product Detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Style/Product Detail-Media.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Style/Product Detail-Media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Style/Product Detail-Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Style/Product Detail-Style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,7 @@
       <workItem from="1626399429244" duration="25521000" />
       <workItem from="1626502229212" duration="11441000" />
       <workItem from="1626578050295" duration="1181000" />
+      <workItem from="1626581526319" duration="1093000" />
     </task>
     <servers />
   </component>
