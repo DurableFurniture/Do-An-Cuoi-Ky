@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 html{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -150,7 +150,6 @@ ul{
     margin-bottom: 50px;
     display: block;
 }
-=======
 @media screen and (max-width: 720px) {
     .Thang-container-blog{
         display: block;
@@ -192,4 +191,4 @@ ul{
 }
 @media screen and (max-width: 1024px){
 }
->>>>>>> Stashed changes
+
