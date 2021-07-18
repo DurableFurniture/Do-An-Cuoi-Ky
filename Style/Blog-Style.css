@@ -86,9 +86,6 @@ span{
 a{
     text-decoration: none
 }
-.Thang-blog-search{
-
-}
 .Thang-blog-search-button{
     float: right;
     width: 20%;
@@ -151,4 +148,47 @@ ul{
 .Thang-p5{
     margin-bottom: 50px;
     display: block;
+}
+ul li {
+    margin: 10px 0;
+}
+.Thang-Blog-Tag-1{
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 0 0.03em 0.3em 0;
+    padding: 0.4em 0.88em 0.35em;
+    background-color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #555;
+}
+.Thang-Blog-Tag-1:hover{
+    color: #fff;
+    background: black;
+}
+.Thang-Blog-Tag-2{
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 0 0.03em 0.3em 0;
+    padding: 0.4em 0.88em 0.35em;
+    background-color: #fff;
+    font-size: 30px;
+    color: #555;
+}
+.Thang-Blog-Tag-2:hover{
+    color: #fff;
+    background: black;
+}
+.Thang-Blog-Tag-3{
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 0 0.03em 0.3em 0;
+    padding: 0.4em 0.88em 0.35em;
+    background-color: #fff;
+    font-size: 20px;
+    color: #555;
+}
+.Thang-Blog-Tag-3:hover{
+    color: #fff;
+    background: black;
 }
