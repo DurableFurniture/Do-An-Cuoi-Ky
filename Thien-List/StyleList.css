@@ -101,12 +101,12 @@ h2{
   z-index: 1;
   overflow-x: hidden;
   padding: 8px 0;
-  background-color: lightgrey;
+  border-right: 2px solid black;
 }
 .thien-menu h2{
     font-size:  30px;
     margin-bottom: 7px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px;
     margin-right: 10px;
 }
 .thien-menu ul{
@@ -132,20 +132,11 @@ h2{
 
 .thien-menu a:hover{
    color:forestgreen;
-   background-color:cyan;
 }
-.thien-sub-menu{
-    position: absolute;
-    left: 150px;
-    top: 0;
-    display: none;
-    z-index: 2;
+.thien-sub-menu li{
+    margin-left: 30px;;
 }
-.thien-menu li:hover .thien-sub-menu{
-    display: block;
-    color: forestgreen;
-    background-color: grey;
-  }
+
 .thien-list-wrapper{
      margin-left: 420px;
     
