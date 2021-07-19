@@ -68,7 +68,7 @@ section {
     height: 100%;
 }
 
-.container {
+.hong-container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
@@ -123,7 +123,7 @@ a:hover {
 }
 
 .cart-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('imgs/6607-1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(Resources/Img/product-cart-wish-img/6607-1.jpg);
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -133,7 +133,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
 }
 
@@ -164,16 +164,16 @@ a:hover {
     text-shadow: 1px 1px 1px lightgrey;
 }
 
-.quantity {
+.cart-form .quantity {
     margin-bottom: 23px;
     margin-right: 4px;
 }
 
-.quantity-wrap {
+.cart-form .quantity-wrap {
     height: 40px;
 }
 
-.minus, .add {
+.cart-form .minus, .cart-form .add {
     width: 40px;
     line-height: 20px;
     font-size: 19px;
@@ -182,12 +182,12 @@ a:hover {
     text-align: center;
 }
 
-.minus {
+.cart-form .minus {
     padding-left: 17px;
     padding-right: 13px;
 }
 
-.quantity input {
+.cart-form .quantity input {
     width: 60px;
     padding: 10px 7px;
     margin: 0 0 10px 4px;
@@ -197,17 +197,18 @@ a:hover {
     box-sizing: border-box;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.cart-form input::-webkit-outer-spin-button,
+.cart-form input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-input[type=number] {
+.cart-form input[type=number] {
     -moz-appearance: textfield;
 }
 
-form input, form textarea {
+.cart-form input, .cart-totals input,
+.cart-totals textarea {
     margin-bottom: 10px;
     padding: 10px 7px;
     box-sizing: border-box;
@@ -215,7 +216,7 @@ form input, form textarea {
     line-height: 16px;
 }
 
-.actions {
+.cart-form .actions {
     margin: 30px 0 60px 0;
 }
 
@@ -230,39 +231,93 @@ form input, form textarea {
     min-width: 200px;
 }
 
-.cross-sells {
+
+
+/* Product-suggested */
+
+.cart_totals, .product-suggested  {
+    padding: 10px 25px;
+}
+
+.cart_totals h2, .product-suggested h2 {
+    font-size: 180%;
+}
+
+.product-suggested .products {
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.product-suggested .product {
+    padding: 10px;
+    overflow: hidden;
+    width: 50%;
+}
+
+.product-suggested .product figure {
     position: relative;
-    text-align: center;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 
-.cross-sells .overlay-grey {
-    position: absolute;
-    top: 10%;
-    left: 22%;
-    background-color: lightgrey;
-    opacity: 0.8;
-    padding: 10px 45px;
+.product-suggested .product figure:hover {
+    cursor: pointer;
 }
 
-.cross-sells .overlay-transparent {
+.product-suggested .product:hover img {
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+}
+
+.product-suggested .product .icons {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    bottom: 10px;
+    z-index: 21;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
 }
+
+.product-suggested .product .icons a {
+    text-align: center;
+    float: right;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 2px;
+}
+
+.product-suggested .product .icons i {
+    padding-top: 10px;
+}
+
+.product-suggested .product .product-wrapper {
+    position: relative;
+}
+
+.product-suggested .products .product:hover .icons {
+    animation: slidein 1s ease-in-out;
+}
+
+/* Cart totals */
 
 .cart_totals {
     float: right;
-    padding-left: 60px;
+    padding: 20px 20px;
+}
+
+.cart_totals h2 {
+    font-size: 180%;
 }
 
 .cart-subtotal span {
     text-shadow: 1px 1px 1px #666666;
 }
 
-.cart-table  th {
+.cart-table th {
     padding-right: 30px;
     text-align: left;
 }
@@ -312,6 +367,97 @@ form input, form textarea {
     min-width: 200px;
 }
 
+@keyframes slidein {
+    0% {
+        right: -50px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.product-suggested .product .onsale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #77a464;
+    color: white;
+    font-size: 80%;
+    font-weight: 550;
+    padding: 5px 10px;
+    display: none;
+    z-index: 11;
+}
+
+.product-suggested .product .caption {
+    text-align: center;
+    text-shadow: 1px 1px 1px lightgrey;
+}
+
+.product-suggested .product .loop-product-title {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.product-suggested .product .loop-product-title a:hover {
+    color: #77a464;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-suggested .product del {
+    color: #767676;
+    display: none;
+    font-weight: 550;
+}
+
+.product-suggested .product del .active {
+    visibility: visible;
+}
+
+.product-suggested .product ins {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.product-rating {
+    text-align: center;
+    font-size: 87%;
+    display: none;
+}
+
+.product-rating span {
+    margin-left: -3px;
+}
+
+.product-rating .chosen {
+    color: #ffc400;
+}
+
+
+.para-box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('Resources/Img/product-cart-wish-img/blue-guest-room.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #151514;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+
+.para-box div {
+    background-color: lightgrey;
+    text-align: center;
+    width: 50%;
+    opacity: 0.8;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+
 @media screen and (max-width: 767px) {
     body, button, input, select, textarea, code {
         font-size: 13px;
@@ -346,12 +492,23 @@ form input, form textarea {
     .update-cart {
         margin-top: 10px;
     }
+    .product-suggested .products .product {
+        width: 50%;
+    }
+
+    .product-suggested .product .icons {
+        bottom: 0;
+    }
 }
 
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
     body, button, input, select, textarea, code {
         font-size: 16px;
+    }
+    .product-suggested .product {
+        overflow: hidden;
+        width: 30%;
     }
 
 }

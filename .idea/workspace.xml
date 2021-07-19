@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c23f4d4-4328-411f-ae33-8114240f41fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Style/cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hong - Product detail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Hong - Product detail/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
       <workItem from="1626628227391" duration="3068000" />
       <workItem from="1626632039129" duration="5892000" />
       <workItem from="1626638353933" duration="8513000" />
+      <workItem from="1626650375739" duration="6023000" />
     </task>
     <servers />
   </component>
@@ -71,5 +72,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
