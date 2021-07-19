@@ -113,9 +113,11 @@ h2{
     list-style-type:none;
     margin:0px;
     padding:0px;
+    text-align: left;
 }
 .thien-menu li{
     margin: 0px 0px 10px 0px;
+    position: relative;
 }
 .thien-menu a{
     text-decoration:none;
@@ -127,13 +129,22 @@ h2{
     border-bottom:1px;
     padding-left:15px;
 }
-.thien-menu i{
-    text-align: right;
-}
+
 .thien-menu a:hover{
    color:forestgreen;
    background-color:cyan;
 }
+.thien-sub-menu{
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+}
+.thien-menu li:hover .thien-sub-menu{
+    display: block;
+    color: forestgreen;
+    background-color: cyan;
+  }
 .thien-list-wrapper{
      margin-left: 320px;
     
@@ -175,18 +186,7 @@ h2{
     width: 20%;
     margin-top: 100px;
 }
-.thien-sub-menu{
-    position: absolute;
-    left: 200px;
-    top: 0;
-    width: 200px;
-    border-left: 1px solid #fff;
-    border-radius: 0px 10px 10px 0px;
-    display: none;
-}
-.thien-menu li:hover .sub-menu2{
-    display: block;
-  }
+
 .thien-main-content .thien-main-list-wrapper {
     width: 80%;
 }
