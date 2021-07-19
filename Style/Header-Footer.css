@@ -49,6 +49,20 @@ a {
     transition: all .5s;
 }
 
+.vinh-promo-pic {
+    margin: 0;
+    overflow: hidden;
+}
+
+.vinh-pic {
+    display: block;
+    transform: scale(1);
+    transition: transform 0.5s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* ------------------------------------------------------ */
 /* TOP BANNER */
 /* ------------------------------------------------------ */
@@ -245,7 +259,6 @@ a {
 .vinh-menu ul li {
     padding: 30px 20px;
     text-transform: uppercase;
-    border: 1px solid;
 }
 
 .vinh-menu-list li {
@@ -300,6 +313,54 @@ a {
 
 .vinh-drop-down-item ul li a:hover {
     color: #6CB975;
+}
+
+.vinh-cart-drop-down {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    right: -70px;
+    background-color: white;
+    padding: 30px 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10000;
+}
+
+.vinh-cart:hover .vinh-cart-drop-down {
+    display: block;
+}
+
+.vinh-cart p {
+    font-size: 110%;
+}
+
+.vinh-cart .vinh-promo-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.vinh-cart span {
+    font-size: 90%;
+    margin-left: 10px;
+}
+
+.vinh-cart-item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 15px 0;
+    margin: 15px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+.vinh-cart-item .bi-x-circle {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 90%;
 }
 
 /* ------------------------------------------------------ */
