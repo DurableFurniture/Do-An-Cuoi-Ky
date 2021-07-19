@@ -101,7 +101,7 @@ a {
     top: 0;
     width: 100%;
     z-index: 10000;
-    background-color: #bebebe;
+    background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border: 1px solid #bebebe;
 }
@@ -245,6 +245,7 @@ a {
 .vinh-menu ul li {
     padding: 30px 20px;
     text-transform: uppercase;
+    border: 1px solid;
 }
 
 .vinh-menu-list li {
@@ -258,6 +259,7 @@ a {
 .vinh-inner-container ul li a{
     text-decoration: none;
     color: #333;
+    font-size: 110%;
 }
 
 .vinh-inner-container:last-child ul li {

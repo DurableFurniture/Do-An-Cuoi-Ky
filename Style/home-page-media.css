@@ -46,13 +46,14 @@
 }
 
 @media screen and (max-width: 915px) {
-    .vinh-menu ul li {padding: 5px; font-size: 14px;}
+    .vinh-menu ul li {font-size: 14px;}
     .vinh-drop-down-content {top: 31px;}
     
 }
 
 @media screen and (max-width: 767px) {
     .vinh-menu {display: none;}
+    .vinh-header-wrap {height: 50px;}
     .bi-list {display: inline-block;}
     .vinh-logo {padding-left: 10px;}
     .vinh-ad-banner {padding-left: 0 !important;}
