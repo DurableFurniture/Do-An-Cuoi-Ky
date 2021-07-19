@@ -1,0 +1,78 @@
+.vinh-account-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 1920px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+}
+
+.vinh-account-container {
+    width: 85vw;
+    max-width: 1180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.vinh-account-container form {
+    width: 100%;
+}
+
+.vinh-account-container h1 {
+    font-weight: 600;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.vinh-customer-input {
+    color:#bebebe;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.vinh-customer-input span {
+    color: #666666;
+}
+
+.vinh-input-box {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+.vinh-checkbox-margin {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .vinh-account-container {display: block; width: 75vw;}
+    .vinh-account-banner {height: 250px;}
+}
+
+.vinh-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.vinh-forget {
+    margin-left: 12px;
+    color: #bebebe;
+}
+
+.vinh-forget:hover {
+    color: black;
+}
+
+.vinh-checkbox-margin {
+    margin-bottom: 20px;
+}

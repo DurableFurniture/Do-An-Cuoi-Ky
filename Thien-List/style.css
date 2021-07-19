@@ -1,0 +1,954 @@
+/* ------------------------------------------------------ */
+/* BASIC */
+/* ------------------------------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.vinh-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ------------------------------------------------------ */
+/* TOP BANNER */
+/* ------------------------------------------------------ */
+
+.free-shipping {
+    padding: 12px;
+    text-align: center;
+    background-color: #6CB975;
+    color: white;
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.about-company .promo-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.free-shipping-emp {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* ------------------------------------------------------ */
+/* NAVBAR */
+/* ------------------------------------------------------ */
+
+.header-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bi-list {
+    display: none;
+    cursor: pointer;
+}
+
+.icon-list li {
+    display: inline-block;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid #bebebe;
+}
+
+/* ------------------------------------------------------ */
+/* SUB MENU */
+/* ------------------------------------------------------ */
+
+.sub-menu {
+    display: inline-block;
+}
+
+.sub-menu-dropdown {
+    display: none;
+    width: 100vw;
+    z-index: 5000;
+}
+
+.show {
+    display: block;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.sub-menu-dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu-dropdown ul li {
+    list-style-type: none;
+}
+
+.sub-menu-dropdown ul li a {
+    display: block;
+    background-color: black;
+    width: 100vw;
+    text-decoration: none;
+    padding: 20px 0 20px 20px;
+    color: white !important;
+    transition: background-color .4s, color .4s;
+    text-transform: uppercase;
+}
+
+.sub-menu-dropdown ul li a:hover {
+    background-color: white;
+    color: black !important
+}
+
+.sub-menu-dropdown ul li:last-child {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: 0 20px 30px 20px;
+}
+
+.sub-menu-search {
+    padding: 10px;
+}
+
+.search-button {
+    position: relative;
+    background-color: #FFC400;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+/* NAVBAR MENU */
+/* ------------------------------------------------------ */
+
+.menu {
+    justify-self: center;
+    position: relative;
+}
+
+.menu ul li {
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+
+.menu-list li {
+    display: inline-block;
+}
+
+.drop-down:first-child a {
+    color: #6CB975;
+}
+
+.inner-container ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.inner-container:last-child ul li {
+    padding: 5px;
+}
+
+/* ------------------------------------------------------ */
+/* NAVBAR MENU DROPDOWN */
+/* ------------------------------------------------------ */
+
+.drop-down-content {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 85px;
+    z-index: 100;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid #f1f1f1;
+}
+
+.drop-down-item span {
+    font-size: 200%;
+    color: white;
+}
+
+.drop-down-item ul li {
+    display: block;
+    padding: 2px 0;
+    font-size: 90%;
+}
+
+/* ------------------------------------------------------ */
+/* NAVBAR MENU FURNITURE + BRAND */
+/* ------------------------------------------------------ */
+
+.drop-down:hover .furniture,
+.drop-down:hover .brand {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 30px 40px 30px;
+}
+
+.furniture img,
+.brand img {
+    width: 100%;
+}
+
+.furniture h3 {
+    text-transform: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.furniture,
+.brand {
+    width: 70vw;
+    height: 30vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* ------------------------------------------------------ */
+/* NAVBAR MENU BRAND */
+/* ------------------------------------------------------ */
+
+.drop-down:hover .brand {
+    grid-template-rows: 1fr 1fr;
+}
+
+.brand .drop-down-item {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.brand .drop-down-item:nth-child(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);
+}
+
+.brand .drop-down-item:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);
+}
+
+.brand .drop-down-item:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);
+}
+
+.brand .drop-down-item:nth-child(4) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);
+}
+
+.brand .drop-down-item:nth-child(5) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);
+}
+
+.brand .drop-down-item:nth-child(6) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);
+}
+
+.brand .drop-down-item:nth-child(1):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);
+}
+
+.brand .drop-down-item:nth-child(2):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);
+}
+
+.brand .drop-down-item:nth-child(3):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);
+}
+
+.brand .drop-down-item:nth-child(4):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);
+}
+
+.brand .drop-down-item:nth-child(5):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);
+}
+
+.brand .drop-down-item:nth-child(6):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);
+}
+
+/* ------------------------------------------------------ */
+/* NAVBAR MENU BLOG */
+/* ------------------------------------------------------ */
+
+.drop-down:hover .blog {
+    display: grid;
+    left: 55%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-size: 90%;
+}
+
+.blog .drop-down-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #bebebe;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.blog .drop-down-item:hover {
+    background-color: #ec7264;
+    color: white;
+}
+
+/* ------------------------------------------------------ */
+/* PROMO SLIDE */
+/* ------------------------------------------------------ */
+
+.promo-slide {
+    overflow: hidden;
+}
+
+.promo-slide-wrap {
+    display: block;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-slide {
+    padding-top: 13vw;
+    padding-bottom: 25vw;
+    text-align: center;
+}
+
+.first-slide {
+    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);
+}
+
+.second-slide {
+    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-2.jpg);
+}
+
+.banner {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserra';
+}
+
+.banner h1 {
+    font-size: 3.25vw;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.75vw;
+    letter-spacing: 5px;
+    margin-bottom: 2.5vw;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    padding: 20px 60px;
+    background-color: #ec7264;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.banner a:hover {
+    background-color: #e85646;
+}
+
+/* ------------------------------------------------------ */
+/* FOOTER */
+/* ------------------------------------------------------ */
+
+footer {
+    background-color: #151514;
+    color: white;
+}
+
+.container {
+    flex: 1;
+}
+
+.ft-social-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.ft-social {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+/* ------------------------------------------------------ */
+/* FOOTER UPPER HALF */
+/* ------------------------------------------------------ */
+
+
+
+.ft-title {
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+.ft-main-item h3 {
+    font-size: 120%;
+}
+
+.ft-main-item:last-child {
+    margin-left: 70px;
+}
+
+.ft-main-item ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+.ft-main-item ul li a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.ft-main-item ul li a:hover {
+    color: #6CB975;
+}
+
+.newsletter {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.newsletter-input {
+    padding: 10px;
+    width: 100%;
+}
+
+.bi-envelope {
+    font-size: 150%;
+    margin-left: 18px;
+    vertical-align: middle;
+}
+
+/* ------------------------------------------------------ */
+/* FOOTER LOWER HALF */
+/* ------------------------------------------------------ */
+
+.info {
+    padding: 70px 0;
+}
+
+.sns {
+    padding: 20px 0;
+    align-items: center;
+}
+
+.fab {
+    position: relative;
+    top: 0;
+    margin-left: 5px;
+    color: white;
+    border: 2px solid white;
+}
+
+.fab:hover {
+    top: -5px;
+}
+
+.fa-facebook-f,
+.fa-tumblr {
+    padding: 10px 14px;
+}
+
+.fa-twitter,
+.fa-instagram {
+    padding: 10px 11px;
+}
+
+/* ------------------------------------------------------ */
+/* PRODUCT PROMO */
+/* ------------------------------------------------------ */
+
+.wrap {
+    display: grid;
+    overflow: hidden;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.product-promo {
+    grid-template-columns: 54% 46%;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    height: 620px;
+}
+
+.product-promo-item {
+    overflow: hidden;
+    position: relative;
+}
+
+.promo-pic {
+    margin: 0;
+    overflow: hidden;
+}
+
+.product-promo-item .promo-pic {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.pic {
+    display: block;
+    transform: scale(1);
+    transition: transform 0.5s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.promo-pic img:hover {
+    transform: scale(1.1);
+}
+
+.product-promo-item:first-child {
+    grid-row: span 2;
+}
+
+.product-promo-text {
+    font-size: 120%;
+}
+
+.inside-text {
+    position: absolute;  
+    z-index: 1000;
+    display: block;
+}
+
+.product-promo-item:first-child .product-promo-text {
+    margin: 30px;
+    bottom: 0;
+}
+
+.product-promo-item:nth-child(2) .product-promo-text {
+    margin: 10px 30px;
+    right: 0;
+}
+
+.product-promo-item:nth-child(3) .product-promo-text {
+    margin: 20px;
+}
+
+.product-promo-item:nth-child(3) .product-promo-text h3 {
+    margin-bottom: 10px;
+}
+
+.product-promo-item:hover .button {
+    background-color: black;
+    color: white;
+}
+
+.product-promo-text p {
+    line-height: .8em;
+    margin-bottom: 10px;
+}
+
+.product-promo-text h1 {
+    position: relative;
+    font-size: 300%;
+    line-height: 1em;
+}
+
+.product-promo-text h2 {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.product-promo-text h3 {
+    font-weight: 400;
+}
+
+.product-promo-text h2 {
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.supsub {position: absolute;}
+
+.supsub sub,
+.supsub sup {
+    display: block;
+    font-size: .4em;
+    position: relative;
+}
+
+.supsub sub {
+    left: 2px;
+    top: -48px;
+}
+
+.supsub sup {
+    left: 2px;
+    top: -15px;
+}
+
+.button {
+    display: block;
+    font-size: 80%;
+    width: fit-content;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    transition: all .5s;
+}
+
+/* ------------------------------------------------------ */
+/* POPULAR PRODUCTS */
+/* ------------------------------------------------------ */
+
+.text-deco {
+    font-weight: 400;
+}
+
+.outer-wrap {
+    margin: 100px 0;
+    overflow: hidden;
+}
+
+.popular-product {
+    text-align: center;
+}
+
+.section-teller {
+    font-weight: 400;
+    font-size: 240%;
+    margin-bottom: 50px;
+}
+
+.section-teller::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #ec7264;
+    margin: 5px auto;
+}
+
+.popular-product-item {
+    text-align: center;
+}
+
+.popular-product-item .promo-pic {
+    width: 100%;
+    height: 350px;
+    padding: 50px 0;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+}
+
+.popular-product-slide {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    margin: 0 15px;
+}
+
+/* ------------------------------------------------------ */
+/* SHORT AD SECTION */
+/* ------------------------------------------------------ */
+
+.short-ad {
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    overflow: hidden;
+}
+
+.short-ad h2 {
+    font-weight: 400;
+    font-size: 200%;
+    margin: 50px 0 10px 0;
+}
+
+.short-ad p {
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.short-ad-product {
+    position: relative;
+    grid-column: span 2;
+}
+
+.short-ad-product ul {
+    display: grid;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 880px;
+    gap: 30px;
+}
+
+.short-ad-product figure {
+    height: 350px;
+    padding: 50px 0;
+    background-color: #f6f6f6;
+}
+
+/* ------------------------------------------------------ */
+/* AD BANNER SECTION */
+/* ------------------------------------------------------ */
+
+.ad-banner {
+    padding: 7vw 0 7vw 20vw;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans';
+}
+
+.outer-wrap .first-slide {
+    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg) !important;
+}
+
+.outer-wrap .second-slide {
+    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg) !important;
+}
+
+.ad-section {
+    width: 455px;
+    height: 350px;
+    background-color: black;
+    opacity: .9;
+    color: white;
+    padding: 35px 35px 30px 35px;
+}
+
+.ad-section h2 {
+    font-size: 200%;
+    font-weight: 400;
+}
+.ad-section p {
+    font-size: 90%;
+    margin: 15px 0;
+}
+
+.bi-star-fill {
+    font-size: 120%;
+    color: yellow;
+    margin: 3px;
+}
+
+.ad-section h3 {
+    margin: 20px 0;
+}
+
+.ad-section del {
+    margin-right: 20px;
+    color: #a1a1a1;
+}
+
+.ad-section .button {
+    background-color: yellow;
+    font-weight: 600;
+    padding: 15px 30px !important;
+}
+
+.ad-section .button:hover {
+    color: black;
+    background-color: white;
+}
+
+/* ------------------------------------------------------ */
+/* NEW ARRIVAL SECTION */
+/* ------------------------------------------------------ */
+
+.new-arrival {
+    height: 960px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.new-arrival .promo-pic {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.new-arrival-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.new-arrival .promo-pic {
+    border: 1px solid #f6f6f6;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.new-arrival-item .inside-text {
+    top: 50%;
+    left: 50%;
+    opacity: .85;
+    font-size: 110%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 55px;
+    line-height: 55px;
+    display: block;
+    background-color: #f6f6f6;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.new-arrival-item:hover .inside-text {
+    background-color: black;
+    color: white;
+}
+
+.new-arrival+.button {
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 15px 75px !important;
+}
+
+/* ------------------------------------------------------ */
+/* ABOUT COMPANY */
+/* ------------------------------------------------------ */
+
+.about-company {
+    font-family: 'Montserrat';
+    font-size: 110%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 32vw;
+    background-color: #6CB975;
+    color: white;
+}
+
+.about-company-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    float: right;
+}
+
+.about-company-left div {
+    width: 31vw;
+    padding-right: 20px;
+}
+
+.about-company-left h2 {
+    margin: 5px 0 15px 0;
+}
+
+.about-company-left .button {
+    color: white;
+    margin-top: 30px;
+}
+
+/* ------------------------------------------------------ */
+/* BLOG POST */
+/* ------------------------------------------------------ */
+
+.blog {
+    text-align: center;
+}
+
+.blog-wrap {
+    height: 590px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    text-align: left;
+}
+
+.blog .promo-pic {
+    height: 60%;
+    width: 100%;
+}
+
+.blog-post {
+    position: relative;
+}
+
+.blog-post .inside-text {
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    height: 60%;
+    background-color: white;
+    opacity: .9;
+    padding: 30px 25px 0 30px;
+}
+
+.blog-info {
+    font-size: 85%;
+}
+
+.bi-person-fill {
+    margin-left: 20px;
+}
+
+.blog-post h2 {
+    font-family: 'Montserrat';
+    font-size: 170%;
+    margin: 10px 0 20px 0;
+}
+
+.blog-post .button {
+    margin-top: 20px;
+}
+
+.dume {
+    transition: width .4s ease-out;
+}
+
+.dume:hover {
+    width: 100px;
+}

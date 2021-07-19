@@ -1,4 +1,4 @@
-.account-banner {
+.vinh-account-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
     background-size: cover;
     background-position: center;
@@ -14,12 +14,16 @@
 }
 
 .account-container {
-    width: 1180px;
-    height: auto;
+    width: 85vw;
+    max-width: 1180px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin: 0 auto;
+}
+
+.account-container form {
+    width: 100%;
 }
 
 .account-container h1 {
@@ -48,4 +52,9 @@
 
 .checkbox-margin {
     margin: 10px 0 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .account-container {display: block; width: 75vw;}
+    .account-banner {height: 250px;}
 }
