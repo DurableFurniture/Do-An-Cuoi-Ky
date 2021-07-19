@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Style/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/cart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,9 @@
       <workItem from="1626632039129" duration="5892000" />
       <workItem from="1626638353933" duration="8513000" />
       <workItem from="1626650375739" duration="6023000" />
+      <workItem from="1626679436263" duration="532000" />
+      <workItem from="1626697171192" duration="1040000" />
+      <workItem from="1626698876606" duration="11034000" />
     </task>
     <servers />
   </component>

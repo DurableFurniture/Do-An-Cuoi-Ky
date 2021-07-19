@@ -123,10 +123,10 @@ a:hover {
 }
 
 .cart-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(Resources/Img/product-cart-wish-img/6607-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
     background-size: cover;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     max-width: 1920px;
     height: 300px;
     display: flex;
@@ -231,16 +231,19 @@ a:hover {
     min-width: 200px;
 }
 
-
+#hong-update-cart-button {
+    float: right;
+}
 
 /* Product-suggested */
 
-.cart_totals, .product-suggested  {
-    padding: 10px 25px;
+.cart_totals, .product-suggested {
+    margin-bottom: 50px;
 }
 
 .cart_totals h2, .product-suggested h2 {
     font-size: 180%;
+    margin-bottom: 15px;
 }
 
 .product-suggested .products {
@@ -306,41 +309,35 @@ a:hover {
 
 .cart_totals {
     float: right;
-    padding: 20px 20px;
+    padding-left: 200px;
 }
 
-.cart_totals h2 {
-    font-size: 180%;
-}
-
-.cart-subtotal span {
+.cart_totals .cart-subtotal span {
     text-shadow: 1px 1px 1px #666666;
 }
 
-.cart-table th {
+.cart_totals .cart-table th {
     padding-right: 30px;
     text-align: left;
 }
 
-.cart-table input, .cart-table select {
+.cart_totals .cart-table input,
+.cart_totals .cart-table select {
     color: #151514;
     font-size: 87%;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     padding: 5px 10px;
+    margin: 7px auto;
     width: 200px;
     height: 33px;
     line-height: 33px;
-    margin: 0;
 }
 
-.shipping-calculator-form {
-    /*display: none;*/
-
-}
-
-.hong-calculate-shipping-button {
+#hong-calculate-shipping-button {
     border: none;
-    padding: 13px 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
     font-weight: 500;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-stretch: 100%;
@@ -348,20 +345,27 @@ a:hover {
     background-color: lightgrey;
 }
 
-.hong-calculate-shipping-button:hover {
+#hong-calculate-shipping-button:hover {
     color: #77a464;
     border: 1px solid #77a464;
     cursor: pointer;
     transition: all ease-in-out .3s;
+    background-color: white;
 }
 
-.proceed-to-checkout {
+.cart_totals #cart-total {
+    font-size: 110%;
+    text-shadow: 0 0 1px lightgrey;
+}
+
+.cart_totals .proceed-to-checkout {
     margin: 30px auto;
 }
 
-.checkout-button {
+.cart_totals .hong-checkout-button {
+    margin-left: 105px;
     border: none;
-    padding: 13px 30px;
+    padding: 13px 62px;
     font-weight: 500;
     font-stretch: 100%;
     min-width: 200px;
@@ -434,64 +438,73 @@ a:hover {
     color: #ffc400;
 }
 
-
 .para-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('Resources/Img/product-cart-wish-img/blue-guest-room.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(http://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/inside-3145341-1-1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    width: 100%;
+    max-width: 1920px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #151514;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
+    margin: 6vw 0;
 }
-
-.para-box div {
-    background-color: lightgrey;
-    text-align: center;
-    width: 50%;
-    opacity: 0.8;
-    padding: 20px 0;
-    margin-top: 30px;
-}
-
 
 @media screen and (max-width: 767px) {
     body, button, input, select, textarea, code {
         font-size: 13px;
     }
-    .fixed-banner {
-        background-size: cover;
-    }
+
     .cart-form {
         width: 92%;
     }
+
     .hong-thead {
         display: none;
     }
+
     .hong-tr div {
         border-bottom: 1px solid lightgrey;
         border-left: 1px solid lightgrey;
         border-right: 1px solid lightgrey;
         padding: 5px 10px;
     }
+
     .hong-tr div:first-child {
         border-top: 1px solid lightgrey;
     }
+
     .hong-tr, .quantity, .quantity-wrap {
         border: none !important;
     }
+
     .cart_totals {
-        padding-left: 0px;
+        padding-left: 0;
     }
+
+    .cart_totals .hong-checkout-button {
+        margin-left: 0;
+        padding: 13px 70px;
+    }
+
     .cart-table th {
         display: none;
     }
-    .update-cart {
-        margin-top: 10px;
+
+    .cart-form .coupon {
+        padding-left: 4px;
     }
+
+    .cart-form .update-cart {
+        margin-top: 10px;
+        padding-right: 4px;
+    }
+
     .product-suggested .products .product {
         width: 50%;
     }
@@ -506,9 +519,13 @@ a:hover {
     body, button, input, select, textarea, code {
         font-size: 16px;
     }
+
+    .col-6 {
+        width: 100%;
+    }
+
     .product-suggested .product {
         overflow: hidden;
         width: 30%;
     }
-
 }
