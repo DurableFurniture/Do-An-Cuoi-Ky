@@ -105,3 +105,11 @@
 @media screen and (max-width: 645px) {
     .vinh-outer-wrap {font-size: 75%}
 }
+
+@media screen and (max-width: 1080px) {
+    .vinh-blog-wrap {height: 650px;}
+}
+
+@media screen and (max-width: 912px) {
+    .vinh-blog-wrap {height: 750px;}
+}
