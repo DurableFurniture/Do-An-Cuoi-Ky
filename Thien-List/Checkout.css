@@ -67,7 +67,7 @@ h2 {
     width:100%;
   }
   .thien-half-input-table td:first-of-type {
-    border-right:10px solid #4488dd;
+    border-right:10px solid grey;
     width:50%;
   }
   .thien-window {
