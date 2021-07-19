@@ -10,6 +10,21 @@ html{
     padding: 15px 15px 15px 15px;
     
 }
+.Thang-account-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(http://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/inside-3145341-1-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 1920px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    margin-bottom: 80px;
+}
 .Thang-container-blog-1{
     display: block;
     margin-right: 15px;
@@ -50,6 +65,7 @@ html{
     margin: 0 auto;
     position :absolute;
     margin: -80px 0px 0px 30px;
+    padding: 30px 30px 0px 30px;
 }
 .Thang-icon{
     margin-top: 30px;
@@ -57,6 +73,7 @@ html{
 
 }
 .Thang-blog-text1{
+    
     display: block;
     margin-bottom: 15px;
     font-size: 1%;
@@ -191,4 +208,33 @@ ul li {
 .Thang-Blog-Tag-3:hover{
     color: #fff;
     background: black;
+}
+.Thang-Page-1{
+    width: 40px;
+    text-align: center;
+    line-height: 1;
+    padding: 10.4px 0 12px;
+    border: 1px solid;
+    display: block;
+    float: left;
+    margin-right: 0px;
+}
+.Thang-Page-2, .Thang-Page-3,.Thang-Page-4{
+    width: 40px;
+    text-align: center;
+    line-height: 1;
+    padding: 10.4px 0 12px;
+    border: 1px solid;
+    display: block;
+    float: left;
+    margin-left: 5px;
+}
+.Thang-Page-1:hover, .Thang-Page-2:hover, .Thang-Page-3:hover,.Thang-Page-4:hover{
+    color: black ;
+    background-color: #ffc400;
+}
+.Thang-Page{
+    width: 100%;
+    height: 50px;
+    display: block;
 }
