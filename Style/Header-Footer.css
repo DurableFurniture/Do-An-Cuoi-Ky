@@ -44,9 +44,13 @@ a {
     width: fit-content;
     padding: 10px 30px;
     text-decoration: none;
-    color: black;
+    background-color: black;
     border: 2px solid;
     transition: all .5s;
+}
+
+.vinh-cart-drop-down .vinh-button:hover {
+    background-color: #364251;
 }
 
 .vinh-promo-pic {
@@ -68,9 +72,10 @@ a {
 /* ------------------------------------------------------ */
 
 .vinh-free-shipping {
-    padding: 12px;
-    text-align: center;
-    background-color: #6CB975;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background-color: #364251;
     color: white;
     font-size: 90%;
     font-weight: 400;
@@ -86,6 +91,19 @@ a {
     font-weight: 500;
 }
 
+.vinh-free-shipping-item:first-child,
+.vinh-free-shipping-item:nth-child(2),
+.vinh-free-shipping-item:nth-child(3) {
+    display: table;
+    padding: 0 10px !important;
+    line-height: 90%;
+}
+
+.vinh-free-shipping-item:first-child,
+.vinh-free-shipping-item:nth-child(2) {
+    border-right: 2px solid;
+}
+
 /* ------------------------------------------------------ */
 /* NAVBAR */
 /* ------------------------------------------------------ */
@@ -98,7 +116,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border: 1px solid #bebebe;
+    background-color: #445265;
 }
 
 .bi-list {
@@ -115,7 +133,6 @@ a {
     top: 0;
     width: 100%;
     z-index: 10000;
-    background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border: 1px solid #bebebe;
 }
@@ -221,7 +238,6 @@ a {
     padding: 20px 0 20px 20px;
     color: white !important;
     transition: background-color .4s, color .4s;
-    text-transform: uppercase;
 }
 
 .vinh-sub-menu-dropdown ul li a:hover {
@@ -258,7 +274,7 @@ a {
 
 .vinh-menu ul li {
     padding: 30px 20px;
-    text-transform: uppercase;
+    font-family: 'Roboto';
 }
 
 .vinh-menu-list li {
@@ -271,12 +287,16 @@ a {
 
 .vinh-inner-container ul li a{
     text-decoration: none;
-    color: #333;
+    color: white;
     font-size: 110%;
 }
 
 .vinh-inner-container:last-child ul li {
     padding: 5px;
+}
+
+.bi-search {
+    color: white !important;
 }
 
 /* ------------------------------------------------------ */
@@ -287,7 +307,7 @@ a {
     display: none;
     cursor: pointer;
     position: absolute;
-    top: 85px;
+    top: 80px;
     z-index: 100;
     background-color: white;
     min-width: 300px;
@@ -315,6 +335,10 @@ a {
     color: #6CB975;
 }
 
+/* ------------------------------------------------------ */
+/* NAVBAR MENU CART */
+/* ------------------------------------------------------ */
+
 .vinh-cart-drop-down {
     display: none;
     position: absolute;
@@ -331,16 +355,16 @@ a {
     display: block;
 }
 
-.vinh-cart p {
+.vinh-cart-item p {
     font-size: 110%;
 }
 
-.vinh-cart .vinh-promo-pic {
+.vinh-cart-item .vinh-promo-pic {
     width: 50px;
     height: 50px;
 }
 
-.vinh-cart span {
+.vinh-cart-item span {
     font-size: 90%;
     margin-left: 10px;
 }
@@ -424,70 +448,6 @@ a {
 .vinh-brand .vinh-drop-down-item:nth-child(4):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);}
 .vinh-brand .vinh-drop-down-item:nth-child(5):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg);}
 .vinh-brand .vinh-drop-down-item:nth-child(6):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);}
-
-
-
-/* ------------------------------------------------------ */
-/* PROMO SLIDE */
-/* ------------------------------------------------------ */
-
-.vinh-promo-slide {
-    overflow: hidden;
-}
-
-.vinh-promo-slide-wrap {
-    display: block;
-    width: 100vw;
-    background-size: cover;
-    background-position: center;
-}
-
-.vinh-header-slide {
-    padding-top: 13vw;
-    padding-bottom: 25vw;
-    text-align: center;
-}
-
-.vinh-first-slide {
-    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);
-}
-
-.vinh-second-slide {
-    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-2.jpg);
-}
-
-.vinh-banner {
-    width: 100%;
-    color: white;
-    text-align: center;
-    font-family: 'Montserra';
-}
-
-.vinh-banner h1 {
-    font-size: 3.25vw;
-    letter-spacing: 10px;
-    margin-bottom: 10px;
-}
-
-.vinh-banner p {
-    font-size: 1.75vw;
-    letter-spacing: 5px;
-    margin-bottom: 2.5vw;
-}
-
-.vinh-banner a {
-    text-decoration: none;
-    color: white;
-    font-size: 1vw;
-    padding: 20px 60px;
-    background-color: #ec7264;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.vinh-banner a:hover {
-    background-color: #e85646;
-}
 
 /* ------------------------------------------------------ */
 /* FOOTER */
