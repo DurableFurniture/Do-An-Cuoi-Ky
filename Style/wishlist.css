@@ -278,7 +278,7 @@ a:hover {
     bottom: 10px;
     z-index: 21;
     height: 100%;
-    display: flex;
+    display: none;
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: column;
@@ -303,6 +303,7 @@ a:hover {
 
 .product-suggested .products .product:hover .icons {
     animation: slidein 1s ease-in-out;
+    display: flex;
 }
 
 /* Cart totals */

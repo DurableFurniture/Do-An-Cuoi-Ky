@@ -603,12 +603,12 @@ ul.hong-breadcrumb li a:hover {
 }
 
 .product-related .product .icons {
+    display: none;
     position: absolute;
     right: 0;
     bottom: 10px;
     z-index: 21;
     height: 100%;
-    display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: column;
@@ -633,6 +633,7 @@ ul.hong-breadcrumb li a:hover {
 
 .product-related .products .product:hover .icons {
     animation: slidein 1s ease-in-out;
+    display: flex;
 }
 
 @keyframes slidein {
