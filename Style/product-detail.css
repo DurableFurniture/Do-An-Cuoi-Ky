@@ -357,6 +357,19 @@ ul.hong-breadcrumb li a:hover {
     float: right;
 }
 
+.download-description-button {
+    text-align: center !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white !important;
+    background-color: #151514 !important;
+}
+
+.download-description-button:hover {
+    color: #151514 !important;
+    background-color: #ffc400 !important;
+}
+
 .product-description .tab-content {
     float: left;
     padding-top: 20px;
