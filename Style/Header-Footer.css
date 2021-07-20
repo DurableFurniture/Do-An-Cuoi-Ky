@@ -34,6 +34,7 @@ a {
 }
 
 .vinh-outer-wrap {
+    width: 100%;
     margin: 100px 0;
     overflow: hidden;
 }
@@ -44,13 +45,16 @@ a {
     width: fit-content;
     padding: 10px 30px;
     text-decoration: none;
-    background-color: black;
     border: 2px solid;
     transition: all .5s;
 }
 
 .vinh-cart-drop-down .vinh-button:hover {
     background-color: #364251;
+}
+
+.vinh-cart-drop-down .vinh-button {
+    background-color: black;
 }
 
 .vinh-promo-pic {

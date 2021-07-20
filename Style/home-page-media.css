@@ -18,6 +18,9 @@
 @media screen and (max-width: 994px) {
     .vinh-short-ad-product ul {position: static; width: 90vw;}
     .vinh-short-ad-product figure {height: 50vw;}
+    .vinh-free-shipping-item:nth-child(2),
+    .vinh-free-shipping-item:nth-child(3) {display: none !important;}
+    .vinh-free-shipping-item {border: none !important;}
 }
 
 @media screen and (max-width: 920px) {
