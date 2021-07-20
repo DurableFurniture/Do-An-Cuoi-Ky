@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dura Furni - Detail</title>
+    <title>Detail</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
@@ -277,7 +277,7 @@
                                 <span class="add btn"> + </span>
                             </div>
                         </div>
-                        <button type="submit" name="add-to-cart" class="add-to-cart-btn btn">
+                        <button type="submit" name="add-to-cart" class="add-to-cart-button btn">
                             <i class="fa fa-shopping-cart"></i> Add To Cart
                         </button>
                     </form>
@@ -315,7 +315,14 @@
                         <span class="review-counter">(1)</span>
                         <i class="fas fa-angle-right"></i>
                     </div>
-                    <a class="download-description-button btn" href="#">Download description</a>
+                    <a class="download-description-button btn" target="_blank" download="Frato-Metal-Classic-Out-Door-Dining-Chair.docx"
+                       href="https://www.mediafire.com/file/yje8ol6cb7tgkvi/Frato-Metal-Classic-Out-Door-Dining-Chair.docx/file">
+                        Download description</a>
+
+<!--                    <a class="input popsok" aria-label="Download file" href="https://download1483.mediafire.com/o04fhy6dcfrg/yje8ol6cb7tgkvi/Frato-Metal-Classic-Out-Door-Dining-Chair.docx" id="downloadButton">-->
+<!--                        Download (386.25KB)-->
+<!--                    </a>-->
+
                 </div>
                 <div class="col-9 content">
                     <div class="tab-content active" id="description">
@@ -945,5 +952,54 @@
         $input.val(value);
     });
 </script>
+
+
+<script>
+    var $idown;  // Keep it outside of the function, so it's initialized once.
+   function downloadDescription(url) {
+        if ($idown) {
+            $idown.attr('src',url);
+        } else {
+            $idown = $('<iframe>', { id:'idown', src:url }).hide().appendTo('body');
+        }
+    }
+    //... How to use it:
+    downloadDescription('https://www.mediafire.com/file/yje8ol6cb7tgkvi/Frato-Metal-Classic-Out-Door-Dining-Chair.docx/file');
+</script>
+
+
+<!--<iframe id="my_iframe" style="display:none;"></iframe>-->
+<!--<script>-->
+<!--    // function downloadDescription(url) {-->
+<!--    //     document.getElementById('my_iframe').src = https://www.mediafire.com/file/yje8ol6cb7tgkvi/Frato-Metal-Classic-Out-Door-Dining-Chair.docx/file;-->
+<!--    // };-->
+
+<!--    $('a .download-description-button').attr({target: '_blank',-->
+<!--        href  : 'https://www.mediafire.com/file/yje8ol6cb7tgkvi/Frato-Metal-Classic-Out-Door-Dining-Chair.docx/file'});-->
+<!--</script>-->
+
+
+
+<!--<script src = "https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>-->
+<!--<script>-->
+<!--    function downloadDescription(){-->
+<!--        axios({-->
+<!--            url:'https://www.mediafire.com/file/yje8ol6cb7tgkvi/Frato-Metal-Classic-Out-Door-Dining-Chair.docx/file',-->
+<!--            method:'GET',-->
+<!--            responseType: 'blob'-->
+<!--        })-->
+<!--            .then((response) => {-->
+<!--                const url = window.URL-->
+<!--                    .createObjectURL(new Blob([response.data]));-->
+<!--                const link = document.createElement('a');-->
+<!--                link.href = url;-->
+<!--                link.setAttribute('download', 'Frato-Metal-Classic-Out-Door-Dining-Chair.docx');-->
+<!--                document.body.appendChild(link);-->
+<!--                link.click();-->
+<!--            })-->
+<!--    }-->
+<!--</script>-->
+
+
 </body>
 </html>
