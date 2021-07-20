@@ -92,14 +92,14 @@ h4{
 }
 #Thang-email-box{
     width: 560px;
-    height: 30px; 
+    height: 40px; 
     display: block;
     margin: auto;
     text-align: left;
 }
 #YourMessage{
     width: 560px;
-    height: 125px;
+    height: 149px;
     display: block;
 }
 .Thang-inputsend{
@@ -108,8 +108,8 @@ h4{
 
 }
 .Thang-send{
-    width: 567.5px;
-    height: 33px;
+    width: 563px;
+    height: 40px;
     display: block;
     background-color: black;
     color: white;
