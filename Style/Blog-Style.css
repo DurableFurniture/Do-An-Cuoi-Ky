@@ -79,9 +79,9 @@ html{
     margin-bottom: 15px;
     font-size: 1%;
 }
-/* span{
+.Thang-icon span{
     margin-right: 30px;
-} */
+}
 .Thang-blog-button{
     border: 2px solid black;
     font-size: 16px;
@@ -166,10 +166,10 @@ ul{
 .Thang-p5{
     margin-bottom: 50px;
     display: block;
-}
-/* ul li {
+} 
+.Thang-p5 ul li, .Thang-p3 ul li, .Thang-p2 ul li {
     margin: 10px 0;
-} */
+}
 .Thang-Blog-Tag-1{
     border: 1px solid #aaa;
     display: inline-block;
