@@ -1,55 +1,83 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   }
 
 #story{
-    width: auto;
-    height: 392px;
-    background-image: url("our-story.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 100vw;
+    height: 600px;
+    position: relative;
+    background-image: url("ourstory.jpg");
     background-size: cover;
-    margin-top: 100px;
+    background-position: center;
 }
 
-#story1{
-    border: 1px solid rgb(239, 240, 204);
-    width: 120px;
-    height: 50px;
-    margin: 0 auto;
-    background-color: rgb(240, 206, 15);
-    border-radius: 12px;
+
+.story-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px;
+    background-color: white;
 }
 
 .startab{
     margin: 0 auto;
-    padding: 110px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 110px;
+    padding-bottom: 210px;
     width: 940px;
     text-align: center;
 }
 
+
+
 .quote{
-    width: auto;
-    height: 600px;
-    background-image: url("ab.jpg");
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: url("quote.jpg");
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 #cauquote{
-    text-align: center;
-    margin-left: 150px;
-    padding:20px;
-    width: 600px;
-    height: auto;
-    background-color: #3be381;
+    text-align: left;
+    font-size: 120%;
+    font-weight: 300;
+    font-style: italic;
+    padding: 20px 50px;
+    color: white;
+    width: 480px;
+    height: 310px;
+    background-color: #6CB975;
+    z-index: 100;
+    position: absolute;
+    top: -120px;
+    left: 300px;
 }
 
-.body1{
+.quotetext{
+    quotes: "„" "“";
+}
+
+#cauquote h2 {
+    line-height: 180%;
+}
+
+.slogan{
     margin: 0 auto;
     width: 1170px;
+}
+
+#statistical {
+    width: 100%;
+    height: 425px;
+    background-image: url("statistical.png");
+    object-fit: cover;
 }
 
 .quan-grid-container{
@@ -57,21 +85,9 @@ body, html {
     grid-template-columns: auto auto;
 }
 
-.grid1{
+.quan-grid{
     padding: 50px;
 }
-
-#thanhtuu{
-    width: auto;
-    height: 425px;
-    background-color: #3be381;
-}
-
-.body2{
-    margin: 0 auto;
-    width: 1170px;
-}
-
 
 .grid1-container{
     display: grid;
@@ -84,7 +100,6 @@ body, html {
 .quan-photo {
     width: 100%;
     height: 100%;
-    border: 1px solid;
     margin: 0;
 }
 
@@ -97,26 +112,53 @@ body, html {
 
 .clients{
     margin: 0 auto;
-    width: 1170px;
+    width: 1180px;
 }
 
-.gachngang{
-    border-style: solid;
-    border-width: 5px;
+.grid2-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 150px;
+    row-gap: 70px;
+    width: 100%;
 }
 
-.ptrien{
-    border: 2px solid red;
-    border-radius: 12px;
+.client-icon{
+    width: auto;
+    height: 100%;
+    margin: 0;
+}
+
+.client-icon img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #team{
-    margin: 0 auto;
-    height: 500px;
-    background-color: #e4e4e4;
+    width: auto;
+    height: 600px;
     margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.imgteam{
-    padding: 15px;
+#quan-ourteam{
+    margin: 0 auto;
+}
+
+.vinh-section-teller {
+    font-weight: 400;
+    font-size: 240%;
+    margin-bottom: 50px;
+}
+
+.vinh-section-teller::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #ec7264;
+    margin: 5px auto;
 }

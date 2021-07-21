@@ -1,0 +1,45 @@
+.vinh-list-container {
+    display: flex;
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.vinh-list-menu {
+    width: 30%;
+    padding: 0 30px;
+}
+
+.vinh-list-menu h3 {
+    font-size: 150%;
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 2px solid #bebebe;
+    position: relative;
+}
+
+.vinh-list-menu h3::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 5px;
+    background-color: chocolate;
+    position: absolute;
+    bottom: -3px;
+    z-index: 100;
+}
+
+.vinh-aside-menu-list {
+    margin-top: 30px;
+}
+
+.vinh-list-menu h4 {
+    font-weight: 500;
+    font-size: 110%;
+}
+
+.vinh-aside-menu-list input {
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}
