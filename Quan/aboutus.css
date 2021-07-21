@@ -8,7 +8,7 @@ body, html {
     width: 100vw;
     height: 600px;
     position: relative;
-    background-image: url("ourstory.jpg");
+    background-image: url("Quan/ourstory.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -38,7 +38,7 @@ body, html {
 .quote{
     width: 100%;
     height: 100%;
-    background-image: url("quote.jpg");
+    background-image: url("Quan/quote.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -76,7 +76,7 @@ body, html {
 #statistical {
     width: 100%;
     height: 425px;
-    background-image: url("statistical.png");
+    background-image: url("Quan/statistical.png");
     object-fit: cover;
 }
 

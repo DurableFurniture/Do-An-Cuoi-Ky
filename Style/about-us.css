@@ -1,0 +1,164 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  }
+
+#story{
+    width: 100vw;
+    height: 600px;
+    position: relative;
+    background-image: url("ourstory.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.story-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.startab{
+    margin: 0 auto;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 110px;
+    padding-bottom: 210px;
+    width: 940px;
+    text-align: center;
+}
+
+
+
+.quote{
+    width: 100%;
+    height: 100%;
+    background-image: url("quote.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#cauquote{
+    text-align: left;
+    font-size: 120%;
+    font-weight: 300;
+    font-style: italic;
+    padding: 20px 50px;
+    color: white;
+    width: 480px;
+    height: 310px;
+    background-color: #6CB975;
+    z-index: 100;
+    position: absolute;
+    top: -120px;
+    left: 300px;
+}
+
+.quotetext{
+    quotes: "„" "“";
+}
+
+#cauquote h2 {
+    line-height: 180%;
+}
+
+.slogan{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+#statistical {
+    width: 100%;
+    height: 425px;
+    background-image: url("statistical.png");
+    object-fit: cover;
+}
+
+.quan-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.quan-grid{
+    padding: 50px;
+}
+
+.grid1-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.quan-photo {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.quan-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clients{
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.grid2-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 150px;
+    row-gap: 70px;
+    width: 100%;
+}
+
+.client-icon{
+    width: auto;
+    height: 100%;
+    margin: 0;
+}
+
+.client-icon img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#team{
+    width: auto;
+    height: 600px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#quan-ourteam{
+    margin: 0 auto;
+}
+
+.vinh-section-teller {
+    font-weight: 400;
+    font-size: 240%;
+    margin-bottom: 50px;
+}
+
+.vinh-section-teller::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #ec7264;
+    margin: 5px auto;
+}
