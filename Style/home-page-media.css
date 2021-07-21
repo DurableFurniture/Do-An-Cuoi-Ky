@@ -37,6 +37,7 @@
         flex-direction: column;
         height: 100%;
     }
+    .vinh-product-list-container {grid-template-columns: 1fr 1fr !important;}
 }
 
 @media screen and (max-width: 600px) {
@@ -87,6 +88,9 @@
 
 @media screen and (max-width: 1040px) {
     .ft-social {font-size: 14px; padding-left: 30px; padding-right: 30px;}
+    .vinh-list-menu {font-size: 90%;}
+    .bi-star,
+    .bi-star-fill {margin: 0 !important;}
 }
 
 @media screen and (max-width: 800px) {
@@ -115,4 +119,15 @@
 
 @media screen and (max-width: 912px) {
     .vinh-blog-wrap {height: 750px;}
+}
+
+@media screen and (max-width: 807px) {
+    .vinh-menu ul li {
+        padding: 30px 10px !important;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .vinh-list-menu {display: none !important;}
+    .vinh-list-product {width: 100% !important; margin-left: 20px; margin-right: 20px;}
 }
