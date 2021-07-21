@@ -819,7 +819,6 @@ h2{
 .thien-sort-by {
     width: 100%;
     position: relative;
-    background-color:silver;
     margin-top: 100px;
 }
 
@@ -852,3 +851,11 @@ h2{
 .thien-pagination a:hover:not(.active) {
     background-color: yellow;
   }
+  .vinh-result-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid #bebebe;
+    padding-bottom: 10px;
+}
