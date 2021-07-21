@@ -153,6 +153,34 @@ h2{
      margin-left: 380px;
     
 }
+.thien-btn-detail{
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid black;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    text-decoration: none;
+    background-color:white;
+    color:#ffffff;
+    text-align: center;
+    float: left;
+}
+.thien-btn-detail:hover{
+    background-color: black;
+    color: white;
+}
+.thien-btn-product{
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    border: 0.1em solid black;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    text-decoration: none;
+    background-color:white;
+    color:#ffffff;
+    text-align: center;
+    float: left;
+}
 #thien-list-col{
     display: flex;
     justify-content: space-between;
