@@ -14,7 +14,7 @@ html{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(http://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/inside-3145341-1-1.jpg);
     background-size: cover;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     max-width: 1920px;
     height: 300px;
     display: flex;
@@ -24,6 +24,7 @@ html{
     font-family: 'Montserrat';
     letter-spacing: 3px;
     margin-bottom: 80px;
+    margin: auto;
 }
 .Thang-container-blog-1{
     display: block;
@@ -37,7 +38,7 @@ html{
 }
 .Thang-blog-list{
     width: 750px;
-    height: 660px;
+    height: 760px;
 
     margin: auto;
 }
