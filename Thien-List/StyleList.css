@@ -158,6 +158,7 @@ h2{
     padding: 0.6em 1.7em;
     border: 0.1em solid black;
     margin: 0 0.3em 0.3em 0;
+    margin-right: 8px;
     border-radius: 0.12em;
     text-decoration: none;
     background-color:white;
@@ -180,7 +181,7 @@ h2{
     color:#ffffff;
     text-align: center;
     float: left;
-    margin-right: 5px;
+    margin-right: 8px;
 }
 #thien-list-col{
     display: flex;
