@@ -1,0 +1,56 @@
+.account-banner {
+    background-image: url(https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 1920px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+}
+.Thang-readmore-box{
+    width: 1140px;
+    height: 2000px;
+    /* background-color: rgb(110, 185, 235); */
+    margin-top: 40px;
+    margin: auto;
+    margin-top: 40px;
+}
+.Thang-readmore-le{
+    padding: 0 100px;
+}
+.Thang-readmore-span{
+    text-align: left;
+    color: black;
+    width: 100%;
+    height: 25px;
+}
+.Thang-readmore-span span{
+    float: left;
+}
+.Thang-readmore-le h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+.Thang-readmore-text{
+    margin-bottom: 20px;
+}
+.Thang-readmore-text p {
+    margin-bottom: 20px;
+}
+.Thang-readmore-img{
+    width: 1140px;
+    height: 750px;
+    float: none;
+    vertical-align: middle;
+    background-size: cover;
+    margin: 20px -100px 40px;
+}
+.Thang-readmore-online{
+    ma
+}

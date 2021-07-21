@@ -116,13 +116,13 @@ a:hover {
     text-decoration: none;
 }
 
-/* Cart page */
+/* Wishlist page */
 
 a:hover {
     color: #77a464;
 }
 
-.cart-banner {
+.wishlist-banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
     background-size: cover;
     background-position: center;
@@ -137,6 +137,10 @@ a:hover {
     letter-spacing: 3px;
 }
 
+.wishlist-form {
+    margin-bottom: 80px;
+}
+
 .hong-thead {
     background-color: #151514;
     color: white;
@@ -149,17 +153,24 @@ a:hover {
     border-bottom: 1px solid lightgrey;
     padding: 0px 5px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
 .hong-tr .product-remove i {
     color: red;
 }
 
+.hong-tr .product-remove i:hover {
+    color: black;
+    cursor: pointer;
+}
+
 .hong-tr .product-thumbnail img {
     width: 140px;
 }
 
-.hong-tr .product-price, .hong-tr .product-subtotal {
+.hong-tr .product-price, .hong-tr .product-available {
     font-weight: 550;
     text-shadow: 1px 1px 1px lightgrey;
 }
@@ -172,94 +183,67 @@ a:hover {
     text-align: right;
 }
 
-.hong-thead .product-quantity {
+.product-add-cart {
     text-align: center;
 }
 
-.hong-tr .product-quantity {
-    text-align: center;
+.hong-tr .product-available {
+    color: #77a464;
 }
 
-.cart-form .quantity {
-    margin-bottom: 23px;
-    margin-right: 4px;
-}
-
-.cart-form .quantity-wrap {
-    height: 40px;
-}
-
-.cart-form .minus, .cart-form .add {
-    width: 40px;
-    line-height: 20px;
-    font-size: 19px;
-    margin: 4px 0 0 0;
-    padding: 6px 15px;
-    text-align: center;
-}
-
-.cart-form .minus {
-    padding-left: 17px;
-    padding-right: 13px;
-}
-
-.cart-form .quantity input {
-    width: 60px;
-    padding: 10px 7px;
-    margin: 0 0 10px 4px;
-    text-align: center;
-    line-height: 16px;
-    cursor: text;
-    box-sizing: border-box;
-}
-
-.cart-form input::-webkit-outer-spin-button,
-.cart-form input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-.cart-form input[type=number] {
-    -moz-appearance: textfield;
-}
-
-.cart-form input, .cart-totals input,
-.cart-totals textarea {
+.product-add-cart .add-to-cart-button {
     margin-bottom: 10px;
-    padding: 10px 7px;
-    box-sizing: border-box;
-    font-size: 16px;
-    line-height: 16px;
-}
-
-.cart-form .actions {
-    margin: 30px 0 60px 0;
-}
-
-#hong-apply-coupon-button,
-#hong-update-cart-button {
-    border: none;
-    padding: 11px 0;
-    font-size: 87%;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    padding: 18px 31px;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    text-align: center;
     font-stretch: 100%;
-    min-width: 200px;
-}
-
-#hong-update-cart-button {
-    float: right;
+    font-weight: 500;
+    max-width: 100%;
 }
 
 /* Product-suggested */
 
-.cart_totals, .product-suggested {
-    margin-bottom: 50px;
+.wishlist-suggested .suggested-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
 }
 
-.cart_totals h2, .product-suggested h2 {
+.wishlist-suggested .suggested-title h3 {
+    color: #151514;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
     font-size: 180%;
-    margin-bottom: 15px;
+}
+
+.wishlist-suggested .suggested-title:before {
+    content: "";
+    position: absolute;
+    left: 49%;
+    width: 30px;
+    height: 3px;
+    bottom: -12px;
+    border-bottom: 3px solid #ffc400;
+}
+
+.wishlist-suggested .product-suggested {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 40px);
+}
+
+.wishlist-suggested .left-box {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.wishlist-suggested .right-box {
+    margin-right: 0;
+    margin-left: 40px;
 }
 
 .product-suggested .products {
@@ -389,78 +373,12 @@ a:hover {
     color: #ffc400;
 }
 
-/* Cart totals */
-
-.cart_totals {
-    float: right;
-    padding-left: 200px;
-}
-
-.cart_totals .cart-subtotal span {
-    text-shadow: 1px 1px 1px #666666;
-}
-
-.cart_totals .cart-table th {
-    padding-right: 30px;
-    text-align: left;
-}
-
-.cart_totals .cart-table input,
-.cart_totals .cart-table select {
-    color: #151514;
-    font-size: 87%;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    padding: 5px 10px;
-    margin: 7px auto;
-    width: 200px;
-    height: 33px;
-    line-height: 33px;
-}
-
-#hong-calculate-shipping-button {
-    border: none;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    padding: 10px 15px;
-    font-weight: 500;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-stretch: 100%;
-    min-width: 200px;
-    background-color: lightgrey;
-}
-
-#hong-calculate-shipping-button:hover {
-    color: #77a464;
-    border: 1px solid #77a464;
-    cursor: pointer;
-    transition: all ease-in-out .3s;
-    background-color: white;
-}
-
-.cart_totals #cart-total {
-    font-size: 110%;
-    text-shadow: 0 0 1px lightgrey;
-}
-
-.cart_totals .proceed-to-checkout {
-    margin: 30px auto;
-}
-
-.cart_totals .hong-checkout-button {
-    margin-left: 105px;
-    border: none;
-    padding: 13px 62px;
-    font-weight: 500;
-    font-stretch: 100%;
-    min-width: 200px;
-}
-
-.hong-container .para-box {
+.hong-container .para-box-one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(http://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/inside-3145341-1-1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    width: 100%;
+    width: calc(50% - 40px);
     max-width: 1920px;
     height: 500px;
     display: flex;
@@ -469,7 +387,24 @@ a:hover {
     color: white;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
-    margin: 6vw 0;
+    margin: 30px 40px 30px 0;
+}
+
+.hong-container .para-box-two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: calc(50% - 40px);
+    max-width: 1920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    margin: 30px 0 30px 40px;
 }
 
 @media screen and (max-width: 767px) {
@@ -477,7 +412,7 @@ a:hover {
         font-size: 13px;
     }
 
-    .cart-form {
+    .wishlist-form {
         width: 92%;
     }
 
@@ -496,41 +431,18 @@ a:hover {
         border-top: 1px solid lightgrey;
     }
 
-    .hong-tr, .quantity, .quantity-wrap {
-        border: none !important;
-    }
-
-    .cart_totals {
-        padding-left: 0;
-    }
-
-    .cart_totals .hong-checkout-button {
-        margin-left: 0;
-        padding: 13px 70px;
-    }
-
-    .cart-table th {
+    .wishlist-table th {
         display: none;
     }
 
-    .cart-form .coupon {
-        padding-left: 4px;
-    }
-
-    .cart-form .update-cart {
-        margin-top: 10px;
-        padding-right: 4px;
-    }
-
-    .product-suggested .products .product {
+    .product-related .products .product {
         width: 50%;
     }
 
-    .product-suggested .product .icons {
+    .product-related .product .icons {
         bottom: 0;
     }
 }
-
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
     body, button, input, select, textarea, code {
@@ -541,7 +453,7 @@ a:hover {
         width: 100%;
     }
 
-    .product-suggested .product {
+    .product-related .product {
         overflow: hidden;
         width: 30%;
     }

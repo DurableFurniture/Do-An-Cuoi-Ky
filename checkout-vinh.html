@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FAQ</title>
-  <link rel="stylesheet" href="Style/home-page-media.css">
+  <title>Durable Furniture</title>
   <link rel="stylesheet" href="Style/header-footer.css">
+  <link rel="stylesheet" href="Style/home-page-media.css">
+  <link rel="stylesheet" href="style/checkout-vinh.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,15 +21,7 @@
 <body>
   <div class="vinh-container">
     <div class="vinh-free-shipping">
-      <div class="vinh-free-shipping-item">
-        <span class="vinh-free-shipping-emp">free-shipping</span> for orders above $100!!!
-      </div>
-      <div class="vinh-free-shipping-item">
-        <span class="vinh-free-shipping-emp">free-shipping</span> on your first order!!!
-      </div>
-      <div class="vinh-free-shipping-item">
-        <span class="vinh-free-shipping-emp">Call us</span> for further information: 039-2314-1452
-      </div>
+      <span class="vinh-free-shipping-emp">free-shipping</span> for orders above $100!!!
     </div>
     <header>
       <div class="vinh-header-wrap" id="navbar">
@@ -36,8 +29,7 @@
           <div class="vinh-sub-menu">
             <i id="myIcon" onclick="subMenuFunction()" class="bi bi-list" style="font-size: 150%;"></i>
           </div>
-          <a href="http://127.0.0.1:5501/home-page.html"><img class="vinh-logo"
-              src="Resources/Img/Dark Slate Grey Star Icon Business Logo web.png"></a>
+          <a href="http://127.0.0.1:5501/home-page.html"><img class="vinh-logo" src="Resources/Img/Dark Slate Grey Star Icon Business Logo smoler.png"></a>
         </div>
         <div class="vinh-inner-container vinh-menu">
           <ul class="vinh-menu-list">
@@ -150,7 +142,7 @@
             </li>
             <!--#searchbar-->
             <li>
-              <a href="http://127.0.0.1:5501/wishlist.html"><i class="bi bi-heart"></i></a>
+              <a href="#"><i class="bi bi-heart"></i></a>
             </li>
             <li class="vinh-cart" style="position: relative;">
               <a href="http://127.0.0.1:5501/cart.html"><i class="bi bi-cart3"></i></a>
@@ -158,20 +150,19 @@
                 <p>Your shopping cart (1 item)</p>
                 <div class="vinh-cart-item">
                   <figure class="vinh-promo-pic">
-                    <img class="vinh-pic"
-                      src="Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(26).jpg">
+                    <img class="vinh-pic" src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-2-300x300.jpg">
                   </figure>
-                  <span>Frato Metal Swivel Dining Chair</span>
-                  <span>1 x $83.00</span>
+                  <span>Bradford 2 Seater Fabric Sofa</span>
+                  <span>1 x $250.00</span>
                   <i class="bi bi-x-circle"></i>
                 </div>
                 <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
                   <p>Cart Subtotal:</p>
-                  <p>$83.00</p>
+                  <p>$250.00</p>
                 </div>
                 <div style="display: flex; justify-content: space-between;">
                   <a class="vinh-button" href="http://127.0.0.1:5501/cart.html">View Cart</a>
-                  <a class="vinh-button" href="http://127.0.0.1:5501/checkout-vinh.html">Check Out</a>
+                <a class="vinh-button" href="#">Check Out</a>
                 </div>
               </div>
             </li>
@@ -179,22 +170,75 @@
           </ul>
         </div>
       </div>
-      <div id="myDropdown" class="vinh-sub-menu-dropdown">
-        <ul>
-          <li><a href="http://127.0.0.1:5501/home-page.html" style="color:#6CB975 !important">home</a></li>
-          <li><a href="http://127.0.0.1:5501/product-list.html">furniture</a></li>
-          <li><a href="http://127.0.0.1:5501/product-list.html">brand</a></li>
-          <li><a href="http://127.0.0.1:5501/blog.html">blog</a></li>
-          <li><a href="http://127.0.0.1:5501/contact-ushtml">contact</a></li>
-          <li>
-            <input class="vinh-sub-menu-search" type="text" placeholder="Search...">
-            <button class="vinh-search-button" type="submit">Search</button>
-          </li>
-        </ul>
-      </div>
     </header>
-    
-    <!-- Copy code vao day -->
+    <div id="myDropdown" class="vinh-sub-menu-dropdown">
+      <ul>
+        <li><a href="http://127.0.0.1:5501/home-page.html" style="color:#6CB975 !important">home</a></li>
+        <li><a href="http://127.0.0.1:5501/product-list.html">furniture</a></li>
+        <li><a href="http://127.0.0.1:5501/product-list.html">brand</a></li>
+        <li><a href="http://127.0.0.1:5501/blog.html">blog</a></li>
+        <li><a href="http://127.0.0.1:5501/contact-ushtml">contact</a></li>
+        <li>
+          <input class="vinh-sub-menu-search" type="text" placeholder="Search...">
+          <button class="vinh-search-button" type="submit">Search</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="vinh-outer-wrap">
+        <div class="vinh-checkout-container">
+            <div class="vinh-checkout-detail">
+                <a href="#">Home page</a> > <a href="#">Cart</a> > <a href="#">Check out</a>
+                <h2 style="margin-top: 20px;">BILLING DETAILS</h2>
+                <div class="vinh-info-grid">
+                    <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Email address">
+                    <input class="billing-info" type="text" placeholder="First Name">
+                    <input class="billing-info" type="text" placeholder="Last Name">
+                    <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Address">
+                    <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Apartment, suite, etc. (optional)">
+                    <input class="billing-info" type="text" placeholder="City">
+                    <input class="billing-info" type="text" placeholder="Province">
+                    <input class="billing-info" type="text" placeholder="Country">
+                    <input class="billing-info" type="text" placeholder="Zip Code">
+                    <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Phone Number">
+                </div>
+                <input type="checkbox" style="margin: 15px 10px 0 0;"><span>Subcribe to our newsletter</span>
+            </div>
+            <div class="vinh-checkout-order">
+                <h2>YOUR ORDER</h2>
+                <div class="vinh-flex" style="border-bottom: 2px solid #bebebe">
+                    <h3>Product</h3>
+                    <h3>Subtotal</h3>
+                </div>
+                <div class="vinh-order-item vinh-flex">
+                    <div style="display: flex;">
+                        <figure class="vinh-promo-pic">
+                            <img class="vinh-pic" src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-2-300x300.jpg">
+                          </figure>
+                        <span>Bradford 2 Seater Fabric Sofa</span>
+                    </div>
+                    <span>$250.00</span>
+                  </div>
+                  <div class="vinh-flex" style="padding-top: 10px;">
+                    <input style="width: 70%; padding: 15px 10px; border: 1px solid #bebebe; font-size: 100%;" placeholder="Enter your coupon here">
+                    <button class="coupon-btn">Apply</button>
+                  </div>
+                  <div class="vinh-flex vinh-border">
+                    <p>Subtotal:</p>
+                    <p>$250.00</p>
+                  </div>
+                  <div class="vinh-flex vinh-border" style="border-bottom: 2px solid #bebebe;">
+                    <p>Total:</p>
+                    <p>$250.00</p>
+                  </div>
+                  <div style="margin-top: 20px;">
+                    <input type="checkbox">
+                    <span style="color: black; font-size: 90%;">I have read and agree to the website terms and conditions *</span>
+                  </div>
+                  <input type="button" class="vinh-order-btn" value="Place Order">
+            </div>
+        </div>
+    </div>
 
     <div id="hong-scroll-top-btn" onclick="hongScrollTop()">
       <i class="fas fa-chevron-up"></i>
@@ -264,9 +308,9 @@
   <script src="https://kit.fontawesome.com/957c836d53.js" crossorigin="anonymous"></script>
 
   <script>
-    $('#search-bar .search-label').on('click', function (e) {
-      e.preventDefault();
-      $('#search-bar').toggleClass('collapsed');
+    $('#search-bar .search-label').on('click', function(e){
+        e.preventDefault();
+        $('#search-bar').toggleClass('collapsed');
     });
 
     function subMenuFunction() {

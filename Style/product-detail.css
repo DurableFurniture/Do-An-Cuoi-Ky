@@ -262,7 +262,7 @@ ul.hong-breadcrumb li a:hover {
     line-height: 1;
 }
 
-.summary .add-to-cart-btn {
+.summary .add-to-cart-button {
     margin-bottom: 10px;
     padding: 18px 31px;
     border: 1px solid #fff;
@@ -355,6 +355,19 @@ ul.hong-breadcrumb li a:hover {
     color: white;
     padding-top: 5px;
     float: right;
+}
+
+.download-description-button {
+    text-align: center !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white !important;
+    background-color: #151514 !important;
+}
+
+.download-description-button:hover {
+    color: #151514 !important;
+    background-color: #ffc400 !important;
 }
 
 .product-description .tab-content {
@@ -590,12 +603,12 @@ ul.hong-breadcrumb li a:hover {
 }
 
 .product-related .product .icons {
+    display: none;
     position: absolute;
     right: 0;
     bottom: 10px;
     z-index: 21;
     height: 100%;
-    display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: column;
@@ -620,6 +633,7 @@ ul.hong-breadcrumb li a:hover {
 
 .product-related .products .product:hover .icons {
     animation: slidein 1s ease-in-out;
+    display: flex;
 }
 
 @keyframes slidein {
@@ -650,7 +664,7 @@ ul.hong-breadcrumb li a:hover {
 }
 
 .product-related .product .loop-product-title {
-    font-size: 90%;
+    font-size: 100%;
     font-weight: 500;
 }
 

@@ -14,15 +14,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="slick/slick.css">
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-
 </head>
 
 <body>
   <div class="vinh-container">
     <div class="vinh-free-shipping">
-      <span class="vinh-free-shipping-emp">free-shipping</span> for orders above $100!!!
+      <div class="vinh-free-shipping-item">
+        <span class="vinh-free-shipping-emp">free-shipping</span> for orders above $100!!!
+      </div>
+      <div class="vinh-free-shipping-item">
+        <span class="vinh-free-shipping-emp">free-shipping</span> on your first order!!!
+      </div>
+      <div class="vinh-free-shipping-item">
+        <span class="vinh-free-shipping-emp">free-shipping</span> on your first order!!!
+      </div>
     </div>
     <header>
       <div class="vinh-header-wrap" id="navbar">
@@ -30,15 +38,16 @@
           <div class="vinh-sub-menu">
             <i id="myIcon" onclick="subMenuFunction()" class="bi bi-list" style="font-size: 150%;"></i>
           </div>
-          <a href="#"><img class="vinh-logo" src="Resources/Img/Dark Slate Grey Star Icon Business Logo smol.png"></a>
+          <a href="http://127.0.0.1:5501/home-page.html"><img class="vinh-logo"
+              src="Resources/Img/Dark Slate Grey Star Icon Business Logo web.png"></a>
         </div>
         <div class="vinh-inner-container vinh-menu">
           <ul class="vinh-menu-list">
             <li class="vinh-drop-down">
-              <a href="http://127.0.0.1:5501/home-page.html"><b>home</b></a>
+              <a class="vinh-menu-style" href="http://127.0.0.1:5501/home-page.html">Home</a>
             </li>
             <li class="vinh-drop-down">
-              <a href="http://127.0.0.1:5501/product-list.html"><b>furniture</b></a>
+              <a class="vinh-menu-style" href="http://127.0.0.1:5501/product-list.html">Furniture</a>
               <div class="vinh-drop-down-content vinh-furniture">
                 <div class="vinh-drop-down-item">
                   <img src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg">
@@ -93,7 +102,7 @@
               </div>
             </li>
             <li class="vinh-drop-down">
-              <a href="http://127.0.0.1:5501/product-list.html"><b>brand</b></a>
+              <a class="vinh-menu-style" href="http://127.0.0.1:5501/product-list.html">Brands</a>
               <div class="vinh-drop-down-content vinh-brand">
                 <div class="vinh-drop-down-item">
                   <a href=http://127.0.0.1:5501/product-list.html"">Essential Home</a>
@@ -116,10 +125,10 @@
               </div>
             </li>
             <li class="vinh-drop-down">
-              <a href="http://127.0.0.1:5501/blog.html"><b>blog</b></a>
+              <a class="vinh-menu-style" href="http://127.0.0.1:5501/blog.html">Blog</a>
             </li>
             <li class="vinh-drop-down">
-              <a href="http://127.0.0.1:5501/contact-us.html"><b>contact us</b></a>
+              <a class="vinh-menu-style" href="http://127.0.0.1:5501/contact-us.html">Contact us</a>
             </li>
           </ul>
         </div>
@@ -145,10 +154,30 @@
             <li>
               <a href="#"><i class="bi bi-heart"></i></a>
             </li>
-            <li>
+            <li class="vinh-cart" style="position: relative;">
               <a href="http://127.0.0.1:5501/cart.html"><i class="bi bi-cart3"></i></a>
+              <div class="vinh-cart-drop-down">
+                <p>Your shopping cart (1 item)</p>
+                <div class="vinh-cart-item">
+                  <figure class="vinh-promo-pic">
+                    <img class="vinh-pic"
+                      src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-2-300x300.jpg">
+                  </figure>
+                  <span>Bradford 2 Seater Fabric Sofa</span>
+                  <span>1 x $250.00</span>
+                  <i class="bi bi-x-circle"></i>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+                  <p>Cart Subtotal:</p>
+                  <p>$250.00</p>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                  <a class="vinh-button" href="http://127.0.0.1:5501/cart.html">View Cart</a>
+                  <a class="vinh-button" href="#">Check Out</a>
+                </div>
+              </div>
             </li>
-            <li><a href="http://127.0.0.1:5501/account.html">LOGIN</a></li>
+            <li><a href="http://127.0.0.1:5501/account.html">Log in</a></li>
           </ul>
         </div>
       </div>
@@ -167,24 +196,24 @@
       </ul>
     </div>
 
-    <div class="vinh-promo-slide">
+    <section class="vinh-promo-slide">
       <div class="vinh-promo-slide-wrap vinh-header-slide vinh-first-slide">
         <div class="vinh-banner">
           <h1>DURABLE FURNITURE</h1>
           <p>Shop high-end furnitures</p>
-          <a href="http://127.0.0.1:5501/product-list.html">SHOP NOW</a>
+          <a href="http://127.0.0.1:5501/List.html">SHOP NOW</a>
         </div>
-      </div>
+      </div>>
       <div class="vinh-promo-slide-wrap vinh-header-slide vinh-second-slide">
         <div class="vinh-banner">
           <h1>EXPLORE NEW LIFESTYLE</h1>
           <p>Free yourself from limitations</p>
-          <a href="http://127.0.0.1:5501/product-list.html">SHOP NOW</a>
+          <a href="http://127.0.0.1:5501/List.html">SHOP NOW</a>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="vinh-outer-wrap">
+    <section class="vinh-outer-wrap">
       <div class="vinh-product-promo vinh-wrap">
         <div class="vinh-product-promo-item">
           <div class="vinh-product-promo-text vinh-inside-text">
@@ -197,7 +226,7 @@
               </span>
             </h1>
             <h2>TOP BRANDS</h2>
-            <a class="vinh-button" href="http://127.0.0.1:5501/product-list.html">SHOP NOW</a>
+            <a class="vinh-button" href="http://127.0.0.1:5501/List.html">SHOP NOW</a>
           </div>
           <figure class="vinh-promo-pic">
             <img class="vinh-pic"
@@ -209,7 +238,7 @@
           <div class="vinh-product-promo-text vinh-inside-text">
             <h3>LAST OFFER</h3>
             <h2>STOCK</h2>
-            <a class="vinh-button" href="http://127.0.0.1:5501/product-list.html">CLEARANCE SALE!</a>
+            <a class="vinh-button" href="http://127.0.0.1:5501/List.html">CLEARANCE SALE!</a>
           </div>
           <figure class="vinh-promo-pic">
             <img class="vinh-pic"
@@ -220,7 +249,7 @@
           <div class="vinh-product-promo-text vinh-inside-text">
             <h2 style="margin: 0;">2018</h2>
             <h3>NEW COLLECTION</h3>
-            <a class="vinh-button" href="http://127.0.0.1:5501/product-list.html">SHOP NOW</a>
+            <a class="vinh-button" href="http://127.0.0.1:5501/List.html">SHOP NOW</a>
           </div>
           <figure class="vinh-promo-pic">
             <img class="vinh-pic"
@@ -228,9 +257,9 @@
           </figure>
         </div>
       </div>
-    </div>
+    </section>>
 
-    <div class="vinh-outer-wrap">
+    <section class="vinh-outer-wrap">
       <div class="vinh-popular-product">
         <h1 class="vinh-section-teller">Popular Products</h1>
         <ul class="vinh-popular-product-slide">
@@ -248,22 +277,22 @@
           </li>
           <li class="vinh-popular-product-item">
             <a href="http://127.0.0.1:5501/product-detail.html"">
-              <figure class="vinh-promo-pic">
-                <img class="vinh-pic"
-                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-2-300x300.jpg">
-            </a>
-            </figure>
+              <figure class=" vinh-promo-pic">
+              <img class="vinh-pic"
+                src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-2-300x300.jpg">
+              </figure>
+              <p class="vinh-sale-box">SALE!</p>
             </a>
             <div>
               <p>Bradford Fabric Sofa</p>
-              <h4>$250.00</h4>
+              <h4><del>$250.00</del> $210.00</h4>
             </div>
           </li>
           <li class="vinh-popular-product-item">
             <a href="http://127.0.0.1:5501/product-detail.html"">
-              <figure class="vinh-promo-pic">
-                <img class="vinh-pic"
-                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/chair-1-300x300.jpg">
+              <figure class=" vinh-promo-pic">
+              <img class="vinh-pic"
+                src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/chair-1-300x300.jpg">
               </figure>
             </a>
             <div>
@@ -273,21 +302,22 @@
           </li>
           <li class="vinh-popular-product-item">
             <a href="http://127.0.0.1:5501/product-detail.html"">
-              <figure class="vinh-promo-pic">
-                <img class="vinh-pic"
-                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/brown-chair-300x300.jpg">
+              <figure class=" vinh-promo-pic">
+              <img class="vinh-pic"
+                src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/brown-chair-300x300.jpg">
               </figure>
+              <p class="vinh-sale-box">SALE!</p>
             </a>
             <div>
               <p>Hugo Leatherite Chair</p>
-              <h4>$219.00</h4>
+              <h4><del>$219.00</del> $200.00</h4>
             </div>
           </li>
           <li class="vinh-popular-product-item">
             <a href="http://127.0.0.1:5501/product-detail.html"">
-              <figure class="vinh-promo-pic">
-                <img class="vinh-pic"
-                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/10/sofa-300x300.jpg">
+              <figure class=" vinh-promo-pic">
+              <img class="vinh-pic"
+                src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/10/sofa-300x300.jpg">
               </figure>
             </a>
             <div>
@@ -297,10 +327,11 @@
           </li>
           <li class="vinh-popular-product-item">
             <a href="http://127.0.0.1:5501/product-detail.html"">
-              <figure class="vinh-promo-pic">
-                <img class="vinh-pic"
-                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/10/sofa-1-300x300.jpg">
+              <figure class=" vinh-promo-pic">
+              <img class="vinh-pic"
+                src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/10/sofa-1-300x300.jpg">
               </figure>
+              <p class="vinh-hot-box">HOT!</p>
             </a>
             <div>
               <p>Brecken Boss Chair</p>
@@ -309,9 +340,9 @@
           </li>
           <li class="vinh-popular-product-item">
             <a href="http://127.0.0.1:5501/product-detail.html"">
-              <figure class="vinh-promo-pic">
-                <img class="vinh-pic"
-                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-3-300x300.jpg">
+              <figure class=" vinh-promo-pic">
+              <img class="vinh-pic"
+                src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-3-300x300.jpg">
               </figure>
             </a>
             <div>
@@ -321,21 +352,22 @@
           </li>
           <li class="vinh-popular-product-item">
             <a href="http://127.0.0.1:5501/product-detail.html"">
-              <figure class="vinh-promo-pic">
-                <img class="vinh-pic"
-                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/chair-300x300.jpg">
+              <figure class=" vinh-promo-pic">
+              <img class="vinh-pic"
+                src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/chair-300x300.jpg">
               </figure>
+              <p class="vinh-sale-box">SALE!</p>
             </a>
             <div>
               <p>Veneto Arm Chair</p>
-              <h4>$99.00</h4>
+              <h4><del>$99.00</del> $75.00</h4>
             </div>
           </li>
         </ul>
       </div>
-    </div>
+    </section>
 
-    <div class="vinh-outer-wrap">
+    <section class="vinh-outer-wrap">
       <div class="vinh-short-ad vinh-wrap">
         <div class="vinh-first-div" style="padding-right: 20px;">
           <h2>Premium Office Decor</h2>
@@ -355,34 +387,34 @@
           <ul>
             <li>
               <a href="http://127.0.0.1:5501/product-detail.html"">
-                <figure class="vinh-promo-pic">
-                  <img class="vinh-pic"
-                    src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/10/sofa-300x300.jpg">
+                <figure class=" vinh-promo-pic">
+                <img class="vinh-pic"
+                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/10/sofa-300x300.jpg">
                 </figure>
               </a>
             </li>
             <li>
               <a href="http://127.0.0.1:5501/product-detail.html"">
-                <figure class="vinh-promo-pic">
-                  <img class="vinh-pic"
-                    src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/10/sofa-1-300x300.jpg">
+                <figure class=" vinh-promo-pic">
+                <img class="vinh-pic"
+                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/10/sofa-1-300x300.jpg">
                 </figure>
               </a>
             </li>
             <li>
               <a href="http://127.0.0.1:5501/product-detail.html"">
-                <figure class="vinh-promo-pic">
-                  <img class="vinh-pic"
-                    src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-3-300x300.jpg">
+                <figure class=" vinh-promo-pic">
+                <img class="vinh-pic"
+                  src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2017/09/sofa-3-300x300.jpg">
                 </figure>
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="vinh-outer-wrap vinh-promo-slide">
+    <section class="vinh-outer-wrap vinh-promo-slide">
       <div class="vinh-promo-slide-wrap vinh-ad-banner vinh-first-slide">
         <div class="vinh-ad-section">
           <h2>Veneto Arm Chair</h2>
@@ -394,66 +426,72 @@
           <a class="vinh-button" href="http://127.0.0.1:5501/product-detail.html"">SHOP NOW</a>
         </div>
       </div>
-      <div class="vinh-promo-slide-wrap vinh-ad-banner vinh-second-slide">
-        <div class="vinh-ad-section">
-          <h2>Comfortable King Bed</h2>
-          <p>Phosflourescently conceptualize virtual information for economically sound human capital. Credibly
-            syndicate client-centered partnerships with web-enabled</p>
-          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-          <h3><del>$200.00</del>$170.00</h3>
-          <a class="vinh-button" href="http://127.0.0.1:5501/product-detail.html"">SHOP NOW</a>
+      <div class=" vinh-promo-slide-wrap vinh-ad-banner vinh-second-slide">
+            <div class="vinh-ad-section">
+              <h2>Comfortable King Bed</h2>
+              <p>Phosflourescently conceptualize virtual information for economically sound human capital. Credibly
+                syndicate client-centered partnerships with web-enabled</p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              <h3><del>$200.00</del>$170.00</h3>
+              <a class="vinh-button" href="http://127.0.0.1:5501/product-detail.html"">SHOP NOW</a>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="vinh-outer-wrap" style="text-align: center;">
-      <h1 class="vinh-section-teller">Hot New Arrivals</h1>
-      <div class="vinh-new-arrival vinh-wrap">
-        <div class="vinh-new-arrival-item">
-          <figure class="vinh-promo-pic">
-            <img class="vinh-pic" src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/cat-00.jpg">
-          </figure>
-          <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Office Furniture Collection</a>
-        </div>
-        <div class="vinh-new-arrival-item">
-          <figure class="vinh-promo-pic">
-            <img class="vinh-pic"
-              src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/living-room-furniture.jpg">
-          </figure>
-          <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Living Room Furniture</a>
-        </div>
-        <div class="vinh-new-arrival-item">
-          <figure class="vinh-promo-pic">
-            <img class="vinh-pic" src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/cat-01.jpg">
-          </figure>
-          <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Bed Room Furniture</a>
-        </div>
-        <div class="vinh-new-arrival-item">
-          <figure class="vinh-promo-pic">
-            <img class="vinh-pic"
-              src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/study-table.jpg">
-          </figure>
-          <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Study Table for Comfort</a>
-        </div>
-        <div class="vinh-new-arrival-item">
-          <figure class="vinh-promo-pic">
-            <img class="vinh-pic" src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/cat-02.jpg">
-          </figure>
-          <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Outdoor Living Furniture</a>
-        </div>
-        <div class="vinh-new-arrival-item">
-          <figure class="vinh-promo-pic">
-            <img class="vinh-pic"
-              src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/dinning-bar-furniture.jpg">
-          </figure>
-          <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Dining Room & Bar</a>
-        </div>
-      </div>
-      <a class="vinh-button" href="http://127.0.0.1:5501/product-list.html">SHOP NOW</a>
-    </div>
+    <section class=" vinh-outer-wrap" style="text-align: center;">
+                <h1 class="vinh-section-teller">Hot New Arrivals</h1>
+                <div class="vinh-new-arrival vinh-wrap">
+                  <div class="vinh-new-arrival-item">
+                    <figure class="vinh-promo-pic">
+                      <img class="vinh-pic"
+                        src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/cat-00.jpg">
+                    </figure>
+                    <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Office Furniture
+                      Collection</a>
+                  </div>
+                  <div class="vinh-new-arrival-item">
+                    <figure class="vinh-promo-pic">
+                      <img class="vinh-pic"
+                        src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/living-room-furniture.jpg">
+                    </figure>
+                    <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Living Room Furniture</a>
+                  </div>
+                  <div class="vinh-new-arrival-item">
+                    <figure class="vinh-promo-pic">
+                      <img class="vinh-pic"
+                        src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/cat-01.jpg">
+                    </figure>
+                    <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Bed Room Furniture</a>
+                  </div>
+                  <div class="vinh-new-arrival-item">
+                    <figure class="vinh-promo-pic">
+                      <img class="vinh-pic"
+                        src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/study-table.jpg">
+                    </figure>
+                    <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Study Table for
+                      Comfort</a>
+                  </div>
+                  <div class="vinh-new-arrival-item">
+                    <figure class="vinh-promo-pic">
+                      <img class="vinh-pic"
+                        src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/cat-02.jpg">
+                    </figure>
+                    <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Outdoor Living
+                      Furniture</a>
+                  </div>
+                  <div class="vinh-new-arrival-item">
+                    <figure class="vinh-promo-pic">
+                      <img class="vinh-pic"
+                        src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/dinning-bar-furniture.jpg">
+                    </figure>
+                    <a class="vinh-inside-text" href="http://127.0.0.1:5501/product-list.html">Dining Room & Bar</a>
+                  </div>
+                </div>
+                <a class="vinh-button" href="http://127.0.0.1:5501/product-list.html">SHOP NOW</a>
+    </section>
 
-    <div class="vinh-outer-wrap vinh-about-company">
+    <section class="vinh-outer-wrap vinh-about-company">
       <div class="vinh-about-company-left">
         <div>
           <p>More About</p>
@@ -468,9 +506,9 @@
           <img class="vinh-pic" src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/intro.jpg">
         </figure>
       </div>
-    </div>
+    </section>
 
-    <div class="vinh-outer-wrap vinh-blog">
+    <section class="vinh-outer-wrap vinh-blog">
       <h1 class="vinh-section-teller">Lastest Blog Post</h1>
       <div class="vinh-wrap vinh-blog-wrap">
         <div class="vinh-blog-post">
@@ -506,7 +544,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div id="hong-scroll-top-btn" onclick="hongScrollTop()">
       <i class="fas fa-chevron-up"></i>
@@ -518,7 +556,7 @@
         <div class="ft-main-item">
           <h3 class="ft-title">About the company</h3>
           <ul>
-            <li><a href="#">About Us</a></li>
+            <li><a href="">About Us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Affiliates</a></li>
             <li><a href="#">Press</a></li>
@@ -528,8 +566,8 @@
         <div class="ft-main-item">
           <h3 class="ft-title">Customer Service</h3>
           <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Help Center</a></li>
+            <li><a href="http://127.0.0.1:5501/faq.html">FAQ</a></li>
+            <li><a href="http://127.0.0.1:5501/faq.html">Help Center</a></li>
             <li><a href="#">Shopping Guide</a></li>
             <li><a href="#">Shipping</a></li>
             <li><a href="mailto:vinhtb.jp@gmail.com">Email us</a></li>

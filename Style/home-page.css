@@ -20,11 +20,11 @@
 }
 
 .vinh-first-slide {
-    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);
 }
 
 .vinh-second-slide {
-    background-image: url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-2.jpg);
 }
 
 .vinh-banner {
@@ -338,6 +338,7 @@ footer {
 
 .vinh-popular-product-item {
     text-align: center;
+    position: relative;
 }
 
 .vinh-popular-product-item .vinh-promo-pic {
@@ -427,7 +428,7 @@ footer {
     width: 455px;
     height: 350px;
     background-color: black;
-    opacity: .9;
+    opacity: .7;
     color: white;
     padding: 35px 35px 30px 35px;
 }
@@ -628,4 +629,25 @@ footer {
     background-color: black;
     cursor: pointer;
     transition: all ease-in-out .3s;
+}
+
+.vinh-sale-box,
+.vinh-hot-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px 30px;
+    color: white;
+}
+
+.vinh-sale-box {
+    background-color: #6CB975;
+}
+
+.vinh-hot-box {
+    background-color: red;
+}
+
+.vinh-popular-product-item del {
+    font-weight: 400;
 }

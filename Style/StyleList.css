@@ -101,14 +101,13 @@ h2{
   z-index: 1;
   overflow-x: hidden;
   padding: 8px 0;
-  margin-left: 180px;
+  background-color: lightgrey;
 }
 .thien-menu h2{
     font-size:  30px;
     margin-bottom: 7px;
-    border-bottom: 2px;
-    margin-left: 50px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 2px solid grey;
+    margin-right: 10px;
 }
 .thien-menu ul{
     list-style-type:none;
@@ -129,27 +128,26 @@ h2{
     border-top:1px;
     border-bottom:1px;
     padding-left:15px;
-    margin-left: 50px;
 }
 
 .thien-menu a:hover{
-   color:red;
+   color:forestgreen;
+   background-color:cyan;
 }
-
-.thien-sub-menu li{
-    margin-left: 30px;;
+.thien-sub-menu{
+    position: absolute;
+    left: 150px;
+    top: 0;
+    display: none;
+    z-index: 2;
 }
-.thien-product-menu img{
-    width: 45px;
-    height: 45px;
-    float: left;
-    margin-bottom: 10px;
-}
-.thien-about-menu a{
-    font-weight: bold;
-}
+.thien-menu li:hover .thien-sub-menu{
+    display: block;
+    color: forestgreen;
+    background-color: grey;
+  }
 .thien-list-wrapper{
-     margin-left: 580px;
+     margin-left: 320px;
     
 }
 #thien-list-col{
@@ -211,11 +209,11 @@ h2{
     display: inline;
 }
 .thien-sorting-by-bar{
-    margin-left: 600px;
+    margin-left: 300px;
 }
 .thien-pagination{
     margin-top: 50px;
-    margin-left: 800px;
+    margin-left: 500px;
 }
 .thien-pagination a {
     color: black;
@@ -223,9 +221,11 @@ h2{
     padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
-    border: 1px solid;
   }
-
+.thien-pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
 .thien-pagination a:hover:not(.active) {
-    background-color: yellow;
+    background-color: #ddd;
   }

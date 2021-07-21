@@ -18,6 +18,9 @@
 @media screen and (max-width: 994px) {
     .vinh-short-ad-product ul {position: static; width: 90vw;}
     .vinh-short-ad-product figure {height: 50vw;}
+    .vinh-free-shipping-item:nth-child(2),
+    .vinh-free-shipping-item:nth-child(3) {display: none !important;}
+    .vinh-free-shipping-item {border: none !important;}
 }
 
 @media screen and (max-width: 920px) {
@@ -30,7 +33,7 @@
     .vinh-banner {top: 15%;}
     .vinh-banner a {padding: 10px 30px;}
     .vinh-product-promo {
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         height: 100%;
     }
@@ -52,9 +55,9 @@
 }
 
 @media screen and (max-width: 767px) {
-    .vinh-menu {display: none;}
+    .vinh-menu {display: none !important;}
     .vinh-header-wrap {height: 50px;}
-    .bi-list {display: inline-block;}
+    .bi-list {display: inline-block !important;}
     .vinh-logo {padding-left: 10px;}
     .vinh-ad-banner {padding-left: 0 !important;}
     .vinh-ad-section {margin: 0 auto; font-size: 75%; width: 355px; height: 250px; padding: 15px;}
@@ -63,12 +66,12 @@
 }
 
 @media screen and (min-width: 767px) {
-    .vinh-sub-menu-dropdown {display: none;}
+    .vinh-sub-menu-dropdown {display: none !important;}
 }
 
 @media screen and (max-width: 1400px) {
-    .ft-social {width: 100%; padding-left: 50px; padding-right: 50px;}
-    .ft-main-item:last-child {margin-left: 0px;}
+    .ft-social {width: 100% !important; padding-left: 50px !important; padding-right: 50px !important;}
+    .ft-main-item:last-child {margin-left: 0px !important;}
     .vinh-product-promo {
         width: 90vw;
     }
@@ -87,21 +90,29 @@
 }
 
 @media screen and (max-width: 800px) {
-    .ft-social {display: block;}
-    .vinh-sns {text-align: center;}
-    .vinh-sns-links {margin-top: 10px;}
-    .vinh-short-ad {display: flex; flex-direction: column;}
+    .ft-social {display: block !important;}
+    .vinh-sns {text-align: center !important;}
+    .vinh-sns-links {margin-top: 10px !important;}
+    .vinh-short-ad {display: flex !important; flex-direction: column;}
     .vinh-first-div {margin-bottom: 30px;}
 }
 
 @media screen and (max-width: 400px) {
     body {font-size: 14px;}
-    .ft-social {margin: 0;}
-    .vinh-login-button {display: none;}
+    .ft-social {margin: 0 !important;}
+    .vinh-login-button {display: none !important;}
     .vinh-header-wrap {padding: 10px 10px;}
     .vinh-logo {height: 20px; padding: 0;}
 }
   
 @media screen and (max-width: 645px) {
     .vinh-outer-wrap {font-size: 75%}
+}
+
+@media screen and (max-width: 1080px) {
+    .vinh-blog-wrap {height: 650px;}
+}
+
+@media screen and (max-width: 912px) {
+    .vinh-blog-wrap {height: 750px;}
 }

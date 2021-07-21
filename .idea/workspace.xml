@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c23f4d4-4328-411f-ae33-8114240f41fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Style/wishlist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/cart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.html" afterDir="false" />
     </list>
@@ -37,6 +38,12 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\AptechPjts\Do-An-Cuoi-Ky" />
+      <recent name="E:\AptechPjts\Do-An-Cuoi-Ky\Style" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +63,15 @@
       <workItem from="1626632039129" duration="5892000" />
       <workItem from="1626638353933" duration="8513000" />
       <workItem from="1626650375739" duration="6023000" />
+      <workItem from="1626679436263" duration="532000" />
+      <workItem from="1626697171192" duration="1040000" />
+      <workItem from="1626698876606" duration="11034000" />
+      <workItem from="1626741270414" duration="3023000" />
+      <workItem from="1626754280288" duration="2868000" />
+      <workItem from="1626758665482" duration="497000" />
+      <workItem from="1626759696084" duration="18260000" />
+      <workItem from="1626782116741" duration="470000" />
+      <workItem from="1626782681020" duration="7322000" />
     </task>
     <servers />
   </component>
