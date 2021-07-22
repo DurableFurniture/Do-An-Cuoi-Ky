@@ -155,6 +155,11 @@ a:hover {
     color: red;
 }
 
+.hong-tr .product-remove i:hover {
+    color: black;
+    cursor: pointer;
+}
+
 .hong-tr .product-thumbnail img {
     width: 140px;
 }

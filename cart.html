@@ -209,7 +209,7 @@
                     </div>
                     <div class="row .product-line hong-tr">
                         <div class="product-remove col-1">
-                            <a href="#"><i class="fas fa-times"></i></a>
+                            <i class="fas fa-times"></i>
                         </div>
                         <div class="product-thumbnail col-2">
                             <a href="/product-detail.html">
@@ -229,7 +229,42 @@
                             <div class="quantity">
                                 <div class="quantity-wrap">
                                     <span class="minus btn"> - </span>
-                                    <input type="number" id="hong-quantity"
+                                    <input type="number" class="hong-quantity"
+                                           step="1" min="1"
+                                           name="quantity" value="1">
+                                    <span class="add btn"> + </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-subtotal col-2">
+                            <span class="Price-amount amount">
+                                <span class="Price-currencySymbol">$</span>83.00
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row .product-line hong-tr">
+                        <div class="product-remove col-1">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="product-thumbnail col-2">
+                            <a href="/product-detail.html">
+                                <img src="Resources/Img/product-cart-wish-img/metal-classic-out-door-dining-chair-(26).jpg"/>
+                            </a>
+                        </div>
+                        <div class="product-name col-3">
+                            <a href="/product-detail.html">Frato Metal Classic Out Door Dining Chair
+                            </a>
+                        </div>
+                        <div class="product-price col-1">
+                            <span class="Price-amount amount">
+                                <span class="Price-currencySymbol">$</span>83.00
+                            </span>
+                        </div>
+                        <div class="product-quantity col-3">
+                            <div class="quantity">
+                                <div class="quantity-wrap">
+                                    <span class="minus btn"> - </span>
+                                    <input type="number" class="hong-quantity"
                                            step="1" min="1"
                                            name="quantity" value="1">
                                     <span class="add btn"> + </span>
@@ -255,9 +290,9 @@
                             </button>
                         </div>
                         <div class="update-cart col-6">
-                            <button type="submit" id="hong-update-cart-button" class="btn" name="update_cart">Update
+                            <div id="hong-update-cart-button" class="btn" name="update_cart">Update
                                 cart
-                            </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -833,7 +868,7 @@
         integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/957c836d53.js" crossorigin="anonymous"></script>
 
-<script>
+<script async>
     $('#search-bar .search-label').on('click', function(e){
         e.preventDefault();
         $('#search-bar').toggleClass('collapsed');
@@ -924,21 +959,52 @@
 
     // Assigns actions
 
+    $('.product-remove i').click( function () {
+        removeItem(this);
+    });
+
     $('.product-quantity input').change( function () {
         updateQuantity(this);
     });
 
-    $('.product-remove a').click( function () {
-        removeItem(this);
-    });
-
     $('#hong-update-cart-button').click( function () {
-        calculateSubtotal(this);
+        updateQuantity(this);
     });
 
     $('#hong-calculate-shipping-button').click( function () {
         recalculateCart(this);
     })
+
+    // Remove item
+
+    function removeItem() {
+        $(this).closest('.hong-tr').remove();
+        recalculateCart();
+    }
+
+    // Update quantity
+
+    function updateQuantity(quantityInput) {
+
+        // Calculate line price
+
+        var productRow = $(quantityInput).closest('.hong-tr');
+        var price = parseFloat(productRow.children('.product-price').text());
+        var quantity = $(quantityInput).val();
+        var linePrice = price * quantity;
+        productRow.children('.product-subtotal').text(linePrice.toFixed(2));
+        recalculateCart();
+
+        // // Update line price display and recalculate cart totals
+        //
+        // productRow.children('.product-subtotal').each(function () {
+        //     $(this).fadeOut(fadeTime, function () {
+        //         $(this).text(linePrice.toFixed(2));
+        //         recalculateCart();
+        //         $(this).fadeIn(fadeTime);
+        //     });
+        // });
+    }
 
     // Sum up row totals
 
@@ -974,41 +1040,6 @@
                 $('.proceed-to-checkout').fadeIn(fadeTime);
             }
             $('.cart_totals').fadeIn(fadeTime);
-        });
-    }
-
-    // Update quantity
-
-    function updateQuantity(quantityInput) {
-
-        // Calculate line price
-
-        var productRow = $(quantityInput).parent().parent();
-        var price = parseFloat(productRow.children('.product-price').text());
-        var quantity = $(quantityInput).val();
-        var linePrice = price * quantity;
-
-        // Update line price display and recalculate cart totals
-
-        productRow.children('product-line-price').each(function () {
-            $(this).fadeOut(fadeTime, function () {
-                $(this).text(linePrice.toFixed(2));
-                recalculateCart();
-                $(this).fadeIn(fadeTime);
-            });
-        });
-    }
-
-    // Remove item
-
-    function removeItem(removeButton) {
-
-        // Remove row from DOM and reculculate cart
-
-        var productRow = $(removeButton).parent().parent();
-        productRow.slideUp(fadeTime, function () {
-            productRow.remove();
-            recalculateCart();
         });
     }
 </script>
